@@ -6,9 +6,9 @@
 <title>Medical MythTriage — Rumor Crusher</title>
 <style>
   :root{
-    --ink:#0a2540; --muted:#5b7186; --bg:#f4f7fb; --card:#ffffff;
-    --blue1:#2563eb; --blue2:#0ea5e9; --rose1:#f43f5e; --rose2:#fb7185;
-    --green:#16a34a; --amber:#d97706; --line:#e3eaf2;
+    --ink:#2e2d29; --muted:#6e6a63; --bg:#f7f5f1; --card:#ffffff;
+    --blue1:#175e54; --blue2:#2a7f6f; --rose1:#b1040e; --rose2:#cf3a30;
+    --green:#175e54; --amber:#946b00; --line:#ddd6c8;
   }
   *{box-sizing:border-box; margin:0; padding:0;}
   body{background:var(--bg); color:var(--ink);
@@ -17,26 +17,26 @@
   .wrap{max-width:620px; margin:0 auto;}
   header{display:flex; align-items:center; gap:11px; margin-bottom:20px;}
   .logo{width:38px;height:38px;border-radius:11px;flex:0 0 auto;
-        background:linear-gradient(135deg,var(--blue1),var(--blue2));
+        background:linear-gradient(135deg,#8c1515,#b1040e);
         display:flex;align-items:center;justify-content:center;font-size:19px;
-        box-shadow:0 5px 13px rgba(37,99,235,.32);}
+        box-shadow:0 5px 13px rgba(140,21,21,.32);}
   h1{font-size:19px; letter-spacing:-.02em;}
-  h1 span{background:linear-gradient(90deg,var(--blue1),var(--blue2));
+  h1 span{background:linear-gradient(90deg,#8c1515,#b1040e);
           -webkit-background-clip:text; background-clip:text; color:transparent;}
   .badge{margin-left:auto; font-size:11.5px; font-weight:600; padding:5px 10px;
-         border-radius:999px; background:#e8eefc; color:var(--blue1); white-space:nowrap;}
+         border-radius:999px; background:#f3e9e4; color:#8c1515; white-space:nowrap;}
   .badge .dot{display:inline-block;width:7px;height:7px;border-radius:50%;
               background:#94a3b8; margin-right:5px; vertical-align:1px;}
-  .badge.live{background:#e7f8ee; color:var(--green);}
-  .badge.live .dot{background:var(--green); box-shadow:0 0 0 3px rgba(22,163,74,.18);}
+  .badge.live{background:#e9f2f0; color:var(--green);}
+  .badge.live .dot{background:var(--green); box-shadow:0 0 0 3px rgba(23,94,84,.18);}
   .card{background:var(--card); border:1px solid var(--line); border-radius:20px;
         padding:20px; box-shadow:0 10px 30px rgba(10,37,64,.06); margin-bottom:16px;}
 
   /* ---- Ask box (Perplexity style) ---- */
   .askBox{border:1.5px solid var(--line); border-radius:18px; background:#fbfcfe;
           padding:14px 14px 10px; transition:border-color .15s, background .15s;}
-  .askBox:focus-within{border-color:var(--blue2); background:#fff;
-                       box-shadow:0 6px 22px rgba(14,165,233,.13);}
+  .askBox:focus-within{border-color:#8c1515; background:#fff;
+                       box-shadow:0 6px 22px rgba(140,21,21,.13);}
   .askBox textarea{width:100%; border:0; outline:none; resize:none; background:transparent;
                    font-family:inherit; font-size:17px; line-height:1.45; color:var(--ink);
                    min-height:52px;}
@@ -44,10 +44,10 @@
   .askRow{display:flex; align-items:center; gap:10px; margin-top:2px;}
   .askHint{font-size:12px; color:#93a7ba;}
   #runBtn{margin-left:auto; width:38px; height:38px; border-radius:50%; border:0;
-          background:linear-gradient(135deg,var(--blue1),var(--blue2)); color:#fff;
+          background:linear-gradient(135deg,#8c1515,#b1040e); color:#fff;
           font-size:17px; cursor:pointer; flex:0 0 auto;
           display:flex; align-items:center; justify-content:center;
-          box-shadow:0 5px 13px rgba(37,99,235,.35); transition:opacity .15s, transform .05s;}
+          box-shadow:0 5px 13px rgba(140,21,21,.35); transition:opacity .15s, transform .05s;}
   #runBtn:active{transform:scale(.94);}
   #runBtn:disabled{opacity:.45; cursor:wait;}
   .tryLabel{font-size:12px; font-weight:700; letter-spacing:.07em; color:var(--muted);
@@ -56,7 +56,7 @@
   .chip{font-size:13px; padding:8px 13px; border-radius:999px; cursor:pointer;
         background:#eef3fa; color:var(--ink); border:1px solid var(--line);
         font-family:inherit; transition:background .15s; text-align:left;}
-  .chip:hover{background:#dde9fa;}
+  .chip:hover{background:#f0e7dd;}
   .yourcall{font-size:12px; font-weight:700; letter-spacing:.07em; color:var(--muted);
             text-transform:uppercase; margin:18px 0 8px;}
   .split{display:flex; height:42px; border-radius:12px; overflow:hidden;
@@ -85,8 +85,8 @@
          background:#eef3fa; color:var(--muted); font-size:13px; font-weight:700;
          border:1.5px solid transparent; transition:all .25s;}
   .stage small{display:block; font-weight:500; font-size:11px; margin-top:2px;}
-  .stage.on{background:#e8eefc; color:var(--blue1); border-color:var(--blue2);
-            box-shadow:0 4px 14px rgba(14,165,233,.25);}
+  .stage.on{background:#f7ecec; color:#8c1515; border-color:#b1040e;
+            box-shadow:0 4px 14px rgba(177,4,14,.22);}
   .arrow{align-self:center; color:#b6c6d8; font-weight:700;}
   .meterWrap{display:none; margin:4px 0 14px;}
   .meterLabel{font-size:12px; color:var(--muted); margin-bottom:5px;}
@@ -98,11 +98,11 @@
             background:var(--rose1); border-radius:2px;}
   .gateTick::after{content:"gate 0.90"; position:absolute; top:-15px; left:-22px;
                    font-size:10px; color:var(--rose1); font-weight:700; white-space:nowrap;}
-  .term{background:var(--ink); border-radius:14px; padding:14px 16px; min-height:52px;
+  .term{background:#2e2d29; border-radius:14px; padding:14px 16px; min-height:52px;
         font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
         font-size:12.8px; line-height:1.65; color:#c9d8ea;}
   .term .ph{color:#7d94ad;}
-  .term .g{color:#7dd3fc;} .term .v{color:#fda4af;} .term .ok{color:#86efac;}
+  .term .g{color:#8fc1d9;} .term .v{color:#f0a49c;} .term .ok{color:#9cc5b8;}
 
   /* ---- Verdict presentation (fact-check result page style) ---- */
   #verdictCard{display:none; position:relative; overflow:hidden;}
@@ -130,12 +130,12 @@
   .identLine b{font-weight:800;}
   .id-myth{color:var(--rose1);} .id-true{color:var(--green);}
   .id-mixed{color:var(--amber);} .id-abstain{color:var(--muted);}
-  .srcPill{font-size:11.5px; font-weight:700; color:var(--blue1);
-           background:#e8eefc; padding:4px 10px; border-radius:999px;}
+  .srcPill{font-size:11.5px; font-weight:700; color:#8c1515;
+           background:#f7ecec; padding:4px 10px; border-radius:999px;}
   .vMeta{font-size:13px; color:var(--muted); margin-top:5px;}
   .callLine{margin-top:9px; font-size:14px; font-weight:600;}
   .conclusion{display:none; margin-top:13px; font-size:14.5px; line-height:1.62;
-              background:#f7fafd; border-left:3.5px solid var(--blue2);
+              background:#faf8f4; border-left:3.5px solid #8c1515;
               padding:11px 14px; border-radius:0 12px 12px 0; color:#24425f;}
   .evHead{display:none; font-size:16.5px; font-weight:800; margin-top:19px;}
   .evCap{display:none; font-size:12px; color:var(--muted); margin-top:2px;}
@@ -144,7 +144,7 @@
            color:#fff; font-size:11.5px; font-weight:700; letter-spacing:.02em;
            padding:4.5px 11px; border-radius:7px;}
   .evBadge .shield{color:#fbbf24;}
-  .evText{font-size:14.5px; line-height:1.62; color:#24425f; margin-top:7px;}
+  .evText{font-size:14.5px; line-height:1.62; color:#45413b; margin-top:7px;}
   .evTitle{font-size:12.8px; color:var(--muted); margin-top:4px;}
   .evTitle a{color:var(--blue1); text-decoration:none; font-weight:600;}
   .dropped{margin-top:11px; font-size:12.5px; color:var(--rose1); font-weight:600;}

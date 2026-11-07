@@ -1,0 +1,646 @@
+[
+ {
+  "claim": "脂肪摄入过多可能导致胃部膨胀",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "治疗方法可能包括改善睡眠习惯、使用口腔矫治器、手术治疗（如腺样体和扁桃体切除术）",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "维生素D帮助身体吸收和利用钙，对维护骨骼健康非常重要",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "其他消化系统疾病包括肠梗阻、胃肠炎等，也可能有类似的症状",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "周围神经受到压迫可能导致大腿根部疼痛",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "使用儿童用的退热贴、退热药等来降低体温",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "晚上睡觉前和早晨起床后应适量饮水以帮助清洁口腔",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "梅毒的传播主要通过性接触，但也可能通过受污染的衣物、床上用品、毛巾等物品传播。",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "每天建议饮水量在2升左右",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": false
+ },
+ {
+  "claim": "神经衰弱是一种常见的心理状态",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "摄入足够的蛋白质、维生素和矿物质有助于支持肌肉健康。",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "颈椎病的原因包括颈椎退行性变、颈椎间盘突出、颈椎不稳等。",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "复方三维亚油酸胶囊并非维生素C补充剂",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": false
+ },
+ {
+  "claim": "疼痛无需药物，通过忍耐即可缓解",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.4,
+  "correct": false
+ },
+ {
+  "claim": "疼痛可能向上放射到背部，向下放射到臀部或大腿后侧",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "巨结肠手术通常用于治疗先天性巨结肠（Hirschsprung病），影响肠道神经系统。",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "适量运动有助于促进新陈代谢和肠道蠕动",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "对于传统治疗无效的溃疡性结肠炎患者，考虑生物制剂治疗",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "体外冲击波碎石（ESWL）通常是小于2cm的肾结石的首选治疗方法",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": false
+ },
+ {
+  "claim": "钙的来源包括奶制品、绿叶蔬菜、豆类等",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "支持性治疗可能包括使用抗生素预防感染和使用质子泵抑制剂预防消化道出血",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": false
+ },
+ {
+  "claim": "苯二氮䓬类药物包括拉莫三嗪和加巴喷丁",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "市面上有些解酒药的效果并没有得到科学证实",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "维持规律的饮食习惯避免暴饮暴食和零食过多以帮助改善消化系统的功能",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "宫颈糜烂可能是宫颈癌的早期阶段",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "肌肉松弛剂如巴氯芬（Baclofen）和替扎尼定（Tizanidine）可用于治疗。",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "通过调整身体姿势可缓解症状",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "疣体周围可能会感到瘙痒",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "物理治疗师帮助患者进行康复训练，增强肌肉力量。",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "维生素E、维生素A、维生素C和矿物质如锌和硒对乳房健康很重要",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "吸烟或酒精摄入习惯可以刺激喉咙，导致口干",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "抽筋可能是缺钙的迹象",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "肝脏参与消化过程，肝脏疾病可能会影响食欲和消化功能",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "治疗计划将根据受伤严重程度和患者健康状况来定",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "保持良好的饮食习惯、适量的运动和充足的水分以及避免已知的有害物质对整个怀孕期间的健康非常重要",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "乳房疼痛通常与生理周期有关，可能是由于激素水平变化导致",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "水疱疹通常不痒",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "儿童也可能患有关节炎等疾病，虽然不常见。",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": false
+ },
+ {
+  "claim": "保持适度体重，避免过度肥胖可能与牛皮癣的严重程度有关",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "拔罐原理基于物理学中的气压差",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "保持皮肤清洁干燥可以避免感染",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "早晨排出的粪便中可能不会混入前一天晚上的食物残渣",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "甲状腺结节较大或有癌变嫌疑时会建议做细针穿刺活检",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "保持充足的休息，避免过度劳累",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "脑性瘫痪患儿可能感到自卑、焦虑或抑郁",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "您的UIBC为16 mg/dL，在正常范围内。",
+  "gold": "myth",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "在脚踝稳定并逐渐减少肿胀后，可以开始进行温和的脚踝活动，如脚踝旋转和拉伸练习，但请确保在专业指导下进行。",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "HBsAg阴性、HBsAb阳性表示体内没有乙肝病毒且疫苗接种成功",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": false
+ },
+ {
+  "claim": "运动可能提高血液中的睾酮水平，影响精子类型，提高生男孩几率。",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "父母期望和关注带来压力，需与父母沟通，表达感受和需求，寻求平衡",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "一旦排除肺结核，不应继续使用抗结核药物",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": false
+ },
+ {
+  "claim": "宫颈糜烂现在被视为宫颈上皮内病变（CIN）的一部分",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": false
+ },
+ {
+  "claim": "饮酒可能导致性格或行为改变",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "继续喝大量的水或电解质饮料以保持身体水分和电解质平衡。",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": false
+ },
+ {
+  "claim": "腰肌劳损疼痛可能伴有深层的肌肉紧张，触诊时可以感觉到肌肉或筋膜的条索状硬结",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "轻度二尖瓣反流可能需要治疗",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "焦虑和压力等心理因素可能表现为性器官疼痛",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": false
+ },
+ {
+  "claim": "剖腹产后子宫至少需要6个月时间恢复",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "舌头上的红色斑块伴随着溃疡可能是复发性口腔溃疡",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "如果疼痛很严重，可以服用非处方消炎止痛药",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": false
+ },
+ {
+  "claim": "粟粒疹是指皮肤下被困的角质细胞和油脂，形成小的白色囊肿，常见于眼周区域。",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": false
+ },
+ {
+  "claim": "使用润肤乳或保湿霜来帮助保持脚部皮肤的水分",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "血小板减少症可能导致皮肤出现小红点",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "避免不必要的X射线检查",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "循环系统的问题如静脉曲张可能引起或加重大腿根部的疼痛",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": false
+ },
+ {
+  "claim": "头颅形状不规则可能需要手术治疗",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "治疗静脉曲张的方法包括药物治疗、压迫疗法、硬化疗法、激光治疗和手术治疗等。",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "宫颈糜烂是宫颈上皮细胞的炎症或损伤",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": false
+ },
+ {
+  "claim": "黄豆大小的乳酪样白带可能是正常的生理现象。",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "利尿剂、ACE抑制剂、ARBs、钙通道阻滞剂等高血压药物用于控制血压",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "偶尔过量服用一两次通常不会导致严重后果",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.4,
+  "correct": false
+ },
+ {
+  "claim": "物理治疗和其他保守治疗方法效果不理想时可能考虑手术治疗",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "粘连的治疗方法包括物理分离、使用药物或在某些情况下需要再次手术",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "焦虑和压力可能加剧身体疼痛感",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "甲亢可能导致男性性功能障碍，如勃起功能障碍或性欲减退",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": false
+ },
+ {
+  "claim": "人流术后恢复期间性行为通常没有严格限制。",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.7,
+  "correct": true
+ },
+ {
+  "claim": "治疗宫颈糜烂的方法包括抗生素治疗、激素治疗、物理治疗或手术治疗",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": false
+ },
+ {
+  "claim": "单独服用叶酸时，空腹时吸收可能更好",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "性活动可能会增加感染风险，尤其是如果性伴侣中有人有感染",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "大便硬且一颗颗的可能是由于缺乏纤维和水分摄入不足",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "溴斯明丁片在妊娠期间的安全性并不完全清楚",
+  "gold": "myth",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "鞋子过紧或不合脚可能导致脚后跟在行走时受到压迫",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "便秘是甲硝唑可能出现的副作用之一。",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "胆酸结合剂如考来烯胺结合胆汁中的胆盐，减少其对胃的刺激",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "低血压（低压60，高压90）可能导致头晕、晕厥等症状",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "对于良性的结节，如果引起疼痛或不适，考虑手术",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "尽量坐在高一些的马桶上，或者使用台阶作为支撑，这样有助于减轻疼痛并可能帮助结石移动",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "如果羊膜腔内光带是血管或其他正常结构，通常不需要特别担忧",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "甲状腺功能亢进可能导致新陈代谢加快并引起颤抖",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "三叉神经痛可能导致面部剧烈疼痛",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "过多营养素可能导致嘴唇颜色加深",
+  "gold": "myth",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "确保鞋子合脚，不要太紧，以减少对脚底的压迫",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": false
+ }
+]

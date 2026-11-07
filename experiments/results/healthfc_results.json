@@ -1,0 +1,2291 @@
+[
+ {
+  "claim": "Can dowsers find harmful soil zones or water veins?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Do pregnant women who take vitamin D in combination with calcium have a lower risk of preterm birth?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can weight loss programs reduce obesity in children and adolescents?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does carbonic acid cause cancer?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does pelvic floor training help women with stress-related urinary incontinence?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does a mixture of hops and other natural remedies help with sleep problems?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does the dietary supplement MSM help with osteoarthritis?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can Echinacea protect against colds?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can therapy with EMDR (Eye Movement Desensitization and Reprocessing) alleviate the symptoms of people with post-traumatic stress disorder?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does covid vaccination reduce the likelihood of getting long-lasting symptoms (long covid) in case of corona infection?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Are oral zinc supplements effective for treating a cold (chill)?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Are there methods that effectively help against hormonal hair loss?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Is the Gynefix® contraceptive necklace as effective for contraception as the birth control pill or the \"IUD\"?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do herbal remedies with nasturtium and horseradish (Kren) prevent recurrent cystitis?",
+  "gold": "myth",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Can a supposedly \"high acid\" diet weaken bones?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Are there effective alternatives to the breathing mask (CPAP) for sleep apnea?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does less than 7h of sleep daily increase mental performance?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does a legal smoking ban reduce the likelihood of cardiovascular disease in nonsmokers?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does a nasal spray with carrageenan from red algae relieve discomfort from a cold (\"chill\")?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Is exercise an effective measure to combat depression?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Do pumpkin seed preparations improve symptoms caused by a benign enlarged prostate?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does taking antibiotics for acute sinusitis speed up the healing of the infection?",
+  "gold": "true",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "Does the treatment of diabetes-related retinal diseases by injection of VEGF inhibitors provide an advantage compared to conventional laser treatment?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Are movement exercises useful for back pain?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does taking vitamin K lower the risk of spinal fractures in older women?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can ginkgo extract relieve the symptoms of tinnitus?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does closure of the foramen ovale prevent further strokes in people who have had a stroke of unknown cause?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does platelet-rich plasma therapy (autologous blood therapy) reduce pain in osteoarthritis of the hip joint???",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Is the HIV saliva self-test, which is about to be approved in the U.S., as reliable as a laboratory test or a rapid test at the doctor's office?",
+  "gold": "true",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Does paxlovid protect unvaccinated people with risk factors from severe or even fatal covid 19 disease?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Can Internet-based self-help training based on cognitive behavioral therapy reduce the burden of tinnitus?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does brain training boost intelligence?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does regular vitamin D intake lower the risk of cancer in adults?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Are diets with reduced carbohydrate content better for weight loss than other weight loss programs?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does honey work better than other wound treatments for chronic wounds (open leg, diabetic foot)?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can hyposensitization by injections with allergy-causing pollen components help with hay fever?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Can zinc mitigate the progression of Covid-19?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Is there a connection between ADHD and neurodermatitis?",
+  "gold": "true",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Is the sweetener aspartame harmful to health?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does taking magnesium salts decrease the frequency and intensity of muscle cramps with unknown cause?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does sugar consumption increase the risk of developing type 2 diabetes regardless of obesity?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does toothpaste containing xylitol reduce the risk of caries?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Do behavioral therapy methods help with specific fears (phobias) such as fear of spiders?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Do milk or dairy products promote bladder cancer?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does honey help against acute cough in children?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does the pregnancy hormone hCG help with weight loss?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does stool transplantation help with ulcerative colitis?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does HPV vaccination reduce the risk of cervical cancer in girls?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Can filtering out blue light using blue filter glasses or night mode settings on smartphone, tablet or laptop screens have a beneficial effect on sleep?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can ginkgo extract improve mental performance in dementia patients?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Are there health benefits to screening the general population for chronic obstructive pulmonary disease (COPD) as a precaution?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does taking coenzyme Q10 improve movement disorders in Parkinson's disease?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "In everyday life, when breathing with an FFP2 mask or ordinary mouth-nose protection, do you get as much oxygen as without a mask?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does bioresonance therapy help with health complaints?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Do people with blood group AB have a higher risk of developing dementia?",
+  "gold": "myth",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Do probiotics alleviate the symptoms of irritable bowel syndrome?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can music therapy help people affected by stroke learn to walk normally again?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Can dementia be prevented?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do general health checkups lead to longer life?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does fluoride toothpaste prevent tooth decay?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does taking proton pump inhibitors (PPI) increase the risk of bone fractures?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do heat patches containing capsaicin help with neck pain???",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "Does increased time outdoors inhibit myopia in children?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Do large portions, large plates or glasses, and larger packaging cause us to eat and drink more?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Is stool transplantation effective against recurrent Clostridium difficile infections ?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does the drug Sovaldi (sofosbuvir) enable high cure rates for chronic hepatitis C?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does an extract from the root of the Cape geranium (Pelargonium sidoides, Umckaloabo) work against bronchitis?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does regular consumption of red meat or processed meat products increase the risk of colorectal cancer?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does coffee affect cancer death risk?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does homeopathy work better than a placebo?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Can regular consumption of chocolate prevent cardiovascular disease?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do health benefits increase with duration and intensity of exercise?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does chocolate have a mood-lifting effect?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does DAILY administration of HIGH-dose atropine (0.5 - 1%) sustainably inhibit the progression of myopia in children?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can therapy with the radioactive gas radon noticeably alleviate pain in rheumatism-related joint inflammation (rheumatoid arthritis)?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.7,
+  "correct": true
+ },
+ {
+  "claim": "Does frequent consumption of potatoes increase the risk of dying from cancer?",
+  "gold": "myth",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Does psychotherapy help with burnout?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Can Botox injections prevent migraine attacks?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does wearing compression stockings on a long-haul flight prevent thrombosis (blood clots) and the associated symptoms?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does regular intake of extra virgin olive oil protect against coronary heart disease such as heart attack?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does ginger help with period pain?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Can a bioresonance device like \"Bioscan\" or \"Vieva Vital Analyser\" measure mineral and vitamin deficiencies or detect health problems?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does taking supplements with omega-3 fatty acids reduce the risk of heart attack, stroke or other sudden cardiovascular problems?  Does it lower the risk of dying prematurely?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "It is not always possible to reduce elevated cholesterol levels to a healthy level with tablets and thus minimize the risk of heart attack or stroke. Does this succeed through additional injections with PCSK9 antibodies?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Can extracorporeal shock wave therapy relieve heel pain if the cause is tendonitis or a heel spur?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can antibiotic-resistant germs from animal husbandry be transferred to humans?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Is it possible to reliably detect coronavirus infection based only on symptoms but without laboratory testing?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Do remedies containing the trifoliate fruit alleviate the symptoms of rheumatoid arthritis (\"rheumatism\")?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can pain from osteoarthritis (joint wear) be relieved by arnica ointment or arnica gel?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can too much iodine cause autoimmune thyroid disease and consequently hypothyroidism?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Do saw palmetto preparations improve the symptoms of benign enlarged prostate (benign prostatic hyperplasia) in the longer term compared to placebo?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do acupuncture or related smoking cessation methods help you stay smoke-free for at least 6 months?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can cancer be detected by dark field analysis (dark field microscopy) of the blood?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does hypnosis help with chronic bowel problems?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can taking dietary supplements with omega-3 fatty acids prevent further heart attacks or strokes if one has already had a heart attack?  In this case, does it lower the risk of dying prematurely??",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Is the risk of bacterial or fungal infection comparable when using menstrual cups or pads?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can vitamin D supplements prevent colds, flu, colds, and other viral respiratory illnesses when there is no or only a mild deficiency of vitamin D?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "for fish, sesame, wheat?",
+  "gold": "myth",
+  "pred": "unknown",
+  "confidence": 0.2,
+  "correct": false
+ },
+ {
+  "claim": "Can phthalates cause diabetes?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can apigenin reduce cancer risk or prevent cancer progression?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do irradiations with cold red light help with chronic gingivitis?",
+  "gold": "myth",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Do preparations with unsaponifiable components of avocado and soybean oils (ASU) help against limitations and pain in osteoarthritis of the knee joint?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does regular consumption of chia seeds reduce body weight, blood sugar levels or cholesterol?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does drinking breast milk as a baby have a positive effect on later health and development?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Can capsules or tablets with lactase improve the symptoms of lactose intolerance and make dairy products more tolerable?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Can taking chondroitin relieve osteoarthritis pain or improve mobility in the long term?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do milk or dairy products promote prostate cancer?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does brisk walking lower mortality? Is some exercise better than none at all?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Do statins help older people suffering from cardiovascular disease to live longer? Do they reduce the risk of heart attack and stroke?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does taking probiotics facilitate weight loss to any significant degree?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does cinnamon lower blood sugar levels in diabetes?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does arthroscopy (joint endoscopy) help with osteoarthritis of the knee joint?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Is screening by optical coherence tomography superior to conventional examinations for the early detection of diabetic macular edema?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can sore muscles be relieved by arnica ointment or arnica gel?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can extract from St. John's wort relieve the symptoms of depression? Is it similarly effective as drugs against depression (antidepressants)?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can a tantrum trigger a heart attack?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do today's children have a shorter life expectancy than their parents?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does mammography screening reduce the risk of dying from breast cancer in certain age groups?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Can maggots accelerate the healing of chronic wounds compared to conventional treatment?",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "Do air purifiers help relieve symptoms of allergic asthma?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does training on vibration platforms cause a noticeable buildup of muscle strength?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can a treatment with singing bowls relieve pain?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does hydroxychloroquine reduce the likelihood of dying from covid-19 disease?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does eye training help prevent myopia?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does tocilizumab specifically help children with rheumatoid arthritis (juvenile idiopathic arthritis) ?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does the drug remdesivir prevent COVID-19 deaths?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does the drug fingolimod reduce the progression of relapsing-remitting multiple sclerosis similarly or better than previous drugs?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does yoga reduce the impairment in everyday life caused by persistent (chronic) back pain?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Do static magnets help against pain?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does plant or animal protein have an influence on lifespan?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Is acupuncture for chronic pain more effective than placebo acupuncture treatment?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can injections with the enzyme collagenase straighten fingers bent by Dupuytren's disease without surgery? (Reader inquiry)",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Can exercise prevent premature deaths from heart attacks, strokes, heart failure, and pre-diabetes as effectively as medication?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does the Aspire system help you lose weight?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Is tick-borne tick-borne encephalitis (TBE) much milder in children than in adults?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "1. can MMR vaccination cause autism?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Can lung cancer screening by computed tomography (CT) also do harm???",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does the intake of omega-3 fatty acids improve the clinical picture in multiple sclerosis (MS) or does this inhibit progression of the disease?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does curcumin protect people with already diagnosed dementia from further decline in mental abilities???",
+  "gold": "myth",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Does magnetic resonance therapy improve complaints of knee osteoarthritis or herniated discs (e.g. pain)?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do fish oil capsules promote prostate cancer?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does taking probiotics shorten the duration of acute infectious diarrhea?",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "Does the full moon have a negative effect on sleep duration?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can homeopathic remedies relieve colds in children??",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Can homeopathic remedies prevent colds in children?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does quitting smoking prolong life?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does treatment with radioactive agents help with pain in chronic inflammatory joint disease?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Is music therapy with rhythmic training helpful for people with Parkinson's who have trouble walking?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does EMDR work similarly to exposure therapy, another well-studied form of psychotherapy for the symptoms of post-traumatic stress disorder???",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do kava kava supplements help with anxiety disorders?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can washing hands with antibacterial soaps or wash lotions containing triclosan or triclocarban prevent the risk of contracting diseases in the household?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can probiotics lower blood sugar in type 2 diabetes?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do smoking bans lead to fewer preterm births?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does a herbal combination preparation of rosemary, lovage, and centaury effectively relieve symptoms of uncomplicated cystitis?",
+  "gold": "true",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Does the Alexander Technique help with back pain and neck pain?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do gastrointestinal surgeries (bariatric surgeries) improve symptoms of type 2 diabetes?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Is there an increased risk of long-term effects on the unborn child with chemotherapy starting in the 2nd trimester of pregnancy?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do amalgam fillings affect the mental development of school children compared to plastic dental fillings?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Are heavy (ex-)smokers less likely to die of lung cancer if they regularly participate in lung cancer screening by computed tomography (CT)?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Can taking chlorophyll affect the odor of urine in catheter wearers or stool in people with an artificial bowel outlet?",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "Can acupuncture prevent migraines and tension headaches?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does melatonin help against jet lag?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does taking DHEA have an anti-aging effect by increasing the physical and mental well-being of older people?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does electromagnetic radiation from cell phone towers cause health problems such as headaches or sleep disorders?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does glucosamine prolong life?",
+  "gold": "true",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Is quarantining persons who have had contact with infected persons or who enter from high-risk areas an effective measure to reduce the number of COVID-19 infections and deaths?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Can green tea affect the likelihood of dying early and reduce the risk of cardiovascular disease?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can regular intake of vitamin C prevent colds?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does the probability of dying from cardiovascular disease decrease in people who have already had a heart attack?",
+  "gold": "true",
+  "pred": "myth",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Does treatment with cortisone-like drugs such as dexamethasone ensure that more critically ill patients survive Covid 19 disease?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does following a Mediterranean diet decrease the likelihood of cardiovascular disease in people at high risk?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Can regular exercise prevent or relieve migraine symptoms?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Can masks reduce corona infections when worn by a large proportion of the population?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Can over-the-counter combination medications help with tension headache and migraine better than medications containing only single active ingredients?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can the active ingredient acetyl salicylic acid (ASA) protect against cancer?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do milk or dairy products promote colon cancer and rectal cancer?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does MONTHLY administered HIGH-dose atropine (1%) sustainably inhibit the progression of myopia in children?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Can green tea reduce the likelihood of dying from cancer ?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can vitamin and nutrient supplements prevent the eye disease age-related macular degeneration?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do electric toothbrushes protect oral health better than manual brushes?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does exercise, a restricted diet, or both together help prevent excessive weight gain during pregnancy?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does mesotherapy help against pain?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does osteopathy work?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do remedies with ginseng help with erectile dysfunction?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can stevia lower high blood pressure?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Is it harmful for the mental development of the unborn child if the mother regularly eats fish contaminated with mercury during pregnancy?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does regular HPV testing in addition to the recommended Pap smear detect more precancerous lesions than just the Pap smear alone?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Can the genetic blood test for Down syndrome (trisomy 21) predict whether the unborn child is affected - in pregnant women at increased risk?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Is it safe to take preparations containing unsaponifiable components of avocado and soybean oils (ASU)?",
+  "gold": "true",
+  "pred": "unknown",
+  "confidence": 0.4,
+  "correct": false
+ },
+ {
+  "claim": "Does colonoscopy reduce mortality from colorectal cancer?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Is the success of conventional treatment of a herniated disc equivalent to that of disc surgery?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do azo food dyes cause attention deficit disorder and hyperactivity in children?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do generic drugs work as well as original drugs?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Are children conceived in May more likely to be born prematurely than children conceived in other months?",
+  "gold": "true",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Does particulate matter pollution increase the risk of heart attack - even if the EU limits are complied with?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Do phthalates affect semen quality in men?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Is the risk for the brain inflammation SSPE as a consequence of measles disease greater than long assumed? That is, out of every 100,000 people infected with measles, does more than one person develop SSPE (subacute sclerosing panencephalitis) later in life?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Can taking selenium prevent cancer?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does regular use of sleeping pills promote the risk of death or cancer?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can probiotics prevent diarrhea after treatment with antibiotics?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Can inhalation with budesonide spray relieve symptoms of covid-19?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can taking vitamin C after the onset of a cold relieve symptoms or shorten the illness?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can arthroscopy reduce pain or improve mobility?",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "Is Exemestane better than other hormone-altering drugs for reducing the risk of breast cancer or treating it?",
+  "gold": "true",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Does PrEP reduce the risk of HIV infection?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.95,
+  "correct": true
+ },
+ {
+  "claim": "Does taking vitamin D improve symptoms in the most common form of psoriasis?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Are there differences in hair removal effectiveness between IPL and diode laser?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does taking magnesium salts reduce the frequency and intensity of muscle cramps in pregnancy?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do frequent ejaculations have a protective effect against prostate cancer?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do vaginal suppositories containing the active ingredient imiquimod cause precancerous stages of cervical cancer to recede or disappear?",
+  "gold": "true",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Do injections with Botulinum Toxin A (Botox®) help with urinary incontinence?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Is surgery for an anterior cruciate ligament tear (by replacing the broken anterior cruciate ligament with tendon tissue from another part of the leg) followed by physical therapy better than physical therapy alone?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.7,
+  "correct": false
+ },
+ {
+  "claim": "Can acupuncture for labor induction trigger the onset of labor?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does oseltamivir (brand name \"Tamiflu\") reduce the severity and duration of influenza in otherwise healthy adults?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does coffee reduce the risk of dementia?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does the active ingredient rivaroxaban (drug Xarelto) have a higher risk of dangerous bleeding than other anticoagulants?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does industrially highly processed food increase the risk of cancer?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can chlorhexidine in the form of dental varnish prevent the formation of caries in adults?",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "Do whole grains lower the likelihood of dying early?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does a newly approved contraceptive pill with the active ingredient combination nomegestrol acetate and 17ß-estradiol have fewer undesirable side effects than other birth control pills?",
+  "gold": "myth",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Can stress promote dementia?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does taking vitamin K lower the risk of other bone fractures in older women?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does marijuana use reduce the risk of developing diabetes?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can a height-adjustable desk reduce sitting time in the office?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Do cesarean babies have a higher risk of becoming overweight later in life?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can negative expectancy reduce the effect of pain medications?",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "Does taking fish oil with omega-3 fatty acids improve the symptoms of various forms of psoriasis more than a placebo???",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can treatment with tea tree oil relieve pimples (acne)?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Can topiramate reduce the frequency of migraine attacks?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does meditation help against stress?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Is sex as good an endurance workout as running?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.4,
+  "correct": false
+ },
+ {
+  "claim": "Can shoe insoles relieve pain in people with high arches?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Do pregnant women who take vitamin D have a lower risk of preterm birth?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does therapeutic dancing help people with Parkinson's improve their movement problems?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does electro-acupuncture on the ear help against pain?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can red mold rice products lower blood cholesterol levels?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Are kinesiotapes effective for chronic non-specific lower back pain (\"low back pain\")?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does the additional offer of HIV self-testing cause more people to take an HIV test?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Can cow's milk cause iron deficiency in babies in the first year of life?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Can regular intake of cranberry juice or cranberry extract prevent recurrent cystitis in women?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does the risk of food allergy decrease if babies are fed potentially allergenic foods (cow's milk, peanuts, chicken egg) as late as possible for the first time?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does the number of deliveries with a vacuum cup and forceps remain similar with induction and observational waiting???",
+  "gold": "true",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Can low-level laser therapy reduce wrist osteoarthritis pain?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Are vegetables prepared in a microwave oven less healthy than those prepared in other ways?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does breastfeeding reduce the risk of sudden infant death syndrome?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.85,
+  "correct": true
+ },
+ {
+  "claim": "Does the herbal hormone genistein reduce the number and intensity of hot flashes during menopause???",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do air ions cause an improvement of asthma??",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.4,
+  "correct": false
+ },
+ {
+  "claim": "Do unsaturated fats (from plants and fish) reduce cardiovascular disease compared to saturated fats (from meat and dairy products)?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Can induction of labor prevent infant deaths in pregnancies that go beyond the estimated due date? Does it reduce the number of neonatal intensive care unit stays?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "What are the advantages and disadvantages of vaccinating infants simultaneously with the usual six-dose vaccine (against diphtheria, tetanus, polio, pertussis, hepatitis B, and Haemophilus influenzae B) and a pneumococcal vaccine? (Reader inquiry)",
+  "gold": "true",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Do nicotine replacement products like nicotine gum or nicotine patches help with long-term smoking cessation?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does regular consumption of coffee increase the risk of heart disease such as heart attack or stroke?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Are animal-assisted therapies effective for mental illness?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do products made from red mold rice have fewer side effects than cholesterol-lowering drugs called statins???",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.4,
+  "correct": false
+ },
+ {
+  "claim": "Are ultrasound examinations during pregnancy safe for the health of the child?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Do vitamin E supplements increase the likelihood of early death?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can regular screening significantly reduce the risk of dying from prostate cancer?",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "Do green tea products provide effective and safe support for weight loss?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do heat patches help with lower back pain?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does carnosine relieve autism symptoms in children?",
+  "gold": "myth",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Does a patch with high-dose capsaicin relieve pain after shingles?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Is Intermittent Fasting suitable for reducing excess weight as well as a conventional low calorie diet?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.7,
+  "correct": false
+ },
+ {
+  "claim": "Is belly fat or is a large abdominal girth particularly dangerous for health?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does taking probiotics during pregnancy and early life protect children from atopic dermatitis?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does taking Bacopa extract improve memory performance?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can eating grapefruit in combination with some medications lead to harmful interactions?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Do antidepressants from the group of serotonin reuptake inhibitors help with depression?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Is it harmful to health to eat apple cores with the apple?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Can honey accelerate the healing of second degree burns with pain, redness and blisters?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Are international travel restrictions and border health checks effective in curbing the spread of covid-19?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can they delay the progression of eye disease?",
+  "gold": "true",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Is combined hormone therapy with estrogen and progestin safe for women in late menopause (after the last menstrual period)?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does eating eggs increase the risk of cardiovascular disease?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does yoga alleviate the severity of persistent back pain???",
+  "gold": "myth",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": false
+ },
+ {
+  "claim": "Can regular exercise prevent you from getting a cold or other respiratory infections???",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Is ivermectin an effective drug for treating covid 19 disease?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Are Bach flower remedies effective in helping with test anxiety?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.7,
+  "correct": true
+ },
+ {
+  "claim": "Does consumption of dairy products in middle and advanced age protect against bone fractures?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does Active Surveillance reduce the likelihood of becoming impotent or incontinence, i.e. unintentional urine leakage ??",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Are rapid antigen tests as reliable as slower PCR tests? Does a negative (inconspicuous) rapid test result reliably exclude an infection with the coronavirus?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does a lower salt diet reduce the likelihood of cardiovascular disease?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Do preparations with unsaponifiable components of avocado and soybean oils (ASU) help against limitations and pain in osteoarthritis of the hip joint?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does hyperthermia treatment support chemotherapy in fighting cancer? (anonymous request with link to the Standard article)",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can a dietary supplement containing omega-3 fatty acids, lipids, vitamins, and nutrients (\"Souvenaid\") noticeably slow or halt the decline of mental performance in Alzheimer's disease?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does regular exercise reduce the severity and duration of colds and other respiratory infections?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Can labor pain during childbirth be relieved by aromatherapy with lavender oil?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Is a vegetarian diet including eggs and dairy products healthier than a diet that includes meat?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Is wheat lectin, which is found in high amounts especially in whole wheat, harmful to health?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does treatment with focused high-intensity ultrasound (HIFU) reduce abdominal girth?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Is less eaten from red plates?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Which of the three most common laser eye surgeries produces the best results and has the fewest side effects?",
+  "gold": "true",
+  "pred": "unknown",
+  "confidence": 0.2,
+  "correct": false
+ },
+ {
+  "claim": "Can oral vein products containing herbal active ingredients such as rutosides, hidrosmin, diosmin, extracts of horse chestnut seed and pine bark, Centella asiatica or grape seed extract or the synthetic substances calcium dobesilate or aminaftone relieve symptoms such as itching, restless or swollen legs, pain and cramps in people suffering from varicose veins or chronic venous insufficiency?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "3. does vaccination against rotavirus increase the risk of intestinal intussusception in infants?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can switching to a higher fiber diet prevent colorectal cancer?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does going to the sauna several times a week prolong men's lives?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does the plant pigment beta-carotene protect against cancer?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can serious problems occur after stopping antidepressants?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does treatment with the new drug erenumab reduce the number of migraine days per month?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does healing clay with the clay mineral smectite help when children have diarrhea?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can monk's pepper reduce PMS symptoms? PMS is the abbreviation for premenstrual syndrome. This refers to complaints that occur in the days before menstruation.",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does ointment with comfrey help against back pain and knee pain better than a placebo?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can vitamin supplements protect against life-threatening diseases such as cancer or cardiovascular disease?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can butterbur prevent migraine attacks?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does flu vaccination reduce the likelihood of getting the flu (influenza)?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Can motherwort reduce migraine attacks?",
+  "gold": "true",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Do saw palmetto preparations help with benign prostate enlargement?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can hyposensitization by means of drops or tablets administered under the tongue help with hay fever?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Is short, high-intensity training equally effective as longer, moderate-intensity training?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does the pill affect the muscle strength of women??",
+  "gold": "myth",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Does processed red meat (sausages, ham, bacon) increase the risk of cardiovascular disease???",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does alcohol in moderate amounts prolong life?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does sitting for long periods shorten the lifespan?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Can perineal massage during pregnancy help prevent birth injury in first-time mothers?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Can light therapy with light lamps relieve the symptoms of autumn-winter depression?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.85,
+  "correct": true
+ },
+ {
+  "claim": "Does CBD (cannabidiol) relieve symptoms of mild to moderate covid-19 disease?",
+  "gold": "myth",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Does taking polyunsaturated fatty acids, such as omega-3 and omega-6, reduce ADHD symptoms in children?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does treatment according to the fascial distortion model help with chronic shoulder pain?",
+  "gold": "true",
+  "pred": "unknown",
+  "confidence": 0.3,
+  "correct": false
+ },
+ {
+  "claim": "Is it true that lowering cholesterol does not reduce the risk of cardiovascular disease?",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.8,
+  "correct": true
+ },
+ {
+  "claim": "Does hydroxychloroquine prevent covid-19 infection???",
+  "gold": "myth",
+  "pred": "myth",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does the Toxoplasma gondii parasite affect suicide rates?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does denosumab (Prolia) reduce the risk of vertebral fractures in osteoporosis?",
+  "gold": "true",
+  "pred": "true",
+  "confidence": 0.9,
+  "correct": true
+ },
+ {
+  "claim": "Does platelet-rich plasma therapy (autologous blood therapy) reduce pain in osteoarthritis of the knee joint?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does frankincense help with painful joint wear (osteoarthritis)?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "For knee osteoarthritis, does rubbing DMSO into the knee bring less pain and more mobility than rubbing a placebo?",
+  "gold": "myth",
+  "pred": "unknown",
+  "confidence": 0.4,
+  "correct": false
+ },
+ {
+  "claim": "Does taking rosehip powder for rheumatoid arthritis improve symptoms?",
+  "gold": "myth",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Do hormonal contraceptives to swallow (the \"pill\") affect endurance performance in women?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ },
+ {
+  "claim": "Does induction of labor make cesarean sections less necessary than observational waiting?",
+  "gold": "true",
+  "pred": "mixed",
+  "confidence": 0.6,
+  "correct": false
+ }
+]

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Medical MythTriage — Rumor Crusher</title>
+<style>
+  :root{
+    --ink:#0a2540; --muted:#5b7186; --bg:#f4f7fb; --card:#ffffff;
+    --blue1:#2563eb; --blue2:#0ea5e9; --rose1:#f43f5e; --rose2:#fb7185;
+    --green:#16a34a; --amber:#d97706; --line:#e3eaf2;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{background:var(--bg); color:var(--ink);
+       font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+       padding:30px 16px 48px;}
+  .wrap{max-width:620px; margin:0 auto;}
+  header{display:flex; align-items:center; gap:11px; margin-bottom:20px;}
+  .logo{width:38px;height:38px;border-radius:11px;flex:0 0 auto;
+        background:linear-gradient(135deg,var(--blue1),var(--blue2));
+        display:flex;align-items:center;justify-content:center;font-size:19px;
+        box-shadow:0 5px 13px rgba(37,99,235,.32);}
+  h1{font-size:19px; letter-spacing:-.02em;}
+  h1 span{background:linear-gradient(90deg,var(--blue1),var(--blue2));
+          -webkit-background-clip:text; background-clip:text; color:transparent;}
+  .badge{margin-left:auto; font-size:11.5px; font-weight:600; padding:5px 10px;
+         border-radius:999px; background:#e8eefc; color:var(--blue1); white-space:nowrap;}
+  .badge .dot{display:inline-block;width:7px;height:7px;border-radius:50%;
+              background:#94a3b8; margin-right:5px; vertical-align:1px;}
+  .badge.live{background:#e7f8ee; color:var(--green);}
+  .badge.live .dot{background:var(--green); box-shadow:0 0 0 3px rgba(22,163,74,.18);}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:20px;
+        padding:20px; box-shadow:0 10px 30px rgba(10,37,64,.06); margin-bottom:16px;}
+
+  /* ---- Ask box (Perplexity style) ---- */
+  .askBox{border:1.5px solid var(--line); border-radius:18px; background:#fbfcfe;
+          padding:14px 14px 10px; transition:border-color .15s, background .15s;}
+  .askBox:focus-within{border-color:var(--blue2); background:#fff;
+                       box-shadow:0 6px 22px rgba(14,165,233,.13);}
+  .askBox textarea{width:100%; border:0; outline:none; resize:none; background:transparent;
+                   font-family:inherit; font-size:17px; line-height:1.45; color:var(--ink);
+                   min-height:52px;}
+  .askBox textarea::placeholder{color:#93a7ba;}
+  .askRow{display:flex; align-items:center; gap:10px; margin-top:2px;}
+  .askHint{font-size:12px; color:#93a7ba;}
+  #runBtn{margin-left:auto; width:38px; height:38px; border-radius:50%; border:0;
+          background:linear-gradient(135deg,var(--blue1),var(--blue2)); color:#fff;
+          font-size:17px; cursor:pointer; flex:0 0 auto;
+          display:flex; align-items:center; justify-content:center;
+          box-shadow:0 5px 13px rgba(37,99,235,.35); transition:opacity .15s, transform .05s;}
+  #runBtn:active{transform:scale(.94);}
+  #runBtn:disabled{opacity:.45; cursor:wait;}
+  .tryLabel{font-size:12px; font-weight:700; letter-spacing:.07em; color:var(--muted);
+            text-transform:uppercase; margin:16px 0 8px;}
+  .chips{display:flex; flex-wrap:wrap; gap:8px;}
+  .chip{font-size:13px; padding:8px 13px; border-radius:999px; cursor:pointer;
+        background:#eef3fa; color:var(--ink); border:1px solid var(--line);
+        font-family:inherit; transition:background .15s; text-align:left;}
+  .chip:hover{background:#dde9fa;}
+  .yourcall{font-size:12px; font-weight:700; letter-spacing:.07em; color:var(--muted);
+            text-transform:uppercase; margin:18px 0 8px;}
+  .split{display:flex; height:42px; border-radius:12px; overflow:hidden;
+         box-shadow:0 6px 16px rgba(10,37,64,.10);}
+  .split button{flex:1; border:0; cursor:pointer; color:#fff; font-size:14.5px;
+                font-weight:700; font-family:inherit; transition:filter .15s, transform .05s;}
+  .split button:active{transform:scale(.985);}
+  #btnTrue{background:linear-gradient(90deg,var(--blue1),var(--blue2));
+           clip-path:polygon(0 0,100% 0,calc(100% - 12px) 100%,0 100%);}
+  #btnFake{background:linear-gradient(90deg,var(--rose1),var(--rose2));
+           clip-path:polygon(12px 0,100% 0,100% 100%,0 100%); margin-left:-6px;}
+  .split button.picked{filter:brightness(1.13) saturate(1.15);
+                       box-shadow:inset 0 0 0 3px rgba(255,255,255,.75);}
+  .split button.dim{filter:grayscale(.35) brightness(.92); opacity:.75;}
+  @keyframes shake{0%,100%{transform:translateX(0);}20%{transform:translateX(-6px);}
+                   40%{transform:translateX(6px);}60%{transform:translateX(-4px);}
+                   80%{transform:translateX(4px);}}
+  .split.shake{animation:shake .4s ease;}
+  .callHint{min-height:17px; font-size:12.5px; font-weight:600; color:var(--rose1);
+            margin-top:7px;}
+
+  /* ---- Agent theater ---- */
+  #agentCard{display:none;}
+  .stages{display:flex; align-items:stretch; gap:8px; margin-bottom:14px;}
+  .stage{flex:1; text-align:center; padding:10px 4px; border-radius:13px;
+         background:#eef3fa; color:var(--muted); font-size:13px; font-weight:700;
+         border:1.5px solid transparent; transition:all .25s;}
+  .stage small{display:block; font-weight:500; font-size:11px; margin-top:2px;}
+  .stage.on{background:#e8eefc; color:var(--blue1); border-color:var(--blue2);
+            box-shadow:0 4px 14px rgba(14,165,233,.25);}
+  .arrow{align-self:center; color:#b6c6d8; font-weight:700;}
+  .meterWrap{display:none; margin:4px 0 14px;}
+  .meterLabel{font-size:12px; color:var(--muted); margin-bottom:5px;}
+  .meter{position:relative; height:10px; background:#e8eef5; border-radius:99px;}
+  .meterFill{height:100%; width:0%; border-radius:99px;
+             background:linear-gradient(90deg,var(--blue1),var(--blue2));
+             transition:width .5s ease;}
+  .gateTick{position:absolute; top:-4px; left:90%; width:2.5px; height:18px;
+            background:var(--rose1); border-radius:2px;}
+  .gateTick::after{content:"gate 0.90"; position:absolute; top:-15px; left:-22px;
+                   font-size:10px; color:var(--rose1); font-weight:700; white-space:nowrap;}
+  .term{background:var(--ink); border-radius:14px; padding:14px 16px; min-height:52px;
+        font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+        font-size:12.8px; line-height:1.65; color:#c9d8ea;}
+  .term .ph{color:#7d94ad;}
+  .term .g{color:#7dd3fc;} .term .v{color:#fda4af;} .term .ok{color:#86efac;}
+
+  /* ---- Verdict presentation (fact-check result page style) ---- */
+  #verdictCard{display:none; position:relative; overflow:hidden;}
+  .claimEcho{font-size:21.5px; font-weight:700; line-height:1.42;
+             letter-spacing:-.01em; padding-right:104px; min-height:96px;}
+  .stamp{position:absolute; right:16px; top:14px; width:94px; height:94px;
+         border-radius:50%; border:3.5px solid var(--rose1); color:var(--rose1);
+         display:flex; flex-direction:column; align-items:center; justify-content:center;
+         transform:rotate(-12deg); background:rgba(244,63,94,.05);
+         pointer-events:none;}
+  .stamp::after{content:""; position:absolute; inset:4px; border-radius:50%;
+                border:1.5px solid currentColor; opacity:.65;}
+  .stamp b{font-size:20px; font-weight:800; letter-spacing:.05em; line-height:1;}
+  .stamp small{font-size:6.8px; font-weight:700; letter-spacing:.14em; margin-top:4px;}
+  .stamp.true{border-color:var(--green); color:var(--green); background:rgba(22,163,74,.05);}
+  .stamp.mixed{border-color:var(--amber); color:var(--amber); background:rgba(217,119,6,.05);}
+  .stamp.abstain{border-color:#94a3b8; color:#94a3b8; background:rgba(148,163,184,.06);}
+  .stamp b.small{font-size:12.5px;}
+  @keyframes stampIn{0%{transform:rotate(-12deg) scale(1.8); opacity:0;}
+                     60%{transform:rotate(-12deg) scale(.94); opacity:1;}
+                     100%{transform:rotate(-12deg) scale(1); opacity:1;}}
+  .stamp.play{animation:stampIn .38s ease-out;}
+  .identLine{display:flex; align-items:center; gap:9px; flex-wrap:wrap;
+             margin-top:6px; font-size:15.5px;}
+  .identLine b{font-weight:800;}
+  .id-myth{color:var(--rose1);} .id-true{color:var(--green);}
+  .id-mixed{color:var(--amber);} .id-abstain{color:var(--muted);}
+  .srcPill{font-size:11.5px; font-weight:700; color:var(--blue1);
+           background:#e8eefc; padding:4px 10px; border-radius:999px;}
+  .vMeta{font-size:13px; color:var(--muted); margin-top:5px;}
+  .callLine{margin-top:9px; font-size:14px; font-weight:600;}
+  .conclusion{display:none; margin-top:13px; font-size:14.5px; line-height:1.62;
+              background:#f7fafd; border-left:3.5px solid var(--blue2);
+              padding:11px 14px; border-radius:0 12px 12px 0; color:#24425f;}
+  .evHead{display:none; font-size:16.5px; font-weight:800; margin-top:19px;}
+  .evCap{display:none; font-size:12px; color:var(--muted); margin-top:2px;}
+  .ev{margin-top:13px;}
+  .evBadge{display:inline-flex; align-items:center; gap:6px; background:var(--ink);
+           color:#fff; font-size:11.5px; font-weight:700; letter-spacing:.02em;
+           padding:4.5px 11px; border-radius:7px;}
+  .evBadge .shield{color:#fbbf24;}
+  .evText{font-size:14.5px; line-height:1.62; color:#24425f; margin-top:7px;}
+  .evTitle{font-size:12.8px; color:var(--muted); margin-top:4px;}
+  .evTitle a{color:var(--blue1); text-decoration:none; font-weight:600;}
+  .dropped{margin-top:11px; font-size:12.5px; color:var(--rose1); font-weight:600;}
+  footer{text-align:center; font-size:12px; color:#8ba0b5; margin-top:6px; line-height:1.7;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">🩺</div>
+    <h1>Medical <span>MythTriage</span></h1>
+    <div class="badge" id="modeBadge"><span class="dot"></span>connecting…</div>
+  </header>
+
+  <div class="card">
+    <div class="askBox">
+      <textarea id="claimInput" rows="2"
+        placeholder="Enter a health claim to verify…"></textarea>
+      <div class="askRow">
+        <span class="askHint">Make your call — it reveals the answer</span>
+        <button id="runBtn" title="Run the agent">↑</button>
+      </div>
+    </div>
+    <div class="yourcall">Your call — really or fake?</div>
+    <div class="split" id="splitBar">
+      <button id="btnTrue">Really ✓</button>
+      <button id="btnFake">Fake ✗</button>
+    </div>
+    <div class="callHint" id="callHint"></div>
+    <div class="tryLabel">Try one</div>
+    <div class="chips" id="chips"></div>
+  </div>
+
+  <div class="card" id="agentCard">
+    <div class="stages">
+      <div class="stage" id="st-g">⚡ Glancer<small>one look · no tools</small></div>
+      <div class="arrow">›</div>
+      <div class="stage" id="st-gate">🚪 Gate<small>code · threshold 0.90</small></div>
+      <div class="arrow">›</div>
+      <div class="stage" id="st-v">🔍 Verifier<small>literature · cited verdict</small></div>
+    </div>
+    <div class="meterWrap" id="meterWrap">
+      <div class="meterLabel">Glancer confidence</div>
+      <div class="meter"><div class="meterFill" id="meterFill"></div><div class="gateTick"></div></div>
+    </div>
+    <div class="term" id="term"><span class="ph">The agent's steps will appear here.</span></div>
+  </div>
+
+  <div class="card" id="verdictCard">
+    <div class="claimEcho" id="claimEcho"></div>
+    <div class="stamp" id="stamp"><b id="stampWord">MYTH</b><small>MYTHTRIAGE · VERDICT</small></div>
+    <div class="identLine">🕵 Identification: <b id="identWord">myth</b>
+      <span class="srcPill" id="srcPill"></span></div>
+    <div class="vMeta" id="verdictMeta"></div>
+    <div class="callLine" id="callLine"></div>
+    <div class="conclusion" id="conclusion"></div>
+    <div class="evHead" id="evHead">Relevant evidence</div>
+    <div class="evCap" id="evCap">cited by the verifier in this run · validated in code</div>
+    <div id="citations"></div>
+    <div class="evHead" id="dsHead">Verified sources in the dataset</div>
+    <div class="evCap" id="dsCap">the claim's source-verified citations from the project dataset</div>
+    <div id="dsCitations"></div>
+    <div class="dropped" id="dropped"></div>
+  </div>
+
+  <footer>CS 329Z · Engineering AI Agents · Medical MythTriage midway demo<br>
+  Two-tier agent: glancer → confidence gate → literature verifier</footer>
+</div>
+
+<script>
+const PRESETS = [
+  "Flu shots can give you the flu",
+  "Drinking warm salt water cures high blood pressure",
+  "Cracking your knuckles causes arthritis",
+  "We only use 10% of our brains",
+  "Turkey makes you sleepy because of tryptophan",
+  "Antibiotics help a cold go away faster"
+];
+let yourCall = null, running = false;
+let lastVerdict = null, lastVerdictClaim = "";
+
+const $ = id => document.getElementById(id);
+const chipsEl = $("chips");
+PRESETS.forEach(p => {
+  const b = document.createElement("button");
+  b.className = "chip"; b.textContent = p;
+  b.onclick = () => { $("claimInput").value = p; resetCall(); $("claimInput").focus(); };
+  chipsEl.appendChild(b);
+});
+$("claimInput").addEventListener("input", resetCall);
+function resetCall(){
+  yourCall = null;
+  ["btnTrue","btnFake"].forEach(id => $(id).classList.remove("picked","dim"));
+}
+$("btnTrue").onclick = () => pick("true");
+$("btnFake").onclick = () => pick("myth");
+function pick(v){
+  yourCall = v;
+  $("callHint").textContent = "";
+  $("btnTrue").classList.toggle("picked", v === "true");
+  $("btnFake").classList.toggle("picked", v === "myth");
+  $("btnTrue").classList.toggle("dim", v !== "true");
+  $("btnFake").classList.toggle("dim", v !== "myth");
+  // Committing your call is what runs the agent and reveals the answer.
+  const claim = $("claimInput").value.trim();
+  if (!claim) return;
+  if (claim === lastVerdictClaim && lastVerdict) updateCallLine(lastVerdict);
+  else runAgent();
+}
+function updateCallLine(v){
+  const cl = $("callLine");
+  if (yourCall && v) {
+    if (yourCall === v) { cl.textContent = "✓ Your call matched the agent."; cl.style.color = "var(--green)"; }
+    else { cl.textContent = "✗ Your call differed — fluent claims fool fast judgments. That gap is the project."; cl.style.color = "var(--rose1)"; }
+  } else cl.textContent = "";
+}
+function promptCall(){
+  const bar = $("splitBar");
+  bar.classList.remove("shake"); void bar.offsetWidth; bar.classList.add("shake");
+  $("callHint").textContent = "👆 First make your call — Really or Fake? The answer comes after you commit.";
+}
+$("claimInput").addEventListener("keydown", e => {
+  if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); runAgent(); }
+});
+$("runBtn").onclick = runAgent;
+
+fetch("/mode").then(r => r.json()).then(m => {
+  const b = $("modeBadge");
+  if (m.live) { b.classList.add("live"); b.innerHTML = '<span class="dot"></span>LIVE · OpenRouter · ' + m.model; }
+  else { b.innerHTML = '<span class="dot"></span>OFFLINE stub model'; }
+}).catch(() => { $("modeBadge").textContent = "server mode unknown"; });
+
+function stageFor(step){
+  if (step.step === "glancer") return "st-g";
+  if (step.step === "gate") return "st-gate";
+  return "st-v";
+}
+function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;"); }
+
+async function runAgent(){
+  if (running) return;
+  let claim = $("claimInput").value.trim();
+  if (!claim) { claim = PRESETS[0]; $("claimInput").value = claim; }
+  if (!yourCall) { promptCall(); return; }
+  running = true;
+  const btn = $("runBtn");
+  btn.disabled = true; btn.textContent = "…";
+  $("agentCard").style.display = "block";
+  ["st-g","st-gate","st-v"].forEach(id => $(id).classList.remove("on"));
+  $("verdictCard").style.display = "none";
+  $("meterWrap").style.display = "none"; $("meterFill").style.width = "0%";
+  $("term").innerHTML = '<span class="ph">Contacting the agent…</span>';
+  $("agentCard").scrollIntoView({behavior:"smooth", block:"nearest"});
+  let res;
+  try {
+    const r = await fetch("/check", {method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({claim})});
+    res = await r.json();
+    if (res.error) throw new Error(res.error);
+  } catch(e) {
+    $("term").innerHTML = '<span class="v">Error: ' + esc(String(e.message || e)) + '</span>';
+    btn.disabled = false; btn.textContent = "↑"; running = false; return;
+  }
+  // Reveal the real trajectory step by step.
+  $("term").innerHTML = "";
+  for (const step of res.trajectory) {
+    $(stageFor(step)).classList.add("on");
+    const cls = step.step === "glancer" ? "g" : (step.step === "gate" ? "v" : "ok");
+    $("term").innerHTML += '<div>[' + esc(step.step) + '] <span class="' + cls + '">' +
+                           esc(step.detail) + '</span></div>';
+    const m = step.detail.match(/confidence=([0-9.]+)/);
+    if (step.step === "glancer" && m) {
+      $("meterWrap").style.display = "block";
+      $("meterFill").style.width = Math.round(parseFloat(m[1]) * 100) + "%";
+    }
+    await new Promise(r => setTimeout(r, 620));
+  }
+  showVerdict(res, claim);
+  btn.disabled = false; btn.textContent = "↑"; running = false;
+}
+
+function renderEv(container, papers){
+  container.innerHTML = "";
+  (papers || []).forEach(p => {
+    const d = document.createElement("div"); d.className = "ev";
+    d.innerHTML =
+      '<span class="evBadge"><span class="shield">🛡</span> ' +
+        esc(p.journal || "Peer-reviewed source") +
+        (p.year ? " · " + esc(p.year) : "") + "</span>" +
+      (p.key_finding ? '<p class="evText">' + esc(p.key_finding) + "</p>" : "") +
+      '<div class="evTitle">' + esc(p.title || p.doc_id) +
+        (p.url ? ' · <a href="' + esc(p.url) + '" target="_blank">View source ↗</a>' : "") +
+      "</div>";
+    container.appendChild(d);
+  });
+}
+
+function showVerdict(res, claim){
+  const card = $("verdictCard"); card.style.display = "block";
+  const v = (res.verdict || "abstain").toLowerCase();
+  $("claimEcho").textContent = claim;
+  // The stamp.
+  const stamp = $("stamp"), word = $("stampWord");
+  stamp.className = "stamp " + v;
+  word.textContent = v === "abstain" ? "ABSTAINED" : v.toUpperCase();
+  word.className = v === "abstain" ? "small" : "";
+  stamp.classList.remove("play"); void stamp.offsetWidth; stamp.classList.add("play");
+  // Identification line + source count pill.
+  const iw = $("identWord");
+  iw.textContent = v === "abstain" ? "could not determine" : v;
+  iw.className = "id-" + v;
+  const runPapers = res.citation_papers || [];
+  const dm = res.dataset_match;
+  const dsPapers = (dm && dm.papers) || [];
+  if (dsPapers.length) {
+    $("srcPill").textContent = "✓ " + dsPapers.length + " verified sources in dataset";
+    $("srcPill").style.display = "";
+  } else if (runPapers.length) {
+    $("srcPill").textContent = "✓ " + runPapers.length + " credible source" +
+      (runPapers.length > 1 ? "s" : "") + " checked";
+    $("srcPill").style.display = "";
+  } else $("srcPill").style.display = "none";
+  $("verdictMeta").textContent =
+    (res.source === "verifier" ? "Decided by the Verifier after literature search"
+                               : "Settled by the Glancer at the gate") +
+    " · confidence " + Number(res.confidence).toFixed(2) +
+    (res.abstain_reason ? " · " + res.abstain_reason : "");
+  lastVerdict = res.verdict ? v : null;
+  lastVerdictClaim = claim;
+  updateCallLine(res.verdict ? v : null);
+  // Dataset conclusion, when this claim is in the project datasets.
+  const conc = $("conclusion");
+  if (dm && dm.why) {
+    conc.style.display = "block";
+    conc.innerHTML = "<b>Dataset conclusion:</b> " + esc(dm.why);
+  } else conc.style.display = "none";
+  // Evidence, two groups: what the verifier cited in this run, and the
+  // claim's verified sources stored in the project dataset.
+  renderEv($("citations"), runPapers);
+  $("evHead").style.display = runPapers.length ? "block" : "none";
+  $("evCap").style.display = runPapers.length ? "block" : "none";
+  renderEv($("dsCitations"), dsPapers);
+  $("dsHead").style.display = dsPapers.length ? "block" : "none";
+  $("dsCap").style.display = dsPapers.length ? "block" : "none";
+  $("dropped").textContent = (res.dropped_citations && res.dropped_citations.length)
+    ? "Citation check dropped " + res.dropped_citations.length +
+      " citation(s) the model never actually retrieved." : "";
+  card.scrollIntoView({behavior:"smooth", block:"nearest"});
+}
+</script>
+</body>
+</html>

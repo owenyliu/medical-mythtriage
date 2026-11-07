@@ -66,6 +66,25 @@ a verdict are validated against what the verifier actually retrieved;
 unretrieved citations are dropped, and a verdict whose citations are all
 dropped becomes an abstention.
 
+## Live web demo
+
+A browser UI for the same agent (`server.py` + `mythtriage-web.html` at the
+repository root; standard library only, no dependencies):
+
+```bash
+# from the repository root — the key is read from your local env file:
+MYTHTRIAGE_ENV_FILE=/path/to/your/.env python3 server.py --live
+# then open http://127.0.0.1:8765
+```
+
+The page follows the fact-check flow the project studies: type a health
+claim (or pick a suggested one), commit to a judgment first (Really or
+Fake), and only then does the agent run — the verdict is revealed with a
+stamp, the sources the verifier cited in that run, and, for claims in the
+project datasets, the claim's three source-verified citations and its
+written explanation. Without `--live`, the server runs the offline stub
+model, so the UI also works with no API key.
+
 ## Running the external validation
 
 ```bash

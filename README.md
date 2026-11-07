@@ -1,6 +1,6 @@
 # Medical MythTriage — CS329Z Final Project (Midway Prototype)
 
-**Can a fast glance model be trusted to pre-screen medical claims?**
+**Can a fast decision model be trusted to pre-screen medical claims?**
 
 A two-tier delegation system for medical-claim screening. **Tier 1 (the
 glancer)** sees each claim exactly once — no search, no tools — and returns a

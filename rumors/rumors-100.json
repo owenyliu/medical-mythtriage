@@ -1,0 +1,3406 @@
+{
+ "dataset": "Rumor Crusher — 100 medical claims with top-journal evidence verdicts",
+ "built": "2026-11-05",
+ "claims": [
+  {
+   "category": "疫苗",
+   "citations": [
+    {
+     "authors": "Nichol et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "vaccinated working adults had 25% fewer upper respiratory illness episodes than placebo recipients",
+     "pmid": "7666874",
+     "title": "The effectiveness of vaccination against influenza in healthy, working adults",
+     "year": 1995
+    },
+    {
+     "authors": "Osterholm et al.",
+     "journal": "The Lancet Infectious Diseases",
+     "key_finding": "pooled analysis found inactivated influenza vaccine 59% efficacious in adults aged 18-65",
+     "pmid": "22032844",
+     "title": "Efficacy and effectiveness of influenza vaccines: a systematic review and meta-analysis",
+     "year": 2012
+    },
+    {
+     "authors": "Demicheli et al.",
+     "journal": "Cochrane Database of Systematic Reviews",
+     "key_finding": "inactivated vaccine reduced influenza from 2.3% to 0.9% in healthy adults",
+     "pmid": "29388196",
+     "title": "Vaccines for preventing influenza in healthy adults",
+     "year": 2018
+    }
+   ],
+   "claim_en": "Getting a flu shot can actually give you the flu",
+   "claim_zh": "打流感疫苗反而会让人得流感",
+   "id": "A01",
+   "verdict": "谣言",
+   "why_zh": "流感疫苗里装的是已经灭活或弱化的病毒，没法让你得流感，而且打了疫苗的人感冒和流感样发作反而更少。"
+  },
+  {
+   "category": "疫苗",
+   "citations": [
+    {
+     "authors": "Madsen et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "537,303 Danish children showed no increased risk of autism after MMR vaccination (adjusted RR 0.92)",
+     "pmid": "12421889",
+     "title": "A population-based study of measles, mumps, and rubella vaccination and autism",
+     "year": 2002
+    },
+    {
+     "authors": "Hviid et al.",
+     "journal": "Annals of Internal Medicine",
+     "key_finding": "657,461 children showed no increased risk of autism after MMR vaccination (aHR 0.93)",
+     "pmid": "30831578",
+     "title": "Measles, Mumps, Rubella Vaccination and Autism: A Nationwide Cohort Study",
+     "year": 2019
+    },
+    {
+     "authors": "Di Pietrantonj et al.",
+     "journal": "Cochrane Database of Systematic Reviews",
+     "key_finding": "Cochrane review of 138 studies found no association between MMR vaccine and autism",
+     "pmid": "32309885",
+     "title": "Vaccines for measles, mumps, rubella, and varicella in children",
+     "year": 2020
+    }
+   ],
+   "claim_en": "The MMR vaccine causes autism in children",
+   "claim_zh": "打麻腮风（MMR）疫苗会导致孩子得自闭症",
+   "id": "A02",
+   "verdict": "谣言",
+   "why_zh": "丹麦几十万孩子的大调查发现，打没打MMR疫苗的孩子得自闭症的比例几乎一样，疫苗和自闭症没有关系。"
+  },
+  {
+   "category": "疫苗",
+   "citations": [
+    {
+     "authors": "Hviid et al.",
+     "journal": "JAMA",
+     "key_finding": "467,450 children showed no dose-response link between thimerosal-containing vaccine and autism (RR 0.85)",
+     "pmid": "14519711",
+     "title": "Association between thimerosal-containing vaccine and autism",
+     "year": 2003
+    },
+    {
+     "authors": "Thompson et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "1,047 children showed no causal association between early thimerosal exposure and 42 neuropsychological outcomes",
+     "pmid": "17898097",
+     "title": "Early thimerosal exposure and neuropsychological outcomes at 7 to 10 years",
+     "year": 2007
+    },
+    {
+     "authors": "Offit",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "reviewed the evidence and concluded it does not support thimerosal in vaccines causing harm",
+     "pmid": "17898096",
+     "title": "Thimerosal and Vaccines — A Cautionary Tale",
+     "year": 2007
+    }
+   ],
+   "claim_en": "The mercury preservative thimerosal in vaccines causes autism",
+   "claim_zh": "疫苗里含水银（硫柳汞），会把孩子毒成自闭症",
+   "id": "A03",
+   "verdict": "谣言",
+   "why_zh": "几十万孩子的数据显示，接触硫柳汞多少和自闭症没有关系，后来疫苗里去掉它，自闭症人数也没有下降。"
+  },
+  {
+   "category": "疫苗",
+   "citations": [
+    {
+     "authors": "Gonzalez et al.",
+     "journal": "JAMA",
+     "key_finding": "45 men showed no decrease in any sperm parameter after mRNA vaccination",
+     "pmid": "34137808",
+     "title": "Sperm Parameters Before and After COVID-19 mRNA Vaccination",
+     "year": 2021
+    },
+    {
+     "authors": "Shimabukuro et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "35,691 pregnant v-safe participants showed no obvious safety signals from mRNA vaccines",
+     "pmid": "33882218",
+     "title": "Preliminary Findings of mRNA Covid-19 Vaccine Safety in Pregnant Persons",
+     "year": 2021
+    },
+    {
+     "authors": "Kharbanda et al.",
+     "journal": "JAMA",
+     "key_finding": "105,446 pregnancies showed no increased risk of spontaneous abortion after COVID-19 vaccination (adjusted OR 1.02)",
+     "pmid": "34495304",
+     "title": "Spontaneous Abortion Following COVID-19 Vaccination During Pregnancy",
+     "year": 2021
+    }
+   ],
+   "claim_en": "COVID-19 vaccines cause infertility in men and women",
+   "claim_zh": "打新冠疫苗会导致不孕不育",
+   "id": "A04",
+   "verdict": "谣言",
+   "why_zh": "科学家测过打疫苗前后的精子数量和几万名孕妇的怀孕结果，都没有变差，疫苗不会影响生孩子。"
+  },
+  {
+   "category": "疫苗",
+   "citations": [
+    {
+     "authors": "Scheller et al.",
+     "journal": "JAMA",
+     "key_finding": "nearly 4 million females in Denmark and Sweden showed no increased risk of multiple sclerosis after HPV vaccination (adjusted RR 0.90)",
+     "pmid": "25562266",
+     "title": "Quadrivalent HPV vaccination and risk of multiple sclerosis and other demyelinating diseases of the central nervous system",
+     "year": 2015
+    },
+    {
+     "authors": "Arnheim-Dahlström et al.",
+     "journal": "BMJ",
+     "key_finding": "about 1 million girls showed no evidence of association between HPV vaccine and 53 autoimmune, neurological, and thromboembolic outcomes",
+     "pmid": "24108159",
+     "title": "Autoimmune, neurological, and venous thromboembolic adverse events after immunisation of adolescent girls with quadrivalent human papillomavirus vaccine in Denmark and Sweden: cohort study",
+     "year": 2013
+    },
+    {
+     "authors": "Arbyn et al.",
+     "journal": "Cochrane Database of Systematic Reviews",
+     "key_finding": "26 trials with 73,428 participants found high-certainty protection against cervical precancer and no increase in serious adverse events",
+     "pmid": "29740819",
+     "title": "Prophylactic vaccination against human papillomaviruses to prevent cervical cancer and its precursors",
+     "year": 2018
+    }
+   ],
+   "claim_en": "The HPV vaccine triggers autoimmune diseases",
+   "claim_zh": "打HPV疫苗会引发自身免疫病",
+   "id": "A05",
+   "verdict": "谣言",
+   "why_zh": "北欧上百万女孩的长期跟踪发现，打过HPV疫苗的人得自身免疫病的比例和没打的人完全一样。"
+  },
+  {
+   "category": "疫苗",
+   "citations": [
+    {
+     "authors": "Ascherio et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "Nurses' Health Studies nested case-control analysis found no association between hepatitis B vaccination and multiple sclerosis (RR 0.9)",
+     "pmid": "11172163",
+     "title": "Hepatitis B vaccination and the risk of multiple sclerosis",
+     "year": 2001
+    },
+    {
+     "authors": "Confavreux et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "643 patients showed vaccination, including hepatitis B, did not increase the risk of multiple sclerosis relapse (RR 0.71)",
+     "pmid": "11172162",
+     "title": "Vaccinations and the risk of relapse in multiple sclerosis",
+     "year": 2001
+    },
+    {
+     "authors": "Langer-Gould et al.",
+     "journal": "JAMA Neurology",
+     "key_finding": "780 cases and 3,885 controls showed no longer-term association between hepatitis B vaccine and multiple sclerosis",
+     "pmid": "25329096",
+     "title": "Vaccines and the risk of multiple sclerosis and other central nervous system demyelinating diseases",
+     "year": 2014
+    }
+   ],
+   "claim_en": "The hepatitis B vaccine causes multiple sclerosis",
+   "claim_zh": "打乙肝疫苗会导致多发性硬化",
+   "id": "A06",
+   "verdict": "谣言",
+   "why_zh": "这个说法最早是传闻，但护士群体和病人对照研究都发现，打乙肝疫苗的人得硬化症的比例并不比别人高。"
+  },
+  {
+   "category": "疫苗",
+   "citations": [
+    {
+     "authors": "Hall et al.",
+     "journal": "The Lancet",
+     "key_finding": "previous infection was associated with an 84% lower risk of reinfection, with protection observed for at least 7 months",
+     "pmid": "33844963",
+     "title": "SARS-CoV-2 infection rates of antibody-positive compared with antibody-negative health-care workers in England: a large, multicentre, prospective cohort study (SIREN)",
+     "year": 2021
+    },
+    {
+     "authors": "Nordström et al.",
+     "journal": "The Lancet Infectious Diseases",
+     "key_finding": "vaccination after natural infection cut reinfection risk further (one-dose hybrid immunity aHR 0.42, two-dose 0.34)",
+     "pmid": "35366962",
+     "title": "Risk of SARS-CoV-2 reinfection and COVID-19 hospitalisation in individuals with natural and hybrid immunity: a retrospective, total population cohort study in Sweden",
+     "year": 2022
+    },
+    {
+     "authors": "Goldberg et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "both natural and hybrid immunity waned over time, though hybrid immunity remained stronger",
+     "pmid": "35613036",
+     "title": "Protection and Waning of Natural and Hybrid Immunity to SARS-CoV-2",
+     "year": 2022
+    }
+   ],
+   "claim_en": "If you have already had COVID-19, you never need the vaccine",
+   "claim_zh": "得过新冠就有抗体了，不用再打疫苗",
+   "id": "A07",
+   "verdict": "半真半假",
+   "why_zh": "得过新冠确实能保护你一阵子，但这份保护会慢慢变弱，再补一针疫苗组成的混合免疫更强也更持久。"
+  },
+  {
+   "category": "疫苗",
+   "citations": [
+    {
+     "authors": "Bar-On et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "in people 60 and older, a booster made confirmed infection 11.3 times lower and severe illness 19.5 times lower",
+     "pmid": "34525275",
+     "title": "Protection of BNT162b2 Vaccine Booster against Covid-19 in Israel",
+     "year": 2021
+    },
+    {
+     "authors": "Andrews et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "two BNT162b2 doses fell from 65.5% effectiveness against Omicron at 2-4 weeks to 8.8% at 25 weeks or more",
+     "pmid": "35249272",
+     "title": "Covid-19 Vaccine Effectiveness against the Omicron (B.1.1.529) Variant",
+     "year": 2022
+    },
+    {
+     "authors": "Chemaitelly et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "effectiveness against infection peaked at 77.5% in the first month and fell to about 20% by months 5-7, while protection against severe disease stayed above 90%",
+     "pmid": "34614327",
+     "title": "Waning of BNT162b2 Vaccine Protection against SARS-CoV-2 Infection in Qatar",
+     "year": 2021
+    }
+   ],
+   "claim_en": "Protection from COVID-19 vaccines fades after a few months, so booster shots are needed",
+   "claim_zh": "新冠疫苗打完过几个月保护就变弱了，得打加强针",
+   "id": "A08",
+   "verdict": "属实",
+   "why_zh": "数据摆在那儿：两针打完半年后防感染的效果从六成多掉到一成左右，而打一针加强针又能把保护拉回来。"
+  },
+  {
+   "category": "疫苗",
+   "citations": [
+    {
+     "authors": "Zaman et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "maternal influenza immunization reduced laboratory-confirmed influenza in infants by 63%",
+     "pmid": "18799552",
+     "title": "Effectiveness of maternal influenza immunization in mothers and infants",
+     "year": 2008
+    },
+    {
+     "authors": "Madhi et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "randomized trials showed vaccine efficacy of about 50.4% in pregnant women and 48.8% in their infants",
+     "pmid": "25184864",
+     "title": "Influenza Vaccination of Pregnant Women and Protection of Their Infants",
+     "year": 2014
+    },
+    {
+     "authors": "Omer et al.",
+     "journal": "The Lancet Respiratory Medicine",
+     "key_finding": "pooled analysis of 10,002 women showed infant efficacy of 35% up to 6 months and 56% in the first 2 months of life",
+     "pmid": "32526188",
+     "title": "Efficacy, duration of protection, birth outcomes, and infant growth associated with influenza vaccination in pregnancy: a pooled analysis of three randomised controlled trials",
+     "year": 2020
+    }
+   ],
+   "claim_en": "Getting a flu shot during pregnancy also protects the baby after birth",
+   "claim_zh": "孕妇打流感疫苗，出生后的宝宝也能少得流感",
+   "id": "A09",
+   "verdict": "属实",
+   "why_zh": "妈妈打疫苗做出的抗体能通过胎盘送给宝宝，宝宝出生头几个月还不能打疫苗，就靠这份抗体挡流感。"
+  },
+  {
+   "category": "疫苗",
+   "citations": [
+    {
+     "authors": "Lal et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "the adjuvanted subunit vaccine was 97.2% efficacious against herpes zoster in adults 50 years and older (ZOE-50)",
+     "pmid": "25916341",
+     "title": "Efficacy of an Adjuvanted Herpes Zoster Subunit Vaccine in Older Adults",
+     "year": 2015
+    },
+    {
+     "authors": "Cunningham et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "efficacy was 91.3% against herpes zoster and 88.8% against postherpetic neuralgia in adults 70 and older (ZOE-70)",
+     "pmid": "27626517",
+     "title": "Efficacy of the Herpes Zoster Subunit Vaccine in Adults 70 Years of Age or Older",
+     "year": 2016
+    },
+    {
+     "authors": "Oxman et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "in 38,546 adults, vaccination reduced the incidence of postherpetic neuralgia by 66.5% and of herpes zoster by 51.3%",
+     "pmid": "15930418",
+     "title": "A Vaccine to Prevent Herpes Zoster and Postherpetic Neuralgia in Older Adults",
+     "year": 2005
+    }
+   ],
+   "claim_en": "The shingles vaccine really can prevent postherpetic neuralgia, the long-lasting nerve pain after shingles",
+   "claim_zh": "带状疱疹疫苗真能预防带状疱疹后神经痛",
+   "id": "A10",
+   "verdict": "属实",
+   "why_zh": "几万人的临床试验证明，新款带状疱疹疫苗防发病超过九成，连最折磨人的后遗神经痛也能防住八九成。"
+  },
+  {
+   "category": "传染病",
+   "citations": [
+    {
+     "authors": "Kenealy et al.",
+     "journal": "Cochrane Database of Systematic Reviews",
+     "key_finding": "antibiotics showed no benefit over placebo for the common cold and increased adverse effects",
+     "pmid": "23733381",
+     "title": "Antibiotics for the common cold and acute purulent rhinitis",
+     "year": 2013
+    },
+    {
+     "authors": "Spinks et al.",
+     "journal": "Cochrane Database of Systematic Reviews",
+     "key_finding": "across 29 trials, 82% of placebo patients were symptom-free by one week, so most sore throats resolve without antibiotics",
+     "pmid": "34881426",
+     "title": "Antibiotics for treatment of sore throat in children and adults",
+     "year": 2021
+    },
+    {
+     "authors": "Smith et al.",
+     "journal": "Cochrane Database of Systematic Reviews",
+     "key_finding": "17 trials showed only limited benefit from antibiotics in acute bronchitis and more adverse effects (RR 1.20)",
+     "pmid": "28626858",
+     "title": "Antibiotics for acute bronchitis",
+     "year": 2017
+    }
+   ],
+   "claim_en": "Taking antibiotics helps you recover from a common cold faster",
+   "claim_zh": "感冒了吃抗生素好得快",
+   "id": "A11",
+   "verdict": "谣言",
+   "why_zh": "感冒是病毒惹的祸，抗生素只杀细菌不杀病毒，吃了不但好不了，还会多出拉肚子之类的副作用。"
+  },
+  {
+   "category": "传染病",
+   "citations": [
+    {
+     "authors": "Iuliano et al.",
+     "journal": "The Lancet",
+     "key_finding": "seasonal influenza is associated with an estimated 291,243 to 645,832 respiratory deaths worldwide each year",
+     "pmid": "29248255",
+     "title": "Estimates of global seasonal influenza-associated respiratory mortality: a modelling study",
+     "year": 2018
+    },
+    {
+     "authors": "Thompson et al.",
+     "journal": "JAMA",
+     "key_finding": "influenza was associated with an average of about 36,155 respiratory and circulatory deaths per year in the United States",
+     "pmid": "12517228",
+     "title": "Mortality associated with influenza and respiratory syncytial virus in the United States",
+     "year": 2003
+    },
+    {
+     "authors": "Paules et al.",
+     "journal": "The Lancet",
+     "key_finding": "Lancet seminar describes influenza as a systemic viral disease distinct from the common cold that can cause pneumonia and death",
+     "pmid": "28302313",
+     "title": "Influenza",
+     "year": 2017
+    }
+   ],
+   "claim_en": "Influenza is just a heavy cold and nothing to worry about",
+   "claim_zh": "流感就是重点的感冒，没什么大不了",
+   "id": "A12",
+   "verdict": "谣言",
+   "why_zh": "普通感冒最多难受几天，而流感每年在全世界带走几十万条命，还能引起肺炎，根本不是一个级别的病。"
+  },
+  {
+   "category": "传染病",
+   "citations": [
+    {
+     "authors": "Abaluck et al.",
+     "journal": "Science",
+     "key_finding": "in 342,183 adults, mask promotion reduced symptomatic seroprevalence (aPR 0.91), with a stronger effect in surgical-mask villages among people 60 and older (aPR 0.65)",
+     "pmid": "34855513",
+     "title": "Impact of community masking on COVID-19: A cluster-randomized trial in Bangladesh",
+     "year": 2022
+    },
+    {
+     "authors": "Leung et al.",
+     "journal": "Nature Medicine",
+     "key_finding": "surgical masks significantly reduced influenza virus RNA in respiratory droplets and coronavirus RNA in aerosols",
+     "pmid": "32371934",
+     "title": "Respiratory virus shedding in exhaled breath and efficacy of face masks",
+     "year": 2020
+    },
+    {
+     "authors": "Loeb et al.",
+     "journal": "JAMA",
+     "key_finding": "surgical masks were noninferior to N95 respirators for preventing laboratory-confirmed influenza among 446 nurses",
+     "pmid": "19797474",
+     "title": "Surgical mask vs N95 respirator for preventing influenza among health care workers: a randomized trial",
+     "year": 2009
+    }
+   ],
+   "claim_en": "Mask pores are far bigger than viruses, so wearing a mask cannot block viruses at all",
+   "claim_zh": "口罩的孔比病毒大得多，戴口罩根本挡不住病毒",
+   "id": "A13",
+   "verdict": "谣言",
+   "why_zh": "病毒出门大多坐在飞沫这辆车上，口罩拦的是车不是单个病毒，34万人的大实验证明推广戴口罩的村子感染的人明显更少。"
+  },
+  {
+   "category": "传染病",
+   "citations": [
+    {
+     "authors": "Arons et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "56% of positive residents were asymptomatic at testing, and viable virus was recovered from presymptomatic residents",
+     "pmid": "32329971",
+     "title": "Presymptomatic SARS-CoV-2 Infections and Transmission in a Skilled Nursing Facility",
+     "year": 2020
+    },
+    {
+     "authors": "He et al.",
+     "journal": "Nature Medicine",
+     "key_finding": "an estimated 44% of secondary cases were infected during the index case's presymptomatic stage",
+     "pmid": "32296168",
+     "title": "Temporal dynamics in viral shedding and transmissibility of COVID-19",
+     "year": 2020
+    },
+    {
+     "authors": "Gandhi et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "asymptomatic and presymptomatic transmission undermines symptom-based screening as a control strategy",
+     "pmid": "32329972",
+     "title": "Asymptomatic Transmission, the Achilles' Heel of Current Strategies to Control Covid-19",
+     "year": 2020
+    }
+   ],
+   "claim_en": "People without any symptoms cannot spread COVID-19",
+   "claim_zh": "没有症状的人不会传染新冠，不用防着他们",
+   "id": "A14",
+   "verdict": "谣言",
+   "why_zh": "很多人在还没出现症状的时候喉咙里就有活病毒能传给别人，据估计四成多的新冠传染发生在病人发病之前。"
+  },
+  {
+   "category": "传染病",
+   "citations": [
+    {
+     "authors": "Hansen et al.",
+     "journal": "The Lancet",
+     "key_finding": "protection against reinfection was 80.5% overall but only 47.1% in people aged 65 and older",
+     "pmid": "33743221",
+     "title": "Assessment of protection against reinfection with SARS-CoV-2 among 4 million PCR-tested individuals in Denmark in 2020: a population-level observational study",
+     "year": 2021
+    },
+    {
+     "authors": "Bowe et al.",
+     "journal": "Nature Medicine",
+     "key_finding": "reinfection carried higher risks of death (HR 2.17) and hospitalization (HR 3.32) than no reinfection",
+     "pmid": "36357676",
+     "title": "Acute and postacute sequelae associated with SARS-CoV-2 reinfection",
+     "year": 2022
+    },
+    {
+     "authors": "Altarawneh et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "previous infection alone was only 46.1% effective against symptomatic Omicron BA.2 infection, while hybrid immunity was strongest",
+     "pmid": "35704396",
+     "title": "Effects of Previous Infection and Vaccination on Symptomatic Omicron Infections",
+     "year": 2022
+    }
+   ],
+   "claim_en": "Once you have had COVID-19, you are immune for life and cannot be reinfected",
+   "claim_zh": "得过一次新冠就终身免疫，不会再感染了",
+   "id": "A15",
+   "verdict": "谣言",
+   "why_zh": "得过新冠的保护力大概只有八成，65岁以上的人还不到一半，而且第二次感染比第一次更容易住院甚至出事。"
+  },
+  {
+   "category": "传染病",
+   "citations": [
+    {
+     "authors": "van Doremalen et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "viable virus was detectable for up to 72 hours on plastic and steel under laboratory conditions, though titers fell sharply",
+     "pmid": "32182409",
+     "title": "Aerosol and Surface Stability of SARS-CoV-2 as Compared with SARS-CoV-1",
+     "year": 2020
+    },
+    {
+     "authors": "Goldman",
+     "journal": "The Lancet Infectious Diseases",
+     "key_finding": "the chance of fomite transmission in real life is very small because surface studies used unrealistically high viral loads",
+     "pmid": "32628907",
+     "title": "Exaggerated risk of transmission of COVID-19 by fomites",
+     "year": 2020
+    },
+    {
+     "authors": "Mondelli et al.",
+     "journal": "The Lancet Infectious Diseases",
+     "key_finding": "environmental sampling under real-life hospital conditions found a low risk of transmission by fomites",
+     "pmid": "33007224",
+     "title": "Low risk of SARS-CoV-2 transmission by fomites in real-life conditions",
+     "year": 2021
+    }
+   ],
+   "claim_en": "Touching parcels and doorknobs is the main way people catch COVID-19",
+   "claim_zh": "摸快递、碰门把手是感染新冠的主要方式",
+   "id": "A16",
+   "verdict": "半真半假",
+   "why_zh": "实验室里病毒确实能在塑料上活到三天，但真实生活中靠摸东西传染的概率很小，新冠主要是顺着空气里的飞沫传播的。"
+  },
+  {
+   "category": "传染病",
+   "citations": [
+    {
+     "authors": "Young et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "in 700 ICU patients, acetaminophen lowered fever but did not change ICU-free days or mortality (HEAT trial)",
+     "pmid": "26436473",
+     "title": "Acetaminophen for Fever in Critically Ill Patients with Suspected Infection",
+     "year": 2015
+    },
+    {
+     "authors": "Bernard et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "ibuprofen reduced fever in 455 sepsis patients but did not improve survival (37% vs 40% mortality)",
+     "pmid": "9070471",
+     "title": "The effects of ibuprofen on the physiology and survival of patients with sepsis",
+     "year": 1997
+    },
+    {
+     "authors": "Sadleir et al.",
+     "journal": "BMJ",
+     "key_finding": "BMJ clinical review: febrile seizures in children are benign and have a normal cognitive outcome",
+     "pmid": "17289734",
+     "title": "Febrile seizures",
+     "year": 2007
+    }
+   ],
+   "claim_en": "A child's fever will burn and damage their brain if it is not brought down quickly",
+   "claim_zh": "孩子发烧不赶紧退烧会把脑子烧坏",
+   "id": "A17",
+   "verdict": "谣言",
+   "why_zh": "发烧是身体打仗的正常反应、体温不会无限升高，试验证明硬把烧退下去也不会让人好得更快，真正伤脑子的是脑炎这类病本身不是发烧。"
+  },
+  {
+   "category": "传染病",
+   "citations": [
+    {
+     "authors": "Mina et al.",
+     "journal": "Science",
+     "key_finding": "in 77 unvaccinated children, measles eliminated 11% to 73% of the preexisting antibody repertoire",
+     "pmid": "31672891",
+     "title": "Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens",
+     "year": 2019
+    },
+    {
+     "authors": "Mina et al.",
+     "journal": "Science",
+     "key_finding": "measles-induced immunomodulation lasts about 2-3 years and tracks with deaths from non-measles infections",
+     "pmid": "25954009",
+     "title": "Long-term measles-induced immunomodulation increases overall childhood infectious disease mortality",
+     "year": 2015
+    },
+    {
+     "authors": "Moss",
+     "journal": "The Lancet",
+     "key_finding": "Lancet seminar documents measles virus-induced immune suppression and immune amnesia as a major cause of measles complications",
+     "pmid": "28673424",
+     "title": "Measles",
+     "year": 2017
+    }
+   ],
+   "claim_en": "Measles erases the immune system's memory of other germs, so children get infections more easily for years afterwards",
+   "claim_zh": "得过一次麻疹，身体会把以前记住的病菌记忆抹掉，之后几年更容易生病",
+   "id": "A18",
+   "verdict": "属实",
+   "why_zh": "科学家直接查了孩子的血液，发现得过麻疹后身体把以前攒下的抗体丢掉了11%到73%，这叫免疫遗忘。"
+  },
+  {
+   "category": "传染病",
+   "citations": [
+    {
+     "authors": "Bhat et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "153 influenza-associated deaths were reported among US children in a single season, with a median age of 3 years",
+     "pmid": "16354892",
+     "title": "Influenza-associated deaths among children in the United States, 2003-2004",
+     "year": 2005
+    },
+    {
+     "authors": "Dawood et al.",
+     "journal": "The Lancet Infectious Diseases",
+     "key_finding": "of an estimated 284,500 deaths from 2009 pandemic H1N1, 80% were in people younger than 65 years",
+     "pmid": "22738893",
+     "title": "Estimated global mortality associated with the first 12 months of 2009 pandemic influenza A H1N1 virus circulation: a modelling study",
+     "year": 2012
+    },
+    {
+     "authors": "Webb et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "722 patients were admitted to ICUs with confirmed 2009 H1N1 in Australia and New Zealand, and 14.3% of them died",
+     "pmid": "19815860",
+     "title": "Critical care services and 2009 H1N1 influenza in Australia and New Zealand",
+     "year": 2009
+    }
+   ],
+   "claim_en": "Influenza is only dangerous for old people; healthy young people have nothing to worry about",
+   "claim_zh": "流感只有老年人才危险，健康年轻人不用担心",
+   "id": "A19",
+   "verdict": "谣言",
+   "why_zh": "2009年那场大流感里八成的死亡者不到65岁，光美国一个流感季就有一百多个孩子病死，年轻人照样会住进重症监护室。"
+  },
+  {
+   "category": "传染病",
+   "citations": [
+    {
+     "authors": "Jefferson et al.",
+     "journal": "Cochrane Database of Systematic Reviews",
+     "key_finding": "across 78 randomized trials, hand hygiene interventions likely reduced respiratory illnesses",
+     "pmid": "36715243",
+     "title": "Physical interventions to interrupt or reduce the spread of respiratory viruses",
+     "year": 2023
+    },
+    {
+     "authors": "Cowling et al.",
+     "journal": "Annals of Internal Medicine",
+     "key_finding": "facemasks plus hand hygiene started within 36 hours of symptom onset reduced household influenza transmission (adjusted OR 0.33)",
+     "pmid": "19652172",
+     "title": "Facemasks and hand hygiene to prevent influenza transmission in households: a cluster randomized trial",
+     "year": 2009
+    },
+    {
+     "authors": "Little et al.",
+     "journal": "The Lancet",
+     "key_finding": "in 20,066 adults, a handwashing programme reduced respiratory infections (51% vs 59% reporting an infection; risk ratio 0.86)",
+     "pmid": "26256072",
+     "title": "An internet-delivered handwashing intervention to modify influenza-like illness and respiratory infection transmission (PRIMIT): a primary care randomised trial",
+     "year": 2015
+    }
+   ],
+   "claim_en": "Washing your hands frequently really does reduce colds and other respiratory infections",
+   "claim_zh": "勤洗手真的能减少感冒等呼吸道感染",
+   "id": "A20",
+   "verdict": "属实",
+   "why_zh": "两万多人的大实验证明，认真洗手的人呼吸道感染少了大约14%，因为手是病毒搭便车钻进鼻子和嘴巴的主要通道。"
+  },
+  {
+   "category": "癌症",
+   "citations": [
+    {
+     "authors": "Thun MJ et al.",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "smoking was linked to rising death rates from many diseases, not just lung cancer",
+     "pmid": "23343064",
+     "title": "50-year trends in smoking-related mortality in the United States",
+     "year": 2013
+    },
+    {
+     "authors": "Jha P et al.",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "smokers had about three times the death rate of never-smokers across many causes",
+     "pmid": "23343063",
+     "title": "21st-century hazards of smoking and benefits of cessation in the United States",
+     "year": 2013
+    },
+    {
+     "authors": "Carter BD et al.",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "about 17% of excess deaths in smokers came from diseases not yet officially counted as smoking-caused, including breast and prostate cancer deaths",
+     "pmid": "25671255",
+     "title": "Smoking and mortality--beyond established causes",
+     "year": 2015
+    }
+   ],
+   "claim_en": "Smoking only causes lung cancer and has little to do with other cancers.",
+   "claim_zh": "吸烟只会得肺癌，对其他癌症没什么影响。",
+   "id": "B01",
+   "verdict": "谣言",
+   "why_zh": "烟雾里的毒素会流遍全身，除了肺癌，它还会增加十几种癌症的风险，比如乳腺癌和前列腺癌。"
+  },
+  {
+   "category": "癌症",
+   "citations": [
+    {
+     "authors": "GBD 2016 Alcohol Collaborators",
+     "journal": "The Lancet",
+     "key_finding": "the level of alcohol consumption that minimized harm across health outcomes was zero standard drinks per week",
+     "pmid": "30146330",
+     "title": "Alcohol use and burden for 195 countries and territories, 1990-2016: a systematic analysis for the Global Burden of Disease Study 2016",
+     "year": 2018
+    },
+    {
+     "authors": "Wood AM et al.",
+     "journal": "The Lancet",
+     "key_finding": "all-cause mortality risk rose steadily above about 100 g of alcohol per week, with no safe protective effect",
+     "pmid": "29676281",
+     "title": "Risk thresholds for alcohol consumption: combined analysis of individual-participant data for 599 912 current drinkers in 83 prospective studies",
+     "year": 2018
+    },
+    {
+     "authors": "Rumgay H et al.",
+     "journal": "The Lancet Oncology",
+     "key_finding": "an estimated 741,300 new cancer cases worldwide in 2020 were attributable to alcohol consumption",
+     "pmid": "34270924",
+     "title": "Global burden of cancer in 2020 attributable to alcohol consumption: a population-based study",
+     "year": 2021
+    }
+   ],
+   "claim_en": "Drinking a little red wine every day is good for your health and helps prevent cancer.",
+   "claim_zh": "每天喝一点红酒有益健康，还能防癌。",
+   "id": "B02",
+   "verdict": "谣言",
+   "why_zh": "酒精本身就是致癌物，哪怕每天只喝一点也会慢慢增加癌症风险，喝得越少越安全。"
+  },
+  {
+   "category": "癌症",
+   "citations": [
+    {
+     "authors": "The Alpha-Tocopherol, Beta Carotene Cancer Prevention Study Group",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "beta carotene supplements increased lung cancer incidence by 18% in male smokers instead of preventing it",
+     "pmid": "8127329",
+     "title": "The effect of vitamin E and beta carotene on the incidence of lung cancer and other cancers in male smokers",
+     "year": 1994
+    },
+    {
+     "authors": "Klein EA et al.",
+     "journal": "JAMA",
+     "key_finding": "vitamin E supplements significantly increased prostate cancer risk (hazard ratio 1.17) in healthy men",
+     "pmid": "21990298",
+     "title": "Vitamin E and the risk of prostate cancer: the Selenium and Vitamin E Cancer Prevention Trial (SELECT)",
+     "year": 2011
+    },
+    {
+     "authors": "Gaziano JM et al.",
+     "journal": "JAMA",
+     "key_finding": "a daily multivitamin gave only a modest 8% reduction in total cancer and no reduction in any specific cancer",
+     "pmid": "23162860",
+     "title": "Multivitamins in the prevention of cancer in men: the Physicians' Health Study II randomized controlled trial",
+     "year": 2012
+    }
+   ],
+   "claim_en": "Taking vitamin supplements can prevent cancer.",
+   "claim_zh": "多吃维生素补充剂就能预防癌症。",
+   "id": "B03",
+   "verdict": "谣言",
+   "why_zh": "大型实验反复证明，维生素补充剂没有防癌效果，有的反而让某些癌症更容易发生。"
+  },
+  {
+   "category": "癌症",
+   "citations": [
+    {
+     "authors": "Lauby-Secretan B et al.",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "the IARC working group found sufficient evidence that excess body fatness causes 13 types of cancer",
+     "pmid": "27557308",
+     "title": "Body Fatness and Cancer -- Viewpoint of the IARC Working Group",
+     "year": 2016
+    },
+    {
+     "authors": "Renehan AG et al.",
+     "journal": "The Lancet",
+     "key_finding": "higher body-mass index was associated with increased risk of many common cancers in a meta-analysis of prospective studies",
+     "pmid": "18280327",
+     "title": "Body-mass index and incidence of cancer: a systematic review and meta-analysis of prospective observational studies",
+     "year": 2008
+    },
+    {
+     "authors": "Kyrgiou M et al.",
+     "journal": "BMJ",
+     "key_finding": "an umbrella review found strong evidence linking excess adiposity to 11 cancers",
+     "pmid": "28246088",
+     "title": "Adiposity and cancer at major anatomical sites: umbrella review of the literature",
+     "year": 2017
+    }
+   ],
+   "claim_en": "Being overweight is harmless, and obesity has nothing to do with cancer.",
+   "claim_zh": "胖一点没关系，肥胖跟癌症没什么关系。",
+   "id": "B04",
+   "verdict": "谣言",
+   "why_zh": "国际癌症专家已经确认，身上的脂肪太多会让至少13种癌症更容易找上门。"
+  },
+  {
+   "category": "癌症",
+   "citations": [
+    {
+     "authors": "Pearce MS et al.",
+     "journal": "The Lancet",
+     "key_finding": "cumulative CT doses around 50 mGy in childhood might almost triple leukaemia risk, but the absolute risks remained small",
+     "pmid": "22681860",
+     "title": "Radiation exposure from CT scans in childhood and subsequent risk of leukaemia and brain tumours: a retrospective cohort study",
+     "year": 2012
+    },
+    {
+     "authors": "Mathews JD et al.",
+     "journal": "BMJ",
+     "key_finding": "cancer incidence was 24% higher in young people exposed to CT, an absolute excess of about 9.4 cases per 100,000 person-years",
+     "pmid": "23694687",
+     "title": "Cancer risk in 680 000 people exposed to computed tomography scans in childhood or adolescence: data linkage study of 11 million Australians",
+     "year": 2013
+    },
+    {
+     "authors": "Brenner DJ et al.",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "an estimated 1.5-2% of future US cancers might be attributable to CT radiation, so scans should be justified and doses kept low, not avoided when needed",
+     "pmid": "18046031",
+     "title": "Computed tomography--an increasing source of radiation exposure",
+     "year": 2007
+    }
+   ],
+   "claim_en": "Getting a single CT scan will give you cancer from the radiation, so you should never have one.",
+   "claim_zh": "做一次CT检查，辐射就会让人得癌症，千万别做。",
+   "id": "B05",
+   "verdict": "半真半假",
+   "why_zh": "CT的辐射确实有一点点风险，尤其是对小朋友，但一次检查的额外风险非常小；该做时不做、耽误病情反而更危险。"
+  },
+  {
+   "category": "癌症",
+   "citations": [
+    {
+     "authors": "Lei J et al.",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "girls vaccinated before age 17 had an 88% lower risk of invasive cervical cancer in a nationwide Swedish study",
+     "pmid": "32997908",
+     "title": "HPV Vaccination and the Risk of Invasive Cervical Cancer",
+     "year": 2020
+    },
+    {
+     "authors": "The FUTURE II Study Group",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "the quadrivalent HPV vaccine was 98% effective against high-grade cervical lesions in the per-protocol population",
+     "pmid": "17494925",
+     "title": "Quadrivalent vaccine against human papillomavirus to prevent high-grade cervical lesions",
+     "year": 2007
+    },
+    {
+     "authors": "Arbyn M et al.",
+     "journal": "Cochrane Database of Systematic Reviews",
+     "key_finding": "across 26 trials with 73,428 women, HPV vaccines protected against cervical precancer and serious adverse events occurred in about 7% of both vaccine and control groups",
+     "pmid": "29740819",
+     "title": "Prophylactic vaccination against human papillomaviruses to prevent cervical cancer and its precursors",
+     "year": 2018
+    }
+   ],
+   "claim_en": "The HPV vaccine is useless and may even be harmful, so don't get it.",
+   "claim_zh": "HPV疫苗根本没用，打了还可能有害，别打。",
+   "id": "B06",
+   "verdict": "谣言",
+   "why_zh": "上百万人的数据证明，HPV疫苗能大幅减少宫颈癌，严重不良反应的发生率跟打安慰剂差不多。"
+  },
+  {
+   "category": "癌症",
+   "citations": [
+    {
+     "authors": "National Lung Screening Trial Research Team",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "low-dose CT screening reduced lung-cancer mortality by 20.0% relative to chest X-ray in 53,454 high-risk people",
+     "pmid": "21714641",
+     "title": "Reduced lung-cancer mortality with low-dose computed tomographic screening",
+     "year": 2011
+    },
+    {
+     "authors": "Independent UK Panel on Breast Cancer Screening",
+     "journal": "The Lancet",
+     "key_finding": "a meta-analysis of 11 trials found breast screening reduced breast-cancer mortality (relative risk 0.80), while overdiagnosis also occurs",
+     "pmid": "23117178",
+     "title": "The benefits and harms of breast cancer screening: an independent review",
+     "year": 2012
+    },
+    {
+     "authors": "Schröder FH et al.",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "PSA screening reduced the rate of death from prostate cancer by 20% in 162,243 men, at the cost of a high risk of overdiagnosis",
+     "pmid": "19297566",
+     "title": "Screening and prostate-cancer mortality in a randomized European study",
+     "year": 2009
+    }
+   ],
+   "claim_en": "Cancer screening is just a money-making scam by hospitals; early screening doesn't help at all.",
+   "claim_zh": "癌症筛查都是医院骗钱的，早期筛查根本没用。",
+   "id": "B07",
+   "verdict": "谣言",
+   "why_zh": "对高风险人群，筛查真的能救命，比如肺癌筛查让死亡风险下降了五分之一；它的问题是过度诊断，所以要挑对人、挑对项目，而不是全盘否定。"
+  },
+  {
+   "category": "癌症",
+   "citations": [
+    {
+     "authors": "Islami F et al.",
+     "journal": "BMJ",
+     "key_finding": "drinking very hot tea was associated with 8.16 times the odds of oesophageal cancer compared with warm or lukewarm tea",
+     "pmid": "19325180",
+     "title": "Tea drinking habits and oesophageal cancer in a high risk area in northern Iran: population based case-control study",
+     "year": 2009
+    },
+    {
+     "authors": "Yu C et al.",
+     "journal": "Annals of Internal Medicine",
+     "key_finding": "in 456,155 Chinese adults, burning-hot tea combined with daily alcohol use carried a hazard ratio of 5.00 for esophageal cancer, and with smoking 2.03",
+     "pmid": "29404576",
+     "title": "Hot Tea Consumption and Its Interactions With Alcohol and Tobacco Use on the Risk for Esophageal Cancer: A Population-Based Cohort Study",
+     "year": 2018
+    },
+    {
+     "authors": "Loomis D et al.",
+     "journal": "The Lancet Oncology",
+     "key_finding": "IARC classified drinking very hot beverages above 65°C as probably carcinogenic to humans (Group 2A)",
+     "pmid": "27318851",
+     "title": "Carcinogenicity of drinking coffee, mate, and very hot beverages",
+     "year": 2016
+    }
+   ],
+   "claim_en": "Regularly drinking very hot tea and eating very hot food increases the risk of esophageal cancer.",
+   "claim_zh": "经常喝烫茶、吃烫的食物，会增加得食管癌的风险。",
+   "id": "B08",
+   "verdict": "属实",
+   "why_zh": "太烫的饮料会一次次烫伤食道，好几个大研究都发现，喝滚烫茶水的人得食管癌的明显更多。"
+  },
+  {
+   "category": "癌症",
+   "citations": [
+    {
+     "authors": "Chang MH et al.",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "childhood liver cancer incidence in Taiwan fell from 0.70 to 0.36 per 100,000 after universal hepatitis B vaccination began in 1984",
+     "pmid": "9197213",
+     "title": "Universal hepatitis B vaccination in Taiwan and the incidence of hepatocellular carcinoma in children",
+     "year": 1997
+    },
+    {
+     "authors": "Chen CJ et al.",
+     "journal": "JAMA",
+     "key_finding": "liver cancer incidence rose from 108 to 1,152 per 100,000 person-years as hepatitis B viral load increased, showing the virus drives the cancer",
+     "pmid": "16391218",
+     "title": "Risk of hepatocellular carcinoma across a biological gradient of serum hepatitis B virus DNA level",
+     "year": 2006
+    },
+    {
+     "authors": "Liaw YF et al.",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "suppressing hepatitis B with antiviral treatment cut liver cancer occurrence from 7.4% to 3.9% (hazard ratio 0.49)",
+     "pmid": "15470215",
+     "title": "Lamivudine for patients with chronic hepatitis B and advanced liver disease",
+     "year": 2004
+    }
+   ],
+   "claim_en": "Vaccinating children against hepatitis B can prevent liver cancer later in life.",
+   "claim_zh": "给孩子接种乙肝疫苗，以后能预防肝癌。",
+   "id": "B09",
+   "verdict": "属实",
+   "why_zh": "很多肝癌是乙肝病毒多年慢慢引起的，台湾全面给孩子打乙肝疫苗后，儿童肝癌的发生率明显下降了。"
+  },
+  {
+   "category": "癌症",
+   "citations": [
+    {
+     "authors": "Bouvard V et al.",
+     "journal": "The Lancet Oncology",
+     "key_finding": "IARC classified processed meat as carcinogenic to humans (Group 1); each 50 g eaten daily raises colorectal cancer risk by about 18%",
+     "pmid": "26514947",
+     "title": "Carcinogenicity of consumption of red and processed meat",
+     "year": 2015
+    },
+    {
+     "authors": "Pan A et al.",
+     "journal": "JAMA Internal Medicine",
+     "key_finding": "each daily serving of processed red meat was associated with higher cancer mortality (hazard ratio 1.16) and total mortality (1.20)",
+     "pmid": "22412075",
+     "title": "Red meat consumption and mortality: results from 2 prospective cohort studies",
+     "year": 2012
+    },
+    {
+     "authors": "Sinha R et al.",
+     "journal": "JAMA Internal Medicine",
+     "key_finding": "in over half a million people, the highest processed-meat intake was associated with elevated total and cancer mortality",
+     "pmid": "19307518",
+     "title": "Meat intake and mortality: a prospective study of over half a million people",
+     "year": 2009
+    }
+   ],
+   "claim_en": "Eating processed meats like ham, sausages and bacon regularly increases the risk of colorectal cancer.",
+   "claim_zh": "经常吃火腿、香肠、培根这些加工肉，会增加得肠癌的风险。",
+   "id": "B10",
+   "verdict": "属实",
+   "why_zh": "国际癌症研究机构把加工肉列为明确的致癌物，每天吃50克，大肠癌风险大约增加18%。"
+  },
+  {
+   "category": "心脑血管",
+   "citations": [
+    {
+     "authors": "Boden WE et al.",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "in the COURAGE trial of 2,287 patients with stable disease, adding PCI to optimal medical therapy did not reduce death or heart attack",
+     "pmid": "17387127",
+     "title": "Optimal medical therapy with or without PCI for stable coronary disease",
+     "year": 2007
+    },
+    {
+     "authors": "Maron DJ et al.",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "in the ISCHEMIA trial of 5,179 patients, an initial invasive strategy did not reduce ischemic events or death versus a conservative strategy over a median 3.2 years",
+     "pmid": "32227755",
+     "title": "Initial Invasive or Conservative Strategy for Stable Coronary Disease",
+     "year": 2020
+    },
+    {
+     "authors": "Al-Lamee R et al.",
+     "journal": "The Lancet",
+     "key_finding": "in placebo-controlled ORBITA, PCI did not increase exercise time more than a sham procedure in stable single-vessel angina",
+     "pmid": "29103656",
+     "title": "Percutaneous coronary intervention in stable angina (ORBITA): a double-blind, randomised controlled trial",
+     "year": 2018
+    }
+   ],
+   "claim_en": "Heart stents are a scam that other countries abandoned long ago; getting one is a waste of money.",
+   "claim_zh": "心脏支架是骗人的，国外早就淘汰了，装支架纯粹是浪费钱。",
+   "id": "B11",
+   "verdict": "谣言",
+   "why_zh": "心梗突发时支架能救命、国外一直在用；只是病情稳定时，它主要是缓解胸痛，不一定比吃药更能延长寿命。"
+  },
+  {
+   "category": "心脑血管",
+   "citations": [
+    {
+     "authors": "SPRINT Research Group",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "targeting systolic pressure below 120 rather than below 140 mm Hg cut the primary outcome (hazard ratio 0.75) and all-cause mortality (0.73)",
+     "pmid": "26551272",
+     "title": "A Randomized Trial of Intensive versus Standard Blood-Pressure Control",
+     "year": 2015
+    },
+    {
+     "authors": "Lewington S et al.",
+     "journal": "The Lancet",
+     "key_finding": "each 20 mm Hg higher usual systolic pressure was associated with about a twofold higher risk of stroke and ischemic heart disease death, with no threshold down to 115/75",
+     "pmid": "12493255",
+     "title": "Age-specific relevance of usual blood pressure to vascular mortality: a meta-analysis of individual data for one million adults in 61 prospective studies",
+     "year": 2002
+    },
+    {
+     "authors": "Ettehad D et al.",
+     "journal": "The Lancet",
+     "key_finding": "across 123 trials with 613,815 participants, every 10 mm Hg reduction in systolic pressure cut major cardiovascular events (relative risk 0.80) and stroke (0.73)",
+     "pmid": "26724178",
+     "title": "Blood pressure lowering for prevention of cardiovascular disease and death: a systematic review and meta-analysis",
+     "year": 2016
+    }
+   ],
+   "claim_en": "If high blood pressure causes no symptoms like dizziness, you don't need to take medication for it.",
+   "claim_zh": "高血压只要没头晕、没症状，就不用吃药。",
+   "id": "B12",
+   "verdict": "谣言",
+   "why_zh": "高血压伤害血管是悄悄进行的，等有症状往往已经伤到心和脑了；把血压降下来能明显减少中风和死亡。"
+  },
+  {
+   "category": "心脑血管",
+   "citations": [
+    {
+     "authors": "Cholesterol Treatment Trialists' (CTT) Collaboration",
+     "journal": "The Lancet",
+     "key_finding": "each 1.0 mmol/L LDL reduction cut major vascular events (relative risk 0.78) and all-cause mortality (0.90), with no effect on cancer incidence or non-vascular death",
+     "pmid": "21067804",
+     "title": "Efficacy and safety of more intensive lowering of LDL cholesterol: a meta-analysis of data from 170,000 participants in 26 randomised trials",
+     "year": 2010
+    },
+    {
+     "authors": "Cholesterol Treatment Trialists' (CTT) Collaborators",
+     "journal": "The Lancet",
+     "key_finding": "statins cut major vascular events by about 21% per 1 mmol/L LDL reduction even in low-risk people, with no increase in cancer incidence or mortality",
+     "pmid": "22607822",
+     "title": "The effects of lowering LDL cholesterol with statin therapy in people at low risk of vascular disease: meta-analysis of individual data from 27 randomised trials",
+     "year": 2012
+    },
+    {
+     "authors": "Collins R et al.",
+     "journal": "The Lancet",
+     "key_finding": "the only well-proven serious harms of statins are rare myopathy, new-onset diabetes and probably haemorrhagic stroke, and benefits greatly exceed harms",
+     "pmid": "27616593",
+     "title": "Interpretation of the evidence for the efficacy and safety of statin therapy",
+     "year": 2016
+    }
+   ],
+   "claim_en": "Statins damage the liver and kidneys and must never be taken long-term.",
+   "claim_zh": "他汀类药物伤肝又伤肾，绝对不能长期吃。",
+   "id": "B13",
+   "verdict": "谣言",
+   "why_zh": "几十万人参加的试验数据表明，他汀的严重副作用非常少见，它减少的心梗和中风远远多于它带来的伤害。"
+  },
+  {
+   "category": "心脑血管",
+   "citations": [
+    {
+     "authors": "McNeil JJ et al.",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "in 19,114 healthy elderly people (ASPREE), daily aspirin did not prolong disability-free survival (hazard ratio 1.01) and increased major hemorrhage (3.8% vs 2.8%)",
+     "pmid": "30221596",
+     "title": "Effect of Aspirin on Disability-free Survival in the Healthy Elderly",
+     "year": 2018
+    },
+    {
+     "authors": "ASCEND Study Collaborative Group",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "in 15,480 people with diabetes, aspirin cut serious vascular events (8.5% vs 9.6%) but raised major bleeding (4.1% vs 3.2%), largely counterbalancing the benefit",
+     "pmid": "30146931",
+     "title": "Effects of Aspirin for Primary Prevention in Persons with Diabetes Mellitus",
+     "year": 2018
+    },
+    {
+     "authors": "Gaziano JM et al.",
+     "journal": "The Lancet",
+     "key_finding": "in 12,546 moderate-risk patients, aspirin did not significantly reduce first vascular events (hazard ratio 0.96) and doubled gastrointestinal bleeding (2.11)",
+     "pmid": "30158069",
+     "title": "Use of aspirin to reduce risk of initial vascular events in patients at moderate risk of cardiovascular disease (ARRIVE): a randomised, double-blind, placebo-controlled trial",
+     "year": 2018
+    }
+   ],
+   "claim_en": "Aspirin is a miracle drug for preventing heart attacks, and every healthy person should take one daily.",
+   "claim_zh": "阿司匹林是预防心梗的神药，健康人每天吃一片准没错。",
+   "id": "B14",
+   "verdict": "半真半假",
+   "why_zh": "对已经得过心梗的人，阿司匹林确实重要；但健康人天天吃，防病的好处会被出血风险差不多抵消，不能自己乱吃。"
+  },
+  {
+   "category": "心脑血管",
+   "citations": [
+    {
+     "authors": "Keeley EC et al.",
+     "journal": "The Lancet",
+     "key_finding": "across 23 trials with 7,739 STEMI patients, urgent hospital primary angioplasty beat thrombolysis on death (7% vs 9%) and on combined death, reinfarction and stroke (8% vs 14%)",
+     "pmid": "12517460",
+     "title": "Primary angioplasty versus intravenous thrombolytic therapy for acute myocardial infarction: a quantitative review of 23 randomised trials",
+     "year": 2003
+    },
+    {
+     "authors": "De Luca G et al.",
+     "journal": "Circulation",
+     "key_finding": "each 30-minute delay to primary angioplasty raised the relative risk of 1-year mortality by 7.5%",
+     "pmid": "15007008",
+     "title": "Time delay to treatment and mortality in primary angioplasty for acute myocardial infarction: every minute of delay counts",
+     "year": 2004
+    },
+    {
+     "authors": "Terkelsen CJ et al.",
+     "journal": "JAMA",
+     "key_finding": "in 6,209 STEMI patients, long-term mortality rose from 15.4% with system delay under 60 minutes to 30.8% with 181-360 minutes",
+     "pmid": "20716739",
+     "title": "System delay and mortality among patients with STEMI treated with primary percutaneous coronary intervention",
+     "year": 2010
+    }
+   ],
+   "claim_en": "When a heart attack strikes, just lie down at home, take some medicine and tough it out — no need to go to hospital.",
+   "claim_zh": "心梗发作时先在家躺一躺、吃点药忍一忍，缓过来就没事了，不用去医院。",
+   "id": "B15",
+   "verdict": "谣言",
+   "why_zh": "心梗时每耽误半小时，心肌就多坏死一块，死亡风险明显上升，必须马上打120去医院开通血管。"
+  },
+  {
+   "category": "心脑血管",
+   "citations": [
+    {
+     "authors": "Yusuf S et al.",
+     "journal": "The Lancet",
+     "key_finding": "nine modifiable risk factors accounted for over 90% of the population-attributable risk of heart attack in both sexes and at all ages in all regions",
+     "pmid": "15364185",
+     "title": "Effect of potentially modifiable risk factors associated with myocardial infarction in 52 countries (the INTERHEART study): case-control study",
+     "year": 2004
+    },
+    {
+     "authors": "O'Donnell MJ et al.",
+     "journal": "The Lancet",
+     "key_finding": "ten modifiable risk factors accounted for about 90.7% of stroke risk, including a population-attributable risk of 92.2% in patients aged 55 or younger",
+     "pmid": "27431356",
+     "title": "Global and regional effects of potentially modifiable risk factors associated with acute stroke in 32 countries (INTERSTROKE): a case-control study",
+     "year": 2016
+    },
+    {
+     "authors": "Teo KK et al.",
+     "journal": "The Lancet",
+     "key_finding": "current smoking carried an odds ratio of 2.95 for non-fatal heart attack versus never smoking, with risk rising 5.6% per extra cigarette per day, across age groups",
+     "pmid": "16920470",
+     "title": "Tobacco use and risk of myocardial infarction in 52 countries in the INTERHEART study: a case-control study",
+     "year": 2006
+    }
+   ],
+   "claim_en": "Heart attacks and strokes are diseases of old people; young people don't need to worry about them.",
+   "claim_zh": "心梗和脑梗是老年人的病，年轻人不用担心。",
+   "id": "B16",
+   "verdict": "谣言",
+   "why_zh": "引起心梗脑梗的主要危险因素，比如吸烟、高血压、血脂异常，对年轻人一样起作用，而且九成以上的风险来自这些可以改变的因素。"
+  },
+  {
+   "category": "心脑血管",
+   "citations": [
+    {
+     "authors": "Aung T et al.",
+     "journal": "JAMA Cardiology",
+     "key_finding": "omega-3 supplements had no significant association with coronary heart disease death, nonfatal heart attack, or major vascular events across 77,917 participants",
+     "pmid": "29387889",
+     "title": "Associations of Omega-3 Fatty Acid Supplement Use With Cardiovascular Disease Risks: Meta-analysis of 10 Trials Involving 77 917 Individuals",
+     "year": 2018
+    },
+    {
+     "authors": "ASCEND Study Collaborative Group",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "in 15,480 people with diabetes, n-3 fatty acid supplements did not reduce serious vascular events (8.9% vs 9.2%; rate ratio 0.97)",
+     "pmid": "30146932",
+     "title": "Effects of n-3 Fatty Acid Supplements in Diabetes Mellitus",
+     "year": 2018
+    },
+    {
+     "authors": "Manson JE et al.",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "in the VITAL trial of 25,871 adults, marine n-3 fatty acids did not significantly lower major cardiovascular events or invasive cancer versus placebo",
+     "pmid": "30415637",
+     "title": "Marine n-3 Fatty Acids and Prevention of Cardiovascular Disease and Cancer",
+     "year": 2019
+    }
+   ],
+   "claim_en": "Taking deep-sea fish oil every day can prevent heart disease.",
+   "claim_zh": "每天吃深海鱼油，就能预防心脏病。",
+   "id": "B17",
+   "verdict": "谣言",
+   "why_zh": "好几个上万人参加的大试验都发现，鱼油胶囊并没有减少心梗和中风；想护心还是要好好吃饭、多运动、控制三高。"
+  },
+  {
+   "category": "心脑血管",
+   "citations": [
+    {
+     "authors": "Antithrombotic Trialists' (ATT) Collaboration",
+     "journal": "The Lancet",
+     "key_finding": "long-term daily aspirin in secondary prevention cut serious vascular events from 8.2% to 6.7% per year — proven stroke prevention is sustained daily medication, not periodic infusions",
+     "pmid": "19482214",
+     "title": "Aspirin in the primary and secondary prevention of vascular disease: collaborative meta-analysis of individual participant data from randomised trials",
+     "year": 2009
+    },
+    {
+     "authors": "PROGRESS Collaborative Group",
+     "journal": "The Lancet",
+     "key_finding": "long-term blood-pressure lowering cut recurrent stroke by 28% overall and by 43% with perindopril plus indapamide in 6,105 patients",
+     "pmid": "11589932",
+     "title": "Randomised trial of a perindopril-based blood-pressure-lowering regimen among 6,105 individuals with previous stroke or transient ischaemic attack",
+     "year": 2001
+    },
+    {
+     "authors": "Amarenco P et al.",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "daily atorvastatin 80 mg after stroke or TIA reduced recurrent stroke (hazard ratio 0.84) and major cardiovascular events (0.80) over a median 4.9 years",
+     "pmid": "16899775",
+     "title": "High-dose atorvastatin after stroke or transient ischemic attack",
+     "year": 2006
+    }
+   ],
+   "claim_en": "Getting an IV infusion twice a year can clear your blood vessels and prevent strokes.",
+   "claim_zh": "每年去医院输两次液，就能疏通血管、预防脑梗。",
+   "id": "B18",
+   "verdict": "谣言",
+   "why_zh": "没有任何证据说输液能通血管；真正被证明能防脑梗的，是每天坚持吃降压、抗血小板和降血脂的药。"
+  },
+  {
+   "category": "心脑血管",
+   "citations": [
+    {
+     "authors": "Vogel B et al.",
+     "journal": "The Lancet",
+     "key_finding": "cardiovascular disease is the leading cause of death in women, with an estimated 275 million women living with it in 2019, yet it remains understudied and undertreated in women",
+     "pmid": "34010613",
+     "title": "The Lancet women and cardiovascular disease Commission: reducing the global burden by 2030",
+     "year": 2021
+    },
+    {
+     "authors": "Canto JG et al.",
+     "journal": "JAMA",
+     "key_finding": "among 1,143,513 heart attack patients, women more often presented without chest pain (42.0% vs 30.7%) and had higher in-hospital mortality than men (14.6% vs 10.3%)",
+     "pmid": "22357832",
+     "title": "Association of age and sex with myocardial infarction symptom presentation and in-hospital mortality",
+     "year": 2012
+    },
+    {
+     "authors": "Mehta LS et al.",
+     "journal": "Circulation",
+     "key_finding": "the AHA's first scientific statement on heart attack in women documents that cardiovascular disease is the leading cause of mortality in women, with sex differences in presentation, mechanisms and outcomes",
+     "pmid": "26811316",
+     "title": "Acute Myocardial Infarction in Women: A Scientific Statement From the American Heart Association",
+     "year": 2016
+    }
+   ],
+   "claim_en": "Heart disease is a man's disease; women don't get heart attacks.",
+   "claim_zh": "心脏病是男人的病，女人不会得心梗。",
+   "id": "B19",
+   "verdict": "谣言",
+   "why_zh": "心血管病其实是女性死亡的第一大原因，而且女性心梗常常没有胸痛，更容易被漏诊、被耽误。"
+  },
+  {
+   "category": "心脑血管",
+   "citations": [
+    {
+     "authors": "Lear SA et al.",
+     "journal": "The Lancet",
+     "key_finding": "moderate physical activity was associated with lower mortality (hazard ratio 0.80) and major cardiovascular disease (0.86) in 130,843 people across 17 countries",
+     "pmid": "28943267",
+     "title": "The effect of physical activity on mortality and cardiovascular disease in 130 000 people from 17 high-income, middle-income, and low-income countries: the PURE study",
+     "year": 2017
+    },
+    {
+     "authors": "Ekelund U et al.",
+     "journal": "The Lancet",
+     "key_finding": "in over 1 million people, the most active group (about 60-75 minutes of moderate activity daily) had no excess mortality from prolonged sitting",
+     "pmid": "27475271",
+     "title": "Does physical activity attenuate, or even eliminate, the detrimental association of sitting time with mortality? A harmonised meta-analysis of data from more than 1 million men and women",
+     "year": 2016
+    },
+    {
+     "authors": "Arem H et al.",
+     "journal": "JAMA Internal Medicine",
+     "key_finding": "meeting the recommended activity minimum was associated with 31% lower mortality, and even activity below the minimum gave a 20% lower risk, in 661,137 people",
+     "pmid": "25844730",
+     "title": "Leisure Time Physical Activity and Mortality: A Detailed Pooled Analysis of the Dose-Response Relationship",
+     "year": 2015
+    }
+   ],
+   "claim_en": "Moderate-intensity exercise like brisk walking every day really does lower the risk of cardiovascular disease.",
+   "claim_zh": "每天快走等中等强度的运动，真的能降低心脑血管病的风险。",
+   "id": "B20",
+   "verdict": "属实",
+   "why_zh": "十几万人的长期跟踪发现，动得越多的人死于心脑血管病的越少，就算只达到推荐的最低运动量也有明显好处。"
+  },
+  {
+   "category": "营养食物",
+   "citations": [
+    {
+     "authors": "Wolraich et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "double-blind crossover trial: high-sugar diets did not change children's behavior or cognition on any of 39 measures",
+     "pmid": "8277950",
+     "title": "Effects of diets high in sucrose or aspartame on the behavior and cognitive performance of children",
+     "year": 1994
+    },
+    {
+     "authors": "Wolraich et al.",
+     "journal": "JAMA",
+     "key_finding": "meta-analysis of 23 controlled studies: sugar did not affect children's behavior or cognitive performance",
+     "pmid": "7474248",
+     "title": "The effect of sugar on behavior or cognition in children. A meta-analysis",
+     "year": 1995
+    },
+    {
+     "authors": "Kinsbourne",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "NEJM editorial on the trial evidence: sugar does not induce hyperactivity in children",
+     "pmid": "8277958",
+     "title": "Sugar and the hyperactive child",
+     "year": 1994
+    }
+   ],
+   "claim_en": "Eating too much sugar makes children hyperactive",
+   "claim_zh": "孩子吃糖多了会变多动、坐不住",
+   "id": "C01",
+   "verdict": "谣言",
+   "why_zh": "科学家把孩子分成吃真糖和吃代糖两组偷偷观察，吃真糖的孩子一点也没更闹腾，觉得孩子变闹多半是大人先入为主的错觉。"
+  },
+  {
+   "category": "营养食物",
+   "citations": [
+    {
+     "authors": "Bouvard et al.",
+     "journal": "The Lancet Oncology",
+     "key_finding": "IARC classified processed meat as Group 1 (carcinogenic); each 50 g/day portion raises colorectal cancer risk by about 18%",
+     "pmid": "26514947",
+     "title": "Carcinogenicity of consumption of red and processed meat",
+     "year": 2015
+    },
+    {
+     "authors": "Zheng et al.",
+     "journal": "BMJ",
+     "key_finding": "increasing processed red meat intake was associated with higher total mortality (HR 1.13 per additional half serving/day)",
+     "pmid": "31189526",
+     "title": "Association of changes in red meat consumption with total and cause specific mortality among US women and men: two prospective cohort studies",
+     "year": 2019
+    },
+    {
+     "authors": "Micha et al.",
+     "journal": "JAMA",
+     "key_finding": "high processed meat intake was associated with about 8.2% of cardiometabolic deaths in the United States",
+     "pmid": "28267855",
+     "title": "Association Between Dietary Factors and Mortality From Heart Disease, Stroke, and Type 2 Diabetes in the United States",
+     "year": 2017
+    }
+   ],
+   "claim_en": "Eating a lot of processed meat such as ham sausage, bacon and sausages causes cancer",
+   "claim_zh": "火腿肠、培根、香肠这类加工肉吃多了会致癌",
+   "id": "C02",
+   "verdict": "属实",
+   "why_zh": "世卫组织把加工肉列为明确致癌物，每天多吃大约一两，肠癌风险就明显上升。"
+  },
+  {
+   "category": "营养食物",
+   "citations": [
+    {
+     "authors": "de Ruyter et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "in 641 children over 18 months, the sugar-sweetened beverage group gained about 1 kg more than the sugar-free group",
+     "pmid": "22998340",
+     "title": "A trial of sugar-free or sugar-sweetened beverages and body weight in children",
+     "year": 2012
+    },
+    {
+     "authors": "Ebbeling et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "replacing sugary drinks reduced BMI gain in overweight adolescents at one year",
+     "pmid": "22998339",
+     "title": "A randomized trial of sugar-sweetened beverages and adolescent body weight",
+     "year": 2012
+    },
+    {
+     "authors": "Malik et al.",
+     "journal": "Circulation",
+     "key_finding": "two or more sugary drinks per day were associated with 21% higher total mortality and 31% higher cardiovascular mortality",
+     "pmid": "30882235",
+     "title": "Long-Term Consumption of Sugar-Sweetened and Artificially Sweetened Beverages and Risk of Mortality in US Adults",
+     "year": 2019
+    }
+   ],
+   "claim_en": "Drinking sugary drinks like cola and milk tea regularly makes you gain weight and raises the risk of early death",
+   "claim_zh": "常喝可乐、奶茶等含糖饮料会让人发胖，还会增加早死风险",
+   "id": "C03",
+   "verdict": "属实",
+   "why_zh": "液体糖不顶饱，热量很容易不知不觉喝超标，实验里喝含糖饮料的孩子一年就比喝无糖饮料的孩子多长了约一公斤。"
+  },
+  {
+   "category": "营养食物",
+   "citations": [
+    {
+     "authors": "Sacks et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "low sodium combined with the DASH diet lowered systolic blood pressure by 11.5 mmHg in hypertensive participants versus the high-sodium control diet",
+     "pmid": "11136953",
+     "title": "Effects on blood pressure of reduced dietary sodium and the Dietary Approaches to Stop Hypertension (DASH) diet",
+     "year": 2001
+    },
+    {
+     "authors": "Neal et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "in 20,995 people in rural China, potassium-enriched salt substitute lowered stroke (RR 0.86), major cardiovascular events and death",
+     "pmid": "34459569",
+     "title": "Effect of Salt Substitution on Cardiovascular Events and Death",
+     "year": 2021
+    },
+    {
+     "authors": "Strazzullo et al.",
+     "journal": "BMJ",
+     "key_finding": "higher salt intake was associated with a 23% higher risk of stroke in prospective studies",
+     "pmid": "19934192",
+     "title": "Salt intake, stroke, and cardiovascular disease: meta-analysis of prospective studies",
+     "year": 2009
+    }
+   ],
+   "claim_en": "Eating too much salt raises blood pressure and increases the risk of stroke",
+   "claim_zh": "盐吃多了会升高血压，还会增加中风风险",
+   "id": "C04",
+   "verdict": "属实",
+   "why_zh": "盐里的钠会让血管压力变大，少吃盐血压真的会降，中国农村两万多人的大实验还证明换低钠盐能减少中风和死亡。"
+  },
+  {
+   "category": "营养食物",
+   "citations": [
+    {
+     "authors": "Drouin-Chartier et al.",
+     "journal": "BMJ",
+     "key_finding": "consumption of up to one egg per day was not associated with increased cardiovascular disease risk",
+     "pmid": "32132002",
+     "title": "Egg consumption and risk of cardiovascular disease: three large prospective US cohort studies, systematic review, and updated meta-analysis",
+     "year": 2020
+    },
+    {
+     "authors": "Zhong et al.",
+     "journal": "JAMA",
+     "key_finding": "higher dietary cholesterol and egg intake were associated with higher cardiovascular disease and mortality risk in a dose-response manner",
+     "pmid": "30874756",
+     "title": "Associations of Dietary Cholesterol or Egg Consumption With Incident Cardiovascular Disease and Mortality",
+     "year": 2019
+    },
+    {
+     "authors": "Carson et al.",
+     "journal": "Circulation",
+     "key_finding": "AHA advisory: dietary cholesterol within a healthy dietary pattern is not a major risk driver, but very high intakes should be limited",
+     "pmid": "31838890",
+     "title": "Dietary Cholesterol and Cardiovascular Risk: A Science Advisory From the American Heart Association",
+     "year": 2020
+    }
+   ],
+   "claim_en": "Egg yolks are so high in cholesterol that they clog blood vessels, so you should eat at most one egg a day",
+   "claim_zh": "鸡蛋黄胆固醇太高会堵血管，一天最多吃一个鸡蛋",
+   "id": "C05",
+   "verdict": "半真半假",
+   "why_zh": "对大多数健康人来说每天吃一个鸡蛋并不会增加心脏病风险，但膳食胆固醇总量吃得特别多确实可能有害，问题在总量而不是鸡蛋本身。"
+  },
+  {
+   "category": "营养食物",
+   "citations": [
+    {
+     "authors": "Loomis et al.",
+     "journal": "The Lancet Oncology",
+     "key_finding": "IARC reclassified coffee as Group 3 (not classifiable as carcinogenic); only very hot beverages above 65°C were classified Group 2A",
+     "pmid": "27318851",
+     "title": "Carcinogenicity of drinking coffee, mate, and very hot beverages",
+     "year": 2016
+    },
+    {
+     "authors": "Freedman et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "in about 400,000 adults, coffee drinking was inversely associated with total mortality, with no association with cancer death",
+     "pmid": "22591295",
+     "title": "Association of coffee drinking with total and cause-specific mortality",
+     "year": 2012
+    },
+    {
+     "authors": "Poole et al.",
+     "journal": "BMJ",
+     "key_finding": "umbrella review: coffee consumption at 3-4 cups per day was associated with lower, not higher, incidence of several cancers",
+     "pmid": "29167102",
+     "title": "Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes",
+     "year": 2017
+    }
+   ],
+   "claim_en": "Drinking coffee causes cancer",
+   "claim_zh": "喝咖啡会致癌",
+   "id": "C06",
+   "verdict": "谣言",
+   "why_zh": "世卫组织审查了上千项研究后把咖啡移出了可疑致癌名单，大样本人群里喝咖啡的人死亡率反而更低，真正要小心的是超过65度的烫饮。"
+  },
+  {
+   "category": "营养食物",
+   "citations": [
+    {
+     "authors": "Liu et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "12-month RCT in 139 adults with obesity: time-restricted eating plus calorie restriction lost no more weight than calorie restriction alone (-8.0 vs -6.3 kg, not significant)",
+     "pmid": "35443107",
+     "title": "Calorie Restriction with or without Time-Restricted Eating in Weight Loss",
+     "year": 2022
+    },
+    {
+     "authors": "Lowe et al.",
+     "journal": "JAMA Internal Medicine",
+     "key_finding": "a 16:8 eating window produced no significant weight loss versus three meals a day (between-group difference -0.26 kg)",
+     "pmid": "32986097",
+     "title": "Effects of Time-Restricted Eating on Weight Loss and Other Metabolic Parameters in Women and Men With Overweight and Obesity: The TREAT Randomized Clinical Trial",
+     "year": 2020
+    },
+    {
+     "authors": "Trepanowski et al.",
+     "journal": "JAMA Internal Medicine",
+     "key_finding": "alternate-day fasting was not superior to ordinary daily calorie restriction for weight loss",
+     "pmid": "28459931",
+     "title": "Effect of Alternate-Day Fasting on Weight Loss, Weight Maintenance, and Cardioprotection Among Metabolically Healthy Obese Adults: A Randomized Clinical Trial",
+     "year": 2017
+    }
+   ],
+   "claim_en": "16:8 intermittent fasting is far more effective for weight loss than simply eating less",
+   "claim_zh": "16:8间歇性禁食比普通少吃减肥效果强得多",
+   "id": "C07",
+   "verdict": "半真半假",
+   "why_zh": "禁食确实能帮一些人自然少吃，但和同样控制热量的普通节食比，减重效果差不多，它赢在容易坚持，而不是有什么魔法。"
+  },
+  {
+   "category": "营养食物",
+   "citations": [
+    {
+     "authors": "Estruch et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "PREDIMED: a Mediterranean diet supplemented with extra-virgin olive oil or nuts cut major cardiovascular events by about 30% (HR 0.69 and 0.72)",
+     "pmid": "29897866",
+     "title": "Primary Prevention of Cardiovascular Disease with a Mediterranean Diet Supplemented with Extra-Virgin Olive Oil or Nuts",
+     "year": 2018
+    },
+    {
+     "authors": "de Lorgeril et al.",
+     "journal": "Circulation",
+     "key_finding": "after a first heart attack, a Mediterranean-style diet reduced cardiac death and nonfatal myocardial infarction (adjusted risk ratios 0.28-0.53)",
+     "pmid": "9989963",
+     "title": "Mediterranean diet, traditional risk factors, and the rate of cardiovascular complications after myocardial infarction: final report of the Lyon Diet Heart Study",
+     "year": 1999
+    },
+    {
+     "authors": "Delgado-Lista et al.",
+     "journal": "The Lancet",
+     "key_finding": "in 1,002 patients with coronary disease, a Mediterranean diet beat a low-fat diet for preventing new cardiovascular events (87 vs 111 events)",
+     "pmid": "35525255",
+     "title": "Long-term secondary prevention of cardiovascular disease with a Mediterranean diet and a low-fat diet (CORDIOPREV): a randomised controlled trial",
+     "year": 2022
+    }
+   ],
+   "claim_en": "A Mediterranean diet (lots of vegetables, olive oil, fish and nuts) prevents cardiovascular disease",
+   "claim_zh": "地中海饮食（多吃蔬菜、橄榄油、鱼和坚果）能预防心脑血管病",
+   "id": "C08",
+   "verdict": "属实",
+   "why_zh": "七千多人的大型随机实验发现，坚持地中海饮食并加橄榄油或坚果的人，心梗、中风等心血管大事减少了约三成。"
+  },
+  {
+   "category": "营养食物",
+   "citations": [
+    {
+     "authors": "Srour et al.",
+     "journal": "BMJ",
+     "key_finding": "each 10% higher share of ultra-processed food in the diet was associated with about 12% higher cardiovascular disease risk",
+     "pmid": "31142457",
+     "title": "Ultra-processed food intake and risk of cardiovascular disease: prospective cohort study (NutriNet-Santé)",
+     "year": 2019
+    },
+    {
+     "authors": "Rico-Campà et al.",
+     "journal": "BMJ",
+     "key_finding": "highest versus lowest quarter of ultra-processed food consumption had 62% higher all-cause mortality (HR 1.62)",
+     "pmid": "31142450",
+     "title": "Association between consumption of ultra-processed foods and all cause mortality: SUN prospective cohort study",
+     "year": 2019
+    },
+    {
+     "authors": "Schnabel et al.",
+     "journal": "JAMA Internal Medicine",
+     "key_finding": "each 10% increase in ultra-processed food share was associated with 14% higher mortality in 44,551 adults",
+     "pmid": "30742202",
+     "title": "Association Between Ultraprocessed Food Consumption and Risk of Mortality Among Middle-aged Adults in France",
+     "year": 2019
+    }
+   ],
+   "claim_en": "Eating a lot of ultra-processed food (chips, instant noodles, processed snacks) increases the risk of death and cardiovascular disease",
+   "claim_zh": "超加工食品（薯片、方便面、加工零食）吃多了会增加死亡和心血管病风险",
+   "id": "C09",
+   "verdict": "属实",
+   "why_zh": "法国十万人的追踪研究发现，超加工食品在每天饮食里占比每多一成，心血管病风险就上升一成多，死亡风险也跟着涨。"
+  },
+  {
+   "category": "营养食物",
+   "citations": [
+    {
+     "authors": "GBD 2016 Alcohol Collaborators",
+     "journal": "The Lancet",
+     "key_finding": "global burden analysis: the level of alcohol consumption that minimises health loss is zero",
+     "pmid": "30146330",
+     "title": "Alcohol use and burden for 195 countries and territories, 1990-2016: a systematic analysis for the Global Burden of Disease Study 2016",
+     "year": 2018
+    },
+    {
+     "authors": "Zhao et al.",
+     "journal": "JAMA Network Open",
+     "key_finding": "meta-analysis of 107 cohorts: after adjusting for study biases, low-volume drinking gave no significant protection against mortality",
+     "pmid": "37000449",
+     "title": "Association Between Daily Alcohol Intake and Risk of All-Cause Mortality: A Systematic Review and Meta-analyses",
+     "year": 2023
+    },
+    {
+     "authors": "Wood et al.",
+     "journal": "The Lancet",
+     "key_finding": "lowest mortality risk was at or below 100 g of alcohol per week, and stroke and heart failure risk rose steadily with intake",
+     "pmid": "29676281",
+     "title": "Risk thresholds for alcohol consumption: combined analysis of individual-participant data for 599 912 current drinkers in 83 prospective studies",
+     "year": 2018
+    }
+   ],
+   "claim_en": "A moderate daily glass of red wine is good for your heart",
+   "claim_zh": "每天适量喝点红酒对心脏有好处",
+   "id": "C10",
+   "verdict": "谣言",
+   "why_zh": "以前说少量喝酒的人更长寿，其实是因为不喝酒的人里混着很多因病戒酒的人；把这种偏差去掉后，对健康最安全的酒精量是零。"
+  },
+  {
+   "category": "补充剂",
+   "citations": [
+    {
+     "authors": "Manson et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "VITAL trial (n=25,871): vitamin D did not reduce invasive cancer (HR 0.96) or major cardiovascular events (HR 0.97)",
+     "pmid": "30415629",
+     "title": "Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease",
+     "year": 2019
+    },
+    {
+     "authors": "LeBoff et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "VITAL fracture analysis: supplemental vitamin D did not reduce total, hip, or nonvertebral fractures (HR 0.98)",
+     "pmid": "35939577",
+     "title": "Supplemental Vitamin D and Incident Fractures in Midlife and Older Adults",
+     "year": 2022
+    },
+    {
+     "authors": "Bolland et al.",
+     "journal": "The Lancet Diabetes & Endocrinology",
+     "key_finding": "across 81 randomised trials, vitamin D supplementation had no effect on fractures, falls, or bone mineral density",
+     "pmid": "30293909",
+     "title": "Effects of vitamin D supplementation on musculoskeletal health: a systematic review, meta-analysis, and trial sequential analysis",
+     "year": 2018
+    }
+   ],
+   "claim_en": "Everyone should take vitamin D supplements to prevent fractures and cancer",
+   "claim_zh": "人人都应该补维生素D，能防骨折、防癌",
+   "id": "C11",
+   "verdict": "谣言",
+   "why_zh": "两万多人的大实验发现，本身不缺维生素D的普通人补了它，骨折和癌症一点也没减少，真正缺乏的人才需要补。"
+  },
+  {
+   "category": "补充剂",
+   "citations": [
+    {
+     "authors": "Manson et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "VITAL trial: marine omega-3 supplements did not significantly reduce major cardiovascular events (HR 0.92) or invasive cancer",
+     "pmid": "30415637",
+     "title": "Marine n-3 Fatty Acids and Prevention of Cardiovascular Disease and Cancer",
+     "year": 2019
+    },
+    {
+     "authors": "ASCEND Study Collaborative Group et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "in 15,480 people with diabetes, omega-3 supplements did not reduce serious vascular events (rate ratio 0.97)",
+     "pmid": "30146932",
+     "title": "Effects of n-3 Fatty Acid Supplements in Diabetes Mellitus",
+     "year": 2018
+    },
+    {
+     "authors": "Nicholls et al.",
+     "journal": "JAMA",
+     "key_finding": "STRENGTH was stopped for futility: high-dose omega-3 did not reduce major adverse cardiovascular events (HR 0.99)",
+     "pmid": "33190147",
+     "title": "Effect of High-Dose Omega-3 Fatty Acids vs Corn Oil on Major Adverse Cardiovascular Events in Patients at High Cardiovascular Risk: The STRENGTH Randomized Clinical Trial",
+     "year": 2020
+    }
+   ],
+   "claim_en": "Taking fish oil capsules prevents heart disease",
+   "claim_zh": "吃鱼油胶囊能预防心脏病",
+   "id": "C12",
+   "verdict": "谣言",
+   "why_zh": "好几万人参加的大型实验都发现，普通鱼油胶囊对预防心梗、中风和心血管死亡基本没用，吃鱼本身不等于吃胶囊。"
+  },
+  {
+   "category": "补充剂",
+   "citations": [
+    {
+     "authors": "Sesso et al.",
+     "journal": "JAMA",
+     "key_finding": "a daily multivitamin did not reduce major cardiovascular events in 14,641 male physicians (HR 1.01)",
+     "pmid": "23117775",
+     "title": "Multivitamins in the prevention of cardiovascular disease in men: the Physicians' Health Study II randomized controlled trial",
+     "year": 2012
+    },
+    {
+     "authors": "Gaziano et al.",
+     "journal": "JAMA",
+     "key_finding": "a daily multivitamin produced only a modest 8% reduction in total cancer, with no significant effect on any single cancer type or on cancer mortality",
+     "pmid": "23162860",
+     "title": "Multivitamins in the prevention of cancer in men: the Physicians' Health Study II randomized controlled trial",
+     "year": 2012
+    },
+    {
+     "authors": "Mangione et al.",
+     "journal": "JAMA",
+     "key_finding": "USPSTF: evidence is insufficient that multivitamins prevent cardiovascular disease or cancer, and it recommends against beta carotene and vitamin E for prevention",
+     "pmid": "35727271",
+     "title": "Vitamin, Mineral, and Multivitamin Supplementation to Prevent Cardiovascular Disease and Cancer: US Preventive Services Task Force Recommendation Statement",
+     "year": 2022
+    }
+   ],
+   "claim_en": "Taking one multivitamin a day prevents disease and cancer",
+   "claim_zh": "每天吃一颗复合维生素就能防病防癌",
+   "id": "C13",
+   "verdict": "谣言",
+   "why_zh": "一万多名医生参加的实验发现，复合维生素防不了心血管病，对癌症最多只有一点点作用，美国官方结论是证据不足、不推荐靠它来防病。"
+  },
+  {
+   "category": "补充剂",
+   "citations": [
+    {
+     "authors": "The Alpha-Tocopherol, Beta Carotene Cancer Prevention Study Group",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "in 29,133 male smokers, beta carotene supplementation increased lung cancer incidence by 18% and total mortality by 8%",
+     "pmid": "8127329",
+     "title": "The effect of vitamin E and beta carotene on the incidence of lung cancer and other cancers in male smokers",
+     "year": 1994
+    },
+    {
+     "authors": "Omenn et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "the CARET trial was stopped 21 months early: beta carotene plus vitamin A raised lung cancer risk (relative risk 1.28) in smokers and asbestos-exposed workers",
+     "pmid": "8602180",
+     "title": "Effects of a combination of beta carotene and vitamin A on lung cancer and cardiovascular disease",
+     "year": 1996
+    },
+    {
+     "authors": "Bjelakovic et al.",
+     "journal": "JAMA",
+     "key_finding": "in low-bias trials, beta carotene, vitamin A, and vitamin E supplements each slightly increased mortality",
+     "pmid": "17327526",
+     "title": "Mortality in randomized trials of antioxidant supplements for primary and secondary prevention: systematic review and meta-analysis",
+     "year": 2007
+    }
+   ],
+   "claim_en": "Taking antioxidant supplements such as beta carotene prevents cancer and prolongs life",
+   "claim_zh": "补β-胡萝卜素等抗氧化维生素能防癌、延寿",
+   "id": "C14",
+   "verdict": "谣言",
+   "why_zh": "恰恰相反，给吸烟者补β-胡萝卜素的大实验发现肺癌反而变多了，有的实验还因为害处明显被提前叫停。"
+  },
+  {
+   "category": "补充剂",
+   "citations": [
+    {
+     "authors": "DeKosky et al.",
+     "journal": "JAMA",
+     "key_finding": "GEM study (n=3,069): ginkgo biloba did not reduce the incidence of dementia or Alzheimer's disease (HR 1.12)",
+     "pmid": "19017911",
+     "title": "Ginkgo biloba for prevention of dementia: a randomized controlled trial",
+     "year": 2008
+    },
+    {
+     "authors": "Snitz et al.",
+     "journal": "JAMA",
+     "key_finding": "ginkgo biloba did not slow the rate of decline in memory or any other cognitive domain",
+     "pmid": "20040554",
+     "title": "Ginkgo biloba for preventing cognitive decline in older adults: a randomized trial",
+     "year": 2009
+    },
+    {
+     "authors": "Vellas et al.",
+     "journal": "The Lancet Neurology",
+     "key_finding": "five years of standardised ginkgo extract did not prevent Alzheimer's disease in 2,854 older adults with memory complaints (HR 0.84, not significant)",
+     "pmid": "22959217",
+     "title": "Long-term use of standardised Ginkgo biloba extract for the prevention of Alzheimer's disease (GuidAge): a randomised placebo-controlled trial",
+     "year": 2012
+    }
+   ],
+   "claim_en": "Ginkgo biloba extract improves memory and prevents dementia",
+   "claim_zh": "吃银杏叶提取物能提高记忆力、预防老年痴呆",
+   "id": "C15",
+   "verdict": "谣言",
+   "why_zh": "美国和法国各有几千名老人吃了好几年银杏叶提取物，痴呆该发生的还是发生，和吃安慰剂没有区别。"
+  },
+  {
+   "category": "补充剂",
+   "citations": [
+    {
+     "authors": "Clegg et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "GAIT trial (n=1,583): glucosamine, chondroitin, and their combination were not significantly better than placebo for knee osteoarthritis pain overall",
+     "pmid": "16495392",
+     "title": "Glucosamine, chondroitin sulfate, and the two in combination for painful knee osteoarthritis",
+     "year": 2006
+    },
+    {
+     "authors": "Wandel et al.",
+     "journal": "BMJ",
+     "key_finding": "network meta-analysis: effects on joint pain were too small to be clinically relevant, with no effect on joint-space narrowing",
+     "pmid": "20847017",
+     "title": "Effects of glucosamine, chondroitin, or placebo in patients with osteoarthritis of hip or knee: network meta-analysis",
+     "year": 2010
+    },
+    {
+     "authors": "Towheed et al.",
+     "journal": "Cochrane Database of Systematic Reviews",
+     "key_finding": "the apparent benefit of glucosamine disappeared in trials with adequate allocation concealment",
+     "pmid": "15846645",
+     "title": "Glucosamine therapy for treating osteoarthritis",
+     "year": 2005
+    }
+   ],
+   "claim_en": "Glucosamine and chondroitin repair cartilage and cure arthritis",
+   "claim_zh": "葡萄糖胺和软骨素能修复软骨、治好关节炎",
+   "id": "C16",
+   "verdict": "谣言",
+   "why_zh": "一千五百多人的大实验和汇总分析都显示，它们的止痛效果和安慰剂差不多，也没能让变窄的关节缝隙变宽。"
+  },
+  {
+   "category": "补充剂",
+   "citations": [
+    {
+     "authors": "Schnadower et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "in 971 children, Lactobacillus rhamnosus GG did not improve gastroenteritis outcomes versus placebo (moderate-to-severe disease 11.8% vs 12.6%)",
+     "pmid": "30462938",
+     "title": "Lactobacillus rhamnosus GG versus Placebo for Acute Gastroenteritis in Children",
+     "year": 2018
+    },
+    {
+     "authors": "Freedman et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "in 886 children, a combination Lactobacillus probiotic did not prevent moderate-to-severe gastroenteritis",
+     "pmid": "30462939",
+     "title": "Multicenter Trial of a Combination Probiotic for Children with Gastroenteritis",
+     "year": 2018
+    },
+    {
+     "authors": "Collinson et al.",
+     "journal": "Cochrane Database of Systematic Reviews",
+     "key_finding": "across 82 trials, probiotics probably make little or no difference to diarrhoea lasting 48 hours or longer",
+     "pmid": "33295643",
+     "title": "Probiotics for treating acute infectious diarrhoea",
+     "year": 2020
+    }
+   ],
+   "claim_en": "Probiotics make children's diarrhoea go away faster",
+   "claim_zh": "孩子拉肚子吃益生菌就能好得快",
+   "id": "C17",
+   "verdict": "谣言",
+   "why_zh": "美国和加拿大两个各近千名儿童的大实验都发现，吃益生菌和吃安慰剂的孩子好得一样快。"
+  },
+  {
+   "category": "补充剂",
+   "citations": [
+    {
+     "authors": "Klein et al.",
+     "journal": "JAMA",
+     "key_finding": "vitamin E 400 IU/day increased prostate cancer risk by 17% (HR 1.17) in the SELECT trial",
+     "pmid": "21990298",
+     "title": "Vitamin E and the risk of prostate cancer: the Selenium and Vitamin E Cancer Prevention Trial (SELECT)",
+     "year": 2011
+    },
+    {
+     "authors": "Lonn et al.",
+     "journal": "JAMA",
+     "key_finding": "HOPE and HOPE-TOO: long-term vitamin E did not reduce cancer or major cardiovascular events and increased heart failure risk (RR 1.13)",
+     "pmid": "15769967",
+     "title": "Effects of long-term vitamin E supplementation on cardiovascular events and cancer: a randomized controlled trial",
+     "year": 2005
+    },
+    {
+     "authors": "Lee et al.",
+     "journal": "JAMA",
+     "key_finding": "in 39,876 women, vitamin E provided no overall benefit for the primary prevention of cardiovascular disease or cancer",
+     "pmid": "15998891",
+     "title": "Vitamin E in the primary prevention of cardiovascular disease and cancer: the Women's Health Study: a randomized controlled trial",
+     "year": 2005
+    }
+   ],
+   "claim_en": "Vitamin E prevents cancer and slows ageing",
+   "claim_zh": "维生素E能防癌、抗衰老",
+   "id": "C18",
+   "verdict": "谣言",
+   "why_zh": "三万多人的实验发现，每天补维生素E的男性前列腺癌反而多了17%，对心血管病也没有保护作用。"
+  },
+  {
+   "category": "补充剂",
+   "citations": [
+    {
+     "authors": "Makrides et al.",
+     "journal": "JAMA",
+     "key_finding": "DOMInO trial (n=2,399): prenatal DHA supplementation did not improve children's cognitive scores at 18 months (adjusted mean difference 0.01)",
+     "pmid": "20959577",
+     "title": "Effect of DHA supplementation during pregnancy on maternal depression and neurodevelopment of young children: a randomized controlled trial",
+     "year": 2010
+    },
+    {
+     "authors": "Makrides et al.",
+     "journal": "JAMA",
+     "key_finding": "at age 4, children of DHA-supplemented mothers scored no better on cognition, language, or executive function (adjusted mean difference 0.29, P=.73)",
+     "pmid": "24794375",
+     "title": "Four-year follow-up of children born to women in a randomized trial of prenatal DHA supplementation",
+     "year": 2014
+    },
+    {
+     "authors": "Middleton et al.",
+     "journal": "Cochrane Database of Systematic Reviews",
+     "key_finding": "70 RCTs: omega-3 in pregnancy reduced preterm birth, but no clear benefit for children's cognitive development was shown",
+     "pmid": "30480773",
+     "title": "Omega-3 fatty acid addition during pregnancy",
+     "year": 2018
+    }
+   ],
+   "claim_en": "Taking DHA during pregnancy makes the baby smarter",
+   "claim_zh": "孕妇补DHA能让宝宝更聪明",
+   "id": "C19",
+   "verdict": "谣言",
+   "why_zh": "两千多名孕妇参加的实验一路追踪到孩子4岁，补DHA的孩子在智力、语言等测试上和没补的孩子没有差别。"
+  },
+  {
+   "category": "补充剂",
+   "citations": [
+    {
+     "authors": "Zhao et al.",
+     "journal": "JAMA",
+     "key_finding": "33 randomised trials (51,145 participants): calcium, vitamin D, or both were not associated with lower hip or other fracture risk",
+     "pmid": "29279934",
+     "title": "Association Between Calcium or Vitamin D Supplementation and Fracture Incidence in Community-Dwelling Older Adults: A Systematic Review and Meta-analysis",
+     "year": 2017
+    },
+    {
+     "authors": "Grossman et al.",
+     "journal": "JAMA",
+     "key_finding": "USPSTF recommends against daily low-dose vitamin D plus calcium for primary fracture prevention in community-dwelling postmenopausal women",
+     "pmid": "29677309",
+     "title": "Vitamin D, Calcium, or Combined Supplementation for the Primary Prevention of Fractures in Community-Dwelling Adults: US Preventive Services Task Force Recommendation Statement",
+     "year": 2018
+    },
+    {
+     "authors": "Grant et al.",
+     "journal": "The Lancet",
+     "key_finding": "RECORD trial (n=5,292): calcium and/or vitamin D3 did not prevent new fractures in elderly people who had already had one",
+     "pmid": "15885294",
+     "title": "Oral vitamin D3 and calcium for secondary prevention of low-trauma fractures in elderly people (Randomised Evaluation of Calcium Or vitamin D, RECORD): a randomised placebo-controlled trial",
+     "year": 2005
+    }
+   ],
+   "claim_en": "All middle-aged and older adults should take calcium plus vitamin D to prevent fractures",
+   "claim_zh": "中老年人都应该吃钙片加维生素D来预防骨折",
+   "id": "C20",
+   "verdict": "谣言",
+   "why_zh": "汇总五万多人的实验数据发现，能自理生活的老人常规补钙和维生素D并不能减少骨折，美国官方也不推荐这样做来防骨折。"
+  },
+  {
+   "id": "D01",
+   "category": "睡眠",
+   "claim_zh": "枕头高低会影响肩颈健康，选对枕头就能睡个好觉。",
+   "claim_en": "Pillow height affects neck and shoulder health, and picking the right pillow guarantees a good night's sleep.",
+   "verdict": "半真半假",
+   "why_zh": "枕头太高或太低都会让脖子整晚弯着、容易酸痛，但适合每个人的高度不一样，没有一种神奇枕头适合所有人。",
+   "citations": [
+    {
+     "authors": "Pang et al.",
+     "title": "The effects of pillow designs on neck pain, waking symptoms, neck disability, sleep quality and spinal alignment in adults: A systematic review and meta-analysis",
+     "journal": "Clinical Biomechanics",
+     "year": 2021,
+     "pmid": "33895703",
+     "key_finding": "Rubber and spring pillows reduced neck pain and disability, but pillow design did not change sleep quality; alignment depended on shape and height."
+    },
+    {
+     "authors": "Jeon et al.",
+     "title": "Improving the quality of sleep with an optimal pillow: a randomized, comparative study",
+     "journal": "The Tohoku Journal of Experimental Medicine",
+     "year": 2014,
+     "pmid": "25008402",
+     "key_finding": "An individually fitted orthopedic pillow improved sleep quality compared with standard pillows in a randomized comparison."
+    },
+    {
+     "authors": "Yamada et al.",
+     "title": "Changes in neck pain and somatic symptoms before and after the adjustment of the pillow height",
+     "journal": "Journal of Physical Therapy Science",
+     "year": 2023,
+     "pmid": "36744195",
+     "key_finding": "Precisely adjusted pillow height reduced neck pain and somatic symptoms, with about half of patients reaching a clinically important improvement."
+    }
+   ]
+  },
+  {
+   "id": "D02",
+   "category": "睡眠",
+   "claim_zh": "睡硬板床能保护腰椎，腰不好就该睡硬床。",
+   "claim_en": "Sleeping on a hard board protects the spine, and people with back problems should sleep on a firm bed.",
+   "verdict": "谣言",
+   "why_zh": "大型试验发现中等软硬的床垫对腰最好，睡太硬的床反而会让腰更痛。",
+   "citations": [
+    {
+     "authors": "Kovacs et al.",
+     "title": "Effect of firmness of mattress on chronic non-specific low-back pain: randomised, double-blind, controlled, multicentre trial",
+     "journal": "The Lancet",
+     "year": 2003,
+     "pmid": "14630439",
+     "key_finding": "Medium-firm mattresses beat firm mattresses for chronic non-specific low-back pain in a randomized double-blind trial."
+    },
+    {
+     "authors": "Radwan et al.",
+     "title": "Effect of different mattress designs on promoting sleep quality, pain reduction, and spinal alignment in adults with or without back pain; systematic review of controlled trials",
+     "journal": "Sleep Health",
+     "year": 2015,
+     "pmid": "29073401",
+     "key_finding": "Medium-firm and custom-inflated mattresses were optimal for sleep quality, pain reduction and spinal alignment."
+    },
+    {
+     "authors": "Caggiari et al.",
+     "title": "What type of mattress should be chosen to avoid back pain and improve sleep quality? Review of the literature",
+     "journal": "Journal of Orthopaedics and Traumatology",
+     "year": 2021,
+     "pmid": "34878594",
+     "key_finding": "Medium-firm mattresses best support spinal alignment and sleep quality; overly hard surfaces are not recommended."
+    }
+   ]
+  },
+  {
+   "id": "D03",
+   "category": "睡眠",
+   "claim_zh": "睡前喝一杯酒能助眠，睡得更香。",
+   "claim_en": "A drink before bed helps you fall asleep and sleep more soundly.",
+   "verdict": "谣言",
+   "why_zh": "酒只能让你更快睡着，后半夜反而睡得更碎、更容易醒，长期靠它助眠会越睡越差。",
+   "citations": [
+    {
+     "authors": "Gardiner et al.",
+     "title": "The effect of alcohol on subsequent sleep in healthy adults: A systematic review and meta-analysis",
+     "journal": "Sleep Medicine Reviews",
+     "year": 2025,
+     "pmid": "39631226",
+     "key_finding": "Alcohol disrupted REM sleep from about two standard drinks upward, with a clear dose-response relationship."
+    },
+    {
+     "authors": "Ebrahim et al.",
+     "title": "Alcohol and sleep I: effects on normal sleep",
+     "journal": "Alcoholism: Clinical and Experimental Research",
+     "year": 2013,
+     "pmid": "23347102",
+     "key_finding": "Alcohol consolidated sleep in the first half of the night but disrupted the second half at all doses."
+    },
+    {
+     "authors": "McCullar et al.",
+     "title": "Altered sleep architecture following consecutive nights of presleep alcohol",
+     "journal": "Sleep",
+     "year": 2024,
+     "pmid": "38205895",
+     "key_finding": "Three consecutive nights of pre-sleep alcohol measurably reduced REM sleep in a crossover laboratory study."
+    }
+   ]
+  },
+  {
+   "id": "D04",
+   "category": "睡眠",
+   "claim_zh": "人每天必须睡够8小时，少一点都不行。",
+   "claim_en": "Everyone must sleep exactly 8 hours a day; any less is not enough.",
+   "verdict": "半真半假",
+   "why_zh": "大多数成年人睡7到9小时就够了，不必死守8小时，而且睡得过久同样和健康问题有关。",
+   "citations": [
+    {
+     "authors": "Watson et al.",
+     "title": "Recommended Amount of Sleep for a Healthy Adult: A Joint Consensus Statement of the American Academy of Sleep Medicine and Sleep Research Society",
+     "journal": "Sleep",
+     "year": 2015,
+     "pmid": "26039963",
+     "key_finding": "The expert consensus recommends 7 or more hours of sleep for healthy adults, not exactly 8."
+    },
+    {
+     "authors": "Cappuccio et al.",
+     "title": "Sleep duration and all-cause mortality: a systematic review and meta-analysis of prospective studies",
+     "journal": "Sleep",
+     "year": 2010,
+     "pmid": "20469800",
+     "key_finding": "Both short sleep (RR 1.12) and long sleep (RR 1.30) were associated with higher mortality, a U-shaped relationship."
+    },
+    {
+     "authors": "Hirshkowitz et al.",
+     "title": "National Sleep Foundation's sleep time duration recommendations: methodology and results summary",
+     "journal": "Sleep Health",
+     "year": 2015,
+     "pmid": "29073412",
+     "key_finding": "Recommended sleep is a range: 7-9 hours for adults and 7-8 hours for older adults, not a fixed 8 hours."
+    }
+   ]
+  },
+  {
+   "id": "D05",
+   "category": "睡眠",
+   "claim_zh": "平时熬夜没关系，周末睡个懒觉就能把觉补回来。",
+   "claim_en": "Staying up late on weekdays is fine because sleeping in on weekends fully pays back the sleep debt.",
+   "verdict": "谣言",
+   "why_zh": "实验发现周末狂睡补不回平时欠的觉，身体的代谢和注意力还是会变差。",
+   "citations": [
+    {
+     "authors": "Depner et al.",
+     "title": "Ad libitum Weekend Recovery Sleep Fails to Prevent Metabolic Dysregulation during a Repeating Pattern of Insufficient Sleep and Weekend Recovery Sleep",
+     "journal": "Current Biology",
+     "year": 2019,
+     "pmid": "30827911",
+     "key_finding": "Weekend recovery sleep failed to prevent metabolic harm; insulin sensitivity still fell by 9-27%."
+    },
+    {
+     "authors": "Banks et al.",
+     "title": "Neurobehavioral dynamics following chronic sleep restriction: dose-response effects of one night for recovery",
+     "journal": "Sleep",
+     "year": 2010,
+     "pmid": "20815182",
+     "key_finding": "Even a 10-hour recovery night did not fully restore alertness after chronic sleep restriction."
+    },
+    {
+     "authors": "Van Dongen et al.",
+     "title": "The cumulative cost of additional wakefulness: dose-response effects on neurobehavioral functions and sleep physiology from chronic sleep restriction and total sleep deprivation",
+     "journal": "Sleep",
+     "year": 2003,
+     "pmid": "12683469",
+     "key_finding": "Cognitive deficits accumulated day by day under chronic sleep restriction, showing sleep debt is not erased by one good night."
+    }
+   ]
+  },
+  {
+   "id": "D06",
+   "category": "睡眠",
+   "claim_zh": "打呼噜是睡得香、睡得沉的表现。",
+   "claim_en": "Snoring is a sign of sleeping soundly and deeply.",
+   "verdict": "谣言",
+   "why_zh": "严重的打呼噜常常是呼吸在睡眠中反复停掉，会让心脏和大脑缺氧，是病不是睡得香。",
+   "citations": [
+    {
+     "authors": "Marin et al.",
+     "title": "Long-term cardiovascular outcomes in men with obstructive sleep apnoea-hypopnoea with or without treatment with continuous positive airway pressure: an observational study",
+     "journal": "The Lancet",
+     "year": 2005,
+     "pmid": "15781100",
+     "key_finding": "Untreated severe obstructive sleep apnoea significantly increased fatal and non-fatal cardiovascular events."
+    },
+    {
+     "authors": "Peppard et al.",
+     "title": "Prospective study of the association between sleep-disordered breathing and hypertension",
+     "journal": "The New England Journal of Medicine",
+     "year": 2000,
+     "pmid": "10805822",
+     "key_finding": "Sleep-disordered breathing predicted new-onset hypertension in a dose-response manner."
+    },
+    {
+     "authors": "Yaggi et al.",
+     "title": "Obstructive sleep apnea as a risk factor for stroke and death",
+     "journal": "The New England Journal of Medicine",
+     "year": 2005,
+     "pmid": "16282178",
+     "key_finding": "Obstructive sleep apnoea nearly doubled the risk of stroke or death (adjusted HR 1.97)."
+    }
+   ]
+  },
+  {
+   "id": "D07",
+   "category": "睡眠",
+   "claim_zh": "经常睡不够真的会让人变胖。",
+   "claim_en": "Regularly sleeping too little really does make people gain weight.",
+   "verdict": "属实",
+   "why_zh": "睡不够会让人更饿、更想吃高热量食物，好几项大研究都发现睡得少的人更容易胖。",
+   "citations": [
+    {
+     "authors": "Cappuccio et al.",
+     "title": "Meta-analysis of short sleep duration and obesity in children and adults",
+     "journal": "Sleep",
+     "year": 2008,
+     "pmid": "18517032",
+     "key_finding": "Short sleep was consistently associated with obesity (OR 1.55 in adults, 1.89 in children)."
+    },
+    {
+     "authors": "St-Onge et al.",
+     "title": "Sleep Duration and Quality: Impact on Lifestyle Behaviors and Cardiometabolic Health: A Scientific Statement From the American Heart Association",
+     "journal": "Circulation",
+     "year": 2016,
+     "pmid": "27647451",
+     "key_finding": "The American Heart Association statement links short sleep duration to obesity and cardiometabolic risk."
+    },
+    {
+     "authors": "Spaeth et al.",
+     "title": "Effects of Experimental Sleep Restriction on Weight Gain, Caloric Intake, and Meal Timing in Healthy Adults",
+     "journal": "Sleep",
+     "year": 2013,
+     "pmid": "23814334",
+     "key_finding": "Sleep-restricted adults gained 0.97 kg versus 0.11 kg in controls, driven by about 553 extra late-night calories."
+    }
+   ]
+  },
+  {
+   "id": "D08",
+   "category": "睡眠",
+   "claim_zh": "午睡越久越补，睡一下午都没关系。",
+   "claim_en": "The longer the nap, the better; napping all afternoon does no harm.",
+   "verdict": "谣言",
+   "why_zh": "午睡小睡一会儿最好，经常睡超过1小时反而和心脏病风险升高有关，还容易越睡越晕。",
+   "citations": [
+    {
+     "authors": "Yamada et al.",
+     "title": "Daytime Napping and the Risk of Cardiovascular Disease and All-Cause Mortality: A Prospective Study and Dose-Response Meta-Analysis",
+     "journal": "Sleep",
+     "year": 2015,
+     "pmid": "26158892",
+     "key_finding": "Naps of 60 minutes or longer were linked to higher cardiovascular disease (RR 1.82) and mortality (RR 1.27); shorter naps were not."
+    },
+    {
+     "authors": "Häusler et al.",
+     "title": "Association of napping with incident cardiovascular events in a prospective cohort study",
+     "journal": "Heart",
+     "year": 2019,
+     "pmid": "31501230",
+     "key_finding": "Napping once or twice a week was associated with fewer cardiovascular events (HR 0.52), while daily napping showed no benefit."
+    },
+    {
+     "authors": "Brooks et al.",
+     "title": "A brief afternoon nap following nocturnal sleep restriction: which nap duration is most recuperative?",
+     "journal": "Sleep",
+     "year": 2006,
+     "pmid": "16796222",
+     "key_finding": "A 10-minute nap was the most restorative; a 30-minute nap first produced sleep inertia and impaired performance."
+    }
+   ]
+  },
+  {
+   "id": "D09",
+   "category": "睡眠",
+   "claim_zh": "褪黑素是安眠神药，没副作用，多吃点也没事。",
+   "claim_en": "Melatonin is a miracle sleep drug with no side effects, so taking extra is harmless.",
+   "verdict": "谣言",
+   "why_zh": "研究发现褪黑素对多数失眠帮助很小，而且市面上很多产品实际含量和标签写的完全不一样。",
+   "citations": [
+    {
+     "authors": "Buscemi et al.",
+     "title": "Efficacy and safety of exogenous melatonin for secondary sleep disorders and sleep disorders accompanying sleep restriction: meta-analysis",
+     "journal": "BMJ",
+     "year": 2006,
+     "pmid": "16473858",
+     "key_finding": "The meta-analysis found no evidence that melatonin is effective for these sleep disorders, with safety shown only for short-term use."
+    },
+    {
+     "authors": "Cohen et al.",
+     "title": "Quantity of Melatonin and CBD in Melatonin Gummies Sold in the US",
+     "journal": "JAMA",
+     "year": 2023,
+     "pmid": "37097362",
+     "key_finding": "22 of 25 melatonin gummy products were mislabeled, containing 74% to 347% of the declared melatonin amount."
+    },
+    {
+     "authors": "Erland et al.",
+     "title": "Melatonin Natural Health Products and Supplements: Presence of Serotonin and Significant Variability of Melatonin Content",
+     "journal": "Journal of Clinical Sleep Medicine",
+     "year": 2017,
+     "pmid": "27855744",
+     "key_finding": "Actual melatonin content ranged from -83% to +478% of the label claim, and 26% of products also contained serotonin."
+    }
+   ]
+  },
+  {
+   "id": "D10",
+   "category": "睡眠",
+   "claim_zh": "安眠药很安全，失眠的人长期天天吃也没依赖、没风险。",
+   "claim_en": "Sleeping pills are perfectly safe; people with insomnia can take them every day long-term with no dependence or risk.",
+   "verdict": "谣言",
+   "why_zh": "大型研究发现长期吃安眠药和更高的副作用、死亡风险有关，受害的人比真正受益的人还多。",
+   "citations": [
+    {
+     "authors": "Weich et al.",
+     "title": "Effect of anxiolytic and hypnotic drug prescriptions on mortality hazards: retrospective cohort study",
+     "journal": "BMJ",
+     "year": 2014,
+     "pmid": "24647164",
+     "key_finding": "Hypnotic prescriptions were associated with increased mortality in a dose-response pattern (adjusted HR up to 3.32)."
+    },
+    {
+     "authors": "Glass et al.",
+     "title": "Sedative hypnotics in older people with insomnia: meta-analysis of risks and benefits",
+     "journal": "BMJ",
+     "year": 2005,
+     "pmid": "16284208",
+     "key_finding": "In older adults, the number needed to harm (6) was smaller than the number needed to treat for better sleep (13)."
+    },
+    {
+     "authors": "Huedo-Medina et al.",
+     "title": "Effectiveness of non-benzodiazepine hypnotics in treatment of adult insomnia: meta-analysis of data submitted to the Food and Drug Administration",
+     "journal": "BMJ",
+     "year": 2012,
+     "pmid": "23248080",
+     "key_finding": "Z-drugs shortened time to fall asleep by only about 22 minutes versus placebo, and much of the response was a placebo effect."
+    }
+   ]
+  },
+  {
+   "id": "D11",
+   "category": "运动体重",
+   "claim_zh": "16+8轻断食不用控制热量，光靠空腹时间长就能瘦。",
+   "claim_en": "With 16:8 intermittent fasting you don't need to watch calories; the long fasting window alone makes you lose weight.",
+   "verdict": "谣言",
+   "why_zh": "好几个严格实验发现，只改吃饭时间不管总量，瘦下来的效果和普通节食没差别。",
+   "citations": [
+    {
+     "authors": "Liu et al.",
+     "title": "Calorie Restriction with or without Time-Restricted Eating in Weight Loss",
+     "journal": "The New England Journal of Medicine",
+     "year": 2022,
+     "pmid": "35443107",
+     "key_finding": "Adding an 8-hour eating window to calorie restriction gave no significant extra weight loss over 12 months (-8.0 vs -6.3 kg)."
+    },
+    {
+     "authors": "Lowe et al.",
+     "title": "Effects of Time-Restricted Eating on Weight Loss and Other Metabolic Parameters in Women and Men With Overweight and Obesity: The TREAT Randomized Clinical Trial",
+     "journal": "JAMA Internal Medicine",
+     "year": 2020,
+     "pmid": "32986097",
+     "key_finding": "16:8 eating with no calorie targets lost no more weight than three regular meals (-0.94 vs -0.68 kg)."
+    },
+    {
+     "authors": "Trepanowski et al.",
+     "title": "Effect of Alternate-Day Fasting on Weight Loss, Weight Maintenance, and Cardioprotection Among Metabolically Healthy Obese Adults: A Randomized Clinical Trial",
+     "journal": "JAMA Internal Medicine",
+     "year": 2017,
+     "pmid": "28459931",
+     "key_finding": "Alternate-day fasting matched daily calorie restriction (-6.0% vs -5.3%) and had the highest dropout rate."
+    }
+   ]
+  },
+  {
+   "id": "D12",
+   "category": "运动体重",
+   "claim_zh": "膝盖一疼就说明不能运动了，应该静养少动。",
+   "claim_en": "Knee pain means you must stop exercising and rest as much as possible.",
+   "verdict": "谣言",
+   "why_zh": "试验发现膝盖疼的人坚持适度锻炼，疼痛反而减轻，很多人因此不用做换关节手术。",
+   "citations": [
+    {
+     "authors": "Messier et al.",
+     "title": "Effects of intensive diet and exercise on knee joint loads, inflammation, and clinical outcomes among overweight and obese adults with knee osteoarthritis: the IDEA randomized clinical trial",
+     "journal": "JAMA",
+     "year": 2013,
+     "pmid": "24065013",
+     "key_finding": "Diet plus exercise improved pain, function and joint loads more than either intervention alone in knee osteoarthritis."
+    },
+    {
+     "authors": "Fransen et al.",
+     "title": "Exercise for osteoarthritis of the knee: a Cochrane systematic review",
+     "journal": "British Journal of Sports Medicine",
+     "year": 2015,
+     "pmid": "26405113",
+     "key_finding": "Exercise reduced knee osteoarthritis pain by about 12 points on a 100-point scale, an effect comparable to anti-inflammatory drugs."
+    },
+    {
+     "authors": "Skou et al.",
+     "title": "A Randomized, Controlled Trial of Total Knee Replacement",
+     "journal": "The New England Journal of Medicine",
+     "year": 2015,
+     "pmid": "26488691",
+     "key_finding": "An exercise-based nonsurgical program improved pain and function, and 74% of that group avoided knee surgery within a year."
+    }
+   ]
+  },
+  {
+   "id": "D13",
+   "category": "运动体重",
+   "claim_zh": "运动不满30分钟就不燃烧脂肪，不到半小时等于白练。",
+   "claim_en": "Exercise under 30 minutes doesn't burn fat; anything shorter than half an hour is wasted.",
+   "verdict": "谣言",
+   "why_zh": "新版运动指南已经取消了最少10分钟才算数的规定，动几分钟也比完全不动强。",
+   "citations": [
+    {
+     "authors": "Piercy et al.",
+     "title": "The Physical Activity Guidelines for Americans",
+     "journal": "JAMA",
+     "year": 2018,
+     "pmid": "30418471",
+     "key_finding": "The 2018 US guidelines removed the old 10-minute minimum bout requirement, so activity of any duration counts."
+    },
+    {
+     "authors": "Ekelund et al.",
+     "title": "Dose-response associations between accelerometry measured physical activity and sedentary time and all cause mortality: systematic review and harmonised meta-analysis",
+     "journal": "BMJ",
+     "year": 2019,
+     "pmid": "31434697",
+     "key_finding": "Physical activity of any intensity was associated with lower mortality, with the steepest gains at low activity levels."
+    },
+    {
+     "authors": "Bull et al.",
+     "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+     "journal": "British Journal of Sports Medicine",
+     "year": 2020,
+     "pmid": "33239350",
+     "key_finding": "WHO states that some physical activity is better than none and sets no minimum bout length."
+    }
+   ]
+  },
+  {
+   "id": "D14",
+   "category": "运动体重",
+   "claim_zh": "瘦子身体好，不用运动也健康。",
+   "claim_en": "Thin people are healthy and don't need to exercise.",
+   "verdict": "谣言",
+   "why_zh": "上百万人的数据显示，不管胖瘦，不运动的人死亡风险都更高，瘦也要动。",
+   "citations": [
+    {
+     "authors": "Ekelund et al.",
+     "title": "Does physical activity attenuate, or even eliminate, the detrimental association of sitting time with mortality? A harmonised meta-analysis of data from more than 1 million men and women",
+     "journal": "The Lancet",
+     "year": 2016,
+     "pmid": "27475271",
+     "key_finding": "The least active quarter had the highest mortality (up to HR 1.59); high activity eliminated the extra risk of prolonged sitting (HR 1.04)."
+    },
+    {
+     "authors": "Lear et al.",
+     "title": "The effect of physical activity on mortality and cardiovascular disease in 130 000 people from 17 high-income, middle-income, and low-income countries: the PURE study",
+     "journal": "The Lancet",
+     "year": 2017,
+     "pmid": "28943267",
+     "key_finding": "Physical activity, including non-recreational activity, was associated with lower mortality and cardiovascular disease across 17 countries."
+    },
+    {
+     "authors": "Arem et al.",
+     "title": "Leisure time physical activity and mortality: a detailed pooled analysis of the dose-response relationship",
+     "journal": "JAMA Internal Medicine",
+     "year": 2015,
+     "pmid": "25844730",
+     "key_finding": "Even activity below the recommended minimum was linked to 20% lower mortality (HR 0.80) in 661,137 adults."
+    }
+   ]
+  },
+  {
+   "id": "D15",
+   "category": "运动体重",
+   "claim_zh": "今天运动量达标了，奶茶甜点随便吃也不会长胖。",
+   "claim_en": "If you hit today's exercise target, you can eat bubble tea and desserts freely without gaining weight.",
+   "verdict": "谣言",
+   "why_zh": "研究发现光靠运动一年也瘦不了几斤，身体还会自动省电，热量很容易就被吃回来。",
+   "citations": [
+    {
+     "authors": "Shaw et al.",
+     "title": "Exercise for overweight or obesity",
+     "journal": "Cochrane Database of Systematic Reviews",
+     "year": 2006,
+     "pmid": "17054187",
+     "key_finding": "Exercise alone produced only small weight losses, and combining it with diet added only about 1 kg."
+    },
+    {
+     "authors": "Pontzer et al.",
+     "title": "Constrained Total Energy Expenditure and Metabolic Adaptation to Physical Activity in Adult Humans",
+     "journal": "Current Biology",
+     "year": 2016,
+     "pmid": "26832439",
+     "key_finding": "Total daily energy expenditure plateaus at high activity levels, showing the body compensates for exercise."
+    },
+    {
+     "authors": "Thorogood et al.",
+     "title": "Isolated Aerobic Exercise and Weight Loss: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+     "journal": "The American Journal of Medicine",
+     "year": 2011,
+     "pmid": "21787904",
+     "key_finding": "Aerobic exercise alone produced only about 1.6-1.7 kg of weight loss over 6-12 months."
+    }
+   ]
+  },
+  {
+   "id": "D16",
+   "category": "运动体重",
+   "claim_zh": "年纪大了就该静养，运动多了反而伤身。",
+   "claim_en": "Older people should rest and take it easy; too much exercise at that age is harmful.",
+   "verdict": "谣言",
+   "why_zh": "针对老年人的大试验发现，坚持活动能明显减少走不动路和摔倒的风险，越不动反而老得越快。",
+   "citations": [
+    {
+     "authors": "Pahor et al.",
+     "title": "Effect of structured physical activity on prevention of major mobility disability in older adults: the LIFE study randomized clinical trial",
+     "journal": "JAMA",
+     "year": 2014,
+     "pmid": "24866862",
+     "key_finding": "Structured physical activity reduced major mobility disability in adults aged 70-89 (HR 0.82)."
+    },
+    {
+     "authors": "Sherrington et al.",
+     "title": "Exercise for preventing falls in older people living in the community",
+     "journal": "British Journal of Sports Medicine",
+     "year": 2020,
+     "pmid": "31792067",
+     "key_finding": "Exercise reduced the rate of falls by 23% in community-dwelling older people."
+    },
+    {
+     "authors": "Liu et al.",
+     "title": "Progressive resistance strength training for improving physical function in older adults",
+     "journal": "Cochrane Database of Systematic Reviews",
+     "year": 2009,
+     "pmid": "19588334",
+     "key_finding": "Progressive resistance training produced large strength gains in older adults (SMD 0.84) and improved physical function."
+    }
+   ]
+  },
+  {
+   "id": "D17",
+   "category": "运动体重",
+   "claim_zh": "每天必须走满一万步，少一步都不算健康。",
+   "claim_en": "You must walk a full 10,000 steps every day; anything less doesn't count as healthy.",
+   "verdict": "谣言",
+   "why_zh": "大数据发现每天走四五千步就有明显好处，到七八千步好处就差不多到顶了，一万步只是个宣传口号。",
+   "citations": [
+    {
+     "authors": "Lee et al.",
+     "title": "Association of Step Volume and Intensity With All-Cause Mortality in Older Women",
+     "journal": "JAMA Internal Medicine",
+     "year": 2019,
+     "pmid": "31141585",
+     "key_finding": "About 4,400 steps per day already beat about 2,700, and mortality benefits leveled off at roughly 7,500 steps."
+    },
+    {
+     "authors": "Paluch et al.",
+     "title": "Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts",
+     "journal": "The Lancet Public Health",
+     "year": 2022,
+     "pmid": "35247352",
+     "key_finding": "Mortality benefits plateaued at 6,000-8,000 steps for older adults and 8,000-10,000 for younger adults."
+    },
+    {
+     "authors": "Saint-Maurice et al.",
+     "title": "Association of Daily Step Count and Step Intensity With Mortality Among US Adults",
+     "journal": "JAMA",
+     "year": 2020,
+     "pmid": "32207799",
+     "key_finding": "Walking 8,000 versus 4,000 steps per day was associated with about half the mortality risk (HR 0.49)."
+    }
+   ]
+  },
+  {
+   "id": "D18",
+   "category": "运动体重",
+   "claim_zh": "规律运动真的能让人不容易得抑郁，心情也会变好。",
+   "claim_en": "Regular exercise really does lower the risk of depression and improve mood.",
+   "verdict": "属实",
+   "why_zh": "汇总上百项研究发现，规律运动的人得抑郁的风险大约低四分之一，抑郁症状也会减轻。",
+   "citations": [
+    {
+     "authors": "Pearce et al.",
+     "title": "Association Between Physical Activity and Risk of Depression: A Systematic Review and Meta-analysis",
+     "journal": "JAMA Psychiatry",
+     "year": 2022,
+     "pmid": "35416941",
+     "key_finding": "Guideline-level activity was associated with 25% lower depression risk; even half that volume gave 18% lower risk."
+    },
+    {
+     "authors": "Cooney et al.",
+     "title": "Exercise for depression",
+     "journal": "Cochrane Database of Systematic Reviews",
+     "year": 2013,
+     "pmid": "24026850",
+     "key_finding": "Exercise had a moderate effect on depressive symptoms compared with no treatment or control (SMD -0.62)."
+    },
+    {
+     "authors": "Singh et al.",
+     "title": "Effectiveness of physical activity interventions for improving depression, anxiety and distress: an overview of systematic reviews",
+     "journal": "British Journal of Sports Medicine",
+     "year": 2023,
+     "pmid": "36796860",
+     "key_finding": "Across 97 reviews with 128,119 participants, physical activity had medium effects on depression (median effect size -0.43)."
+    }
+   ]
+  },
+  {
+   "id": "D19",
+   "category": "运动体重",
+   "claim_zh": "光跑步还不够，每周还得至少练两次力量训练。",
+   "claim_en": "Running alone is not enough; you also need strength training at least twice a week.",
+   "verdict": "属实",
+   "why_zh": "世界卫生组织明确建议成年人每周至少练两次力量，因为光跑步练不到肌肉，而肌肉强的人得病和死亡风险都更低。",
+   "citations": [
+    {
+     "authors": "Bull et al.",
+     "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+     "journal": "British Journal of Sports Medicine",
+     "year": 2020,
+     "pmid": "33239350",
+     "key_finding": "WHO recommends muscle-strengthening activities on 2 or more days per week for all adults, in addition to aerobic activity."
+    },
+    {
+     "authors": "Momma et al.",
+     "title": "Muscle-strengthening activities are associated with lower risk and mortality in major non-communicable diseases: a systematic review and meta-analysis of cohort studies",
+     "journal": "British Journal of Sports Medicine",
+     "year": 2022,
+     "pmid": "35228201",
+     "key_finding": "Muscle-strengthening activity was associated with 10-17% lower mortality and major disease risk, with maximal benefit around 30-60 minutes per week."
+    },
+    {
+     "authors": "Grøntved et al.",
+     "title": "Muscle-strengthening and conditioning activities and risk of type 2 diabetes: a prospective study in two cohorts of US women",
+     "journal": "PLoS Medicine",
+     "year": 2014,
+     "pmid": "24453948",
+     "key_finding": "Women doing more than 150 minutes per week of muscle-strengthening activity had 40% lower type 2 diabetes risk."
+    }
+   ]
+  },
+  {
+   "id": "D20",
+   "category": "运动体重",
+   "claim_zh": "坚持运动能降低得癌症的风险，癌症病人多活动也能活得更久。",
+   "claim_en": "Staying active lowers cancer risk, and cancer patients who stay active live longer.",
+   "verdict": "属实",
+   "why_zh": "140多万人的数据显示常运动的人好几种癌症风险更低，癌症患者确诊后多活动也和活得更久有关。",
+   "citations": [
+    {
+     "authors": "Moore et al.",
+     "title": "Association of Leisure-Time Physical Activity With Risk of 26 Types of Cancer in 1.44 Million Adults",
+     "journal": "JAMA Internal Medicine",
+     "year": 2016,
+     "pmid": "27183032",
+     "key_finding": "Higher leisure-time activity was associated with lower risk of 13 of 26 cancer types in 1.44 million adults."
+    },
+    {
+     "authors": "Holmes et al.",
+     "title": "Physical activity and survival after breast cancer diagnosis",
+     "journal": "JAMA",
+     "year": 2005,
+     "pmid": "15914748",
+     "key_finding": "Activity equivalent to walking 3-5 hours per week was associated with about half the risk of death from breast cancer (RR 0.50)."
+    },
+    {
+     "authors": "Meyerhardt et al.",
+     "title": "Physical activity and survival after colorectal cancer diagnosis",
+     "journal": "Journal of Clinical Oncology",
+     "year": 2006,
+     "pmid": "16822844",
+     "key_finding": "At least 18 MET-hours per week of activity after diagnosis was associated with about 60% lower colorectal cancer mortality (HR 0.39)."
+    }
+   ]
+  },
+  {
+   "category": "心理健康",
+   "citations": [
+    {
+     "authors": "Malhi et al.",
+     "journal": "The Lancet",
+     "key_finding": "frames depression as a common, disabling medical illness that severely limits functioning",
+     "pmid": "30396512",
+     "title": "Depression",
+     "year": 2018
+    },
+    {
+     "authors": "Herrman et al.",
+     "journal": "The Lancet",
+     "key_finding": "calls for united clinical and public-health action on depression as a treatable health condition",
+     "pmid": "35180424",
+     "title": "Time for united action on depression: a Lancet-World Psychiatric Association Commission",
+     "year": 2022
+    },
+    {
+     "authors": "GBD 2019 Mental Disorders Collaborators et al.",
+     "journal": "The Lancet Psychiatry",
+     "key_finding": "shows mental disorders including depression remain among the top ten causes of global disease burden",
+     "pmid": "35026139",
+     "title": "Global, regional, and national burden of 12 mental disorders in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+     "year": 2022
+    }
+   ],
+   "claim_en": "Depression is just being melodramatic and unable to cope — you can snap out of it with enough willpower",
+   "claim_zh": "抑郁症就是想不开、太矫情，意志坚强一点硬扛就好了",
+   "id": "E01",
+   "verdict": "谣言",
+   "why_zh": "抑郁症是大脑和身体真的生了病，就像糖尿病不是'想开点'能好的一样，需要正规治疗而不是硬扛。"
+  },
+  {
+   "category": "心理健康",
+   "citations": [
+    {
+     "authors": "Madsen et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "in 537,303 Danish children, MMR vaccination showed no increased risk of autistic disorder",
+     "pmid": "12421889",
+     "title": "A population-based study of measles, mumps, and rubella vaccination and autism",
+     "year": 2002
+    },
+    {
+     "authors": "Hviid et al.",
+     "journal": "Annals of Internal Medicine",
+     "key_finding": "in 657,461 Danish children, MMR vaccination did not increase the risk of autism",
+     "pmid": "30831578",
+     "title": "Measles, Mumps, Rubella Vaccination and Autism: A Nationwide Cohort Study",
+     "year": 2019
+    },
+    {
+     "authors": "Taylor et al.",
+     "journal": "The Lancet",
+     "key_finding": "in 498 autism cases, found no temporal association between MMR vaccination and autism onset",
+     "pmid": "10376617",
+     "title": "Autism and measles, mumps, and rubella vaccine: no epidemiological evidence for a causal association",
+     "year": 1999
+    }
+   ],
+   "claim_en": "Vaccinating children (MMR) causes autism",
+   "claim_zh": "小孩子打疫苗会打出自闭症",
+   "id": "E02",
+   "verdict": "谣言",
+   "why_zh": "几十万孩子的大规模研究都发现，打没打疫苗的孩子得自闭症的比例没有差别，疫苗和自闭症没有关系。"
+  },
+  {
+   "category": "心理健康",
+   "citations": [
+    {
+     "authors": "Fazel et al.",
+     "journal": "JAMA",
+     "key_finding": "violent-crime risk was only slightly raised without substance abuse but much higher with comorbid substance abuse",
+     "pmid": "19454640",
+     "title": "Schizophrenia, substance abuse, and violent crime",
+     "year": 2009
+    },
+    {
+     "authors": "Fazel et al.",
+     "journal": "The Lancet",
+     "key_finding": "violent crime fell by 45% during periods when patients were receiving antipsychotic medication",
+     "pmid": "24816046",
+     "title": "Antipsychotics, mood stabilisers, and risk of violent crime",
+     "year": 2014
+    },
+    {
+     "authors": "Whiting et al.",
+     "journal": "The Lancet Psychiatry",
+     "key_finding": "absolute violent-crime rates over 5-10 years were only 6-10% in schizophrenia spectrum disorders",
+     "pmid": "33096045",
+     "title": "Violence and mental disorders: a structured review of associations by individual diagnoses, risk factors, and risk assessment",
+     "year": 2021
+    }
+   ],
+   "claim_en": "People with schizophrenia are dangerous and likely to attack others",
+   "claim_zh": "精神分裂症患者都很危险，随时可能伤人",
+   "id": "E03",
+   "verdict": "谣言",
+   "why_zh": "绝大多数精神分裂症患者从不伤人，暴力风险只比普通人略高且主要与同时酗酒吸毒有关，坚持治疗后风险还明显下降。"
+  },
+  {
+   "category": "心理健康",
+   "citations": [
+    {
+     "authors": "Thapar et al.",
+     "journal": "The Lancet",
+     "key_finding": "describes ADHD as a highly heritable childhood-onset neurodevelopmental disorder",
+     "pmid": "26386541",
+     "title": "Attention deficit hyperactivity disorder",
+     "year": 2016
+    },
+    {
+     "authors": "Posner et al.",
+     "journal": "The Lancet",
+     "key_finding": "reviews ADHD as a brain-based developmental disorder with genetic and neural mechanisms",
+     "pmid": "31982036",
+     "title": "Attention-deficit hyperactivity disorder",
+     "year": 2020
+    },
+    {
+     "authors": "Demontis et al.",
+     "journal": "Nature Genetics",
+     "key_finding": "identified 12 genome-wide significant ADHD risk loci, confirming a strong genetic basis for ADHD",
+     "pmid": "30478444",
+     "title": "Discovery of the first genome-wide significant risk loci for attention deficit/hyperactivity disorder",
+     "year": 2019
+    }
+   ],
+   "claim_en": "ADHD is just bad parenting and naughtiness, and kids simply grow out of it",
+   "claim_zh": "多动症就是没家教、小孩调皮，长大了自然就好",
+   "id": "E04",
+   "verdict": "谣言",
+   "why_zh": "多动症是大脑发育的差异、有很强的遗传基础，不是管教问题，而且很多人成年后症状仍然存在，需要专业帮助。"
+  },
+  {
+   "category": "心理健康",
+   "citations": [
+    {
+     "authors": "UK ECT Review Group et al.",
+     "journal": "The Lancet",
+     "key_finding": "found real ECT significantly more effective than simulated ECT and drug therapy for depression",
+     "pmid": "12642045",
+     "title": "Efficacy and safety of electroconvulsive therapy in depressive disorders: a systematic review and meta-analysis",
+     "year": 2003
+    },
+    {
+     "authors": "Mutz et al.",
+     "journal": "BMJ",
+     "key_finding": "found bitemporal ECT among the most effective acute treatments for major depressive episodes",
+     "pmid": "30917990",
+     "title": "Comparative efficacy and acceptability of non-surgical brain stimulation for the acute treatment of major depressive episodes in adults: systematic review and network meta-analysis",
+     "year": 2019
+    },
+    {
+     "authors": "Tharyan et al.",
+     "journal": "Cochrane Database of Systematic Reviews",
+     "key_finding": "found ECT improved outcomes versus sham ECT, with only limited evidence of transient memory impairment",
+     "pmid": "15846598",
+     "title": "Electroconvulsive therapy for schizophrenia",
+     "year": 2005
+    }
+   ],
+   "claim_en": "Electroconvulsive therapy (ECT) fries the brain and turns people into vegetables; it is a punishment",
+   "claim_zh": "电休克治疗会把人电成傻子，是用来惩罚病人的",
+   "id": "E05",
+   "verdict": "谣言",
+   "why_zh": "现代电休克是在全身麻醉下做的正规治疗，是抢救重症抑郁的有效办法之一，记忆影响大多是暂时的，不会把人'电傻'。"
+  },
+  {
+   "category": "心理健康",
+   "citations": [
+    {
+     "authors": "Cipriani et al.",
+     "journal": "The Lancet",
+     "key_finding": "all 21 antidepressants were more effective than placebo across 522 trials",
+     "pmid": "29477251",
+     "title": "Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis",
+     "year": 2018
+    },
+    {
+     "authors": "Geddes et al.",
+     "journal": "The Lancet",
+     "key_finding": "continuing antidepressants reduced the odds of relapse by 70% versus discontinuation",
+     "pmid": "12606176",
+     "title": "Relapse prevention with antidepressant drug treatment in depressive disorders: a systematic review",
+     "year": 2003
+    },
+    {
+     "authors": "Turner et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "selective publication overstated antidepressant efficacy in the published literature versus FDA reviews",
+     "pmid": "18199864",
+     "title": "Selective publication of antidepressant trials and its influence on apparent efficacy",
+     "year": 2008
+    }
+   ],
+   "claim_en": "Antidepressants are addictive and damage the brain, so you should never take them",
+   "claim_zh": "抗抑郁药一吃就上瘾、还伤大脑，千万不能吃",
+   "id": "E06",
+   "verdict": "谣言",
+   "why_zh": "抗抑郁药不会让人上瘾（不会越吃越想吃），它能减轻抑郁并降低复发风险，突然停药的不舒服叫'停药反应'，和吸毒成瘾是两回事。"
+  },
+  {
+   "category": "心理健康",
+   "citations": [
+    {
+     "authors": "Orben et al.",
+     "journal": "Nature Human Behaviour",
+     "key_finding": "digital technology use explained at most 0.4% of the variation in adolescent well-being",
+     "pmid": "30944443",
+     "title": "The association between adolescent well-being and digital technology use",
+     "year": 2019
+    },
+    {
+     "authors": "Orben et al.",
+     "journal": "Nature Communications",
+     "key_finding": "social media use and life satisfaction predicted each other in both directions during specific adolescent age windows",
+     "pmid": "35347142",
+     "title": "Windows of developmental sensitivity to social media",
+     "year": 2022
+    },
+    {
+     "authors": "Fassi et al.",
+     "journal": "JAMA Pediatrics",
+     "key_finding": "the meta-correlation between time on social media and internalizing symptoms was small, r=0.08 in clinical samples",
+     "pmid": "38913335",
+     "title": "Social Media Use and Internalizing Symptoms in Clinical and Community Adolescent Samples: A Systematic Review and Meta-Analysis",
+     "year": 2024
+    }
+   ],
+   "claim_en": "Teen depression and anxiety are all caused by smartphones — take the phone away and depression disappears",
+   "claim_zh": "现在孩子抑郁焦虑都是手机刷出来的，把手机收走就不会抑郁了",
+   "id": "E07",
+   "verdict": "半真半假",
+   "why_zh": "研究发现刷手机多和心情差之间只有一点点关系，而且常常是心情差的孩子更爱刷手机，所以手机顶多是一小部分原因，收走手机治不好抑郁。"
+  },
+  {
+   "category": "心理健康",
+   "citations": [
+    {
+     "authors": "Noetel et al.",
+     "journal": "BMJ",
+     "key_finding": "exercise moderately reduced depression, with walking or jogging, yoga and strength training most effective",
+     "pmid": "38355154",
+     "title": "Effect of exercise for depression: systematic review and network meta-analysis of randomised controlled trials",
+     "year": 2024
+    },
+    {
+     "authors": "Pearce et al.",
+     "journal": "JAMA Psychiatry",
+     "key_finding": "the recommended volume of physical activity was associated with 25% lower risk of depression",
+     "pmid": "35416941",
+     "title": "Association Between Physical Activity and Risk of Depression: A Systematic Review and Meta-analysis",
+     "year": 2022
+    },
+    {
+     "authors": "Cooney et al.",
+     "journal": "Cochrane Database of Systematic Reviews",
+     "key_finding": "exercise was moderately more effective than a control intervention for reducing depression symptoms",
+     "pmid": "24026850",
+     "title": "Exercise for depression",
+     "year": 2013
+    }
+   ],
+   "claim_en": "Exercise really can improve depression",
+   "claim_zh": "运动真的能改善抑郁情绪",
+   "id": "E08",
+   "verdict": "属实",
+   "why_zh": "大量研究证实，规律运动确实能减轻抑郁症状，在一些大型研究汇总里效果接近药物和心理治疗。"
+  },
+  {
+   "category": "心理健康",
+   "citations": [
+    {
+     "authors": "Trauer et al.",
+     "journal": "Annals of Internal Medicine",
+     "key_finding": "CBT-I cut time to fall asleep by 19 minutes and night waking by 26 minutes, with gains sustained at follow-up",
+     "pmid": "26054060",
+     "title": "Cognitive Behavioral Therapy for Chronic Insomnia: A Systematic Review and Meta-analysis",
+     "year": 2015
+    },
+    {
+     "authors": "Qaseem et al.",
+     "journal": "Annals of Internal Medicine",
+     "key_finding": "the ACP strongly recommends CBT-I as the initial treatment for chronic insomnia disorder",
+     "pmid": "27136449",
+     "title": "Management of Chronic Insomnia Disorder in Adults: A Clinical Practice Guideline From the American College of Physicians",
+     "year": 2016
+    },
+    {
+     "authors": "Morin et al.",
+     "journal": "JAMA",
+     "key_finding": "long-term outcome was optimized when medication was discontinued during maintenance CBT",
+     "pmid": "19454639",
+     "title": "Cognitive behavioral therapy, singly and combined with medication, for persistent insomnia: a randomized controlled trial",
+     "year": 2009
+    }
+   ],
+   "claim_en": "For insomnia, cognitive behavioral therapy (CBT-I) works longer than sleeping pills",
+   "claim_zh": "治失眠先做认知行为治疗，比吃安眠药效果更持久",
+   "id": "E09",
+   "verdict": "属实",
+   "why_zh": "失眠的认知行为治疗是教大脑重新学会睡觉，结束后效果还能长期维持，比安眠药更耐久，所以权威指南都把它列为第一选择。"
+  },
+  {
+   "category": "心理健康",
+   "citations": [
+    {
+     "authors": "Owen et al.",
+     "journal": "The Lancet",
+     "key_finding": "schizophrenia is characterized by delusions, hallucinations and disorganized thought, not multiple personalities",
+     "pmid": "26777917",
+     "title": "Schizophrenia",
+     "year": 2016
+    },
+    {
+     "authors": "van Os et al.",
+     "journal": "The Lancet",
+     "key_finding": "schizophrenia is described as a psychotic syndrome of distorted perception and belief",
+     "pmid": "19700006",
+     "title": "Schizophrenia",
+     "year": 2009
+    },
+    {
+     "authors": "Schizophrenia Working Group of the Psychiatric Genomics Consortium et al.",
+     "journal": "Nature",
+     "key_finding": "108 genetic loci were associated with schizophrenia, enriched among genes expressed in brain",
+     "pmid": "25056061",
+     "title": "Biological insights from 108 schizophrenia-associated genetic loci",
+     "year": 2014
+    }
+   ],
+   "claim_en": "Schizophrenia means a split personality — several personalities living in one body",
+   "claim_zh": "精神分裂症就是人格分裂，一个人身体里住着好几个人格",
+   "id": "E10",
+   "verdict": "谣言",
+   "why_zh": "精神分裂症是思维和感知出了问题（比如幻听、妄想），不是'一个人变成好几个人'，那是另一种完全不同的病。"
+  },
+  {
+   "category": "日常常识",
+   "citations": [
+    {
+     "authors": "Morgan et al.",
+     "journal": "The Lancet",
+     "key_finding": "myopia progression is driven by axial elongation of the growing eye",
+     "pmid": "22559900",
+     "title": "Myopia",
+     "year": 2012
+    },
+    {
+     "authors": "Walline et al.",
+     "journal": "JAMA",
+     "key_finding": "myopia progressed over 3 years in all lens groups, reflecting eye growth rather than lens wear itself",
+     "pmid": "32780139",
+     "title": "Effect of High Add Power, Medium Add Power, or Single-Vision Contact Lenses on Myopia Progression in Children: The BLINK Randomized Clinical Trial",
+     "year": 2020
+    },
+    {
+     "authors": "Lawrenson et al.",
+     "journal": "Cochrane Database of Systematic Reviews",
+     "key_finding": "undercorrected single-vision spectacles showed little or no evidence of slowing myopia progression",
+     "pmid": "36809645",
+     "title": "Interventions for myopia control in children: a living systematic review and network meta-analysis",
+     "year": 2023
+    }
+   ],
+   "claim_en": "Wearing glasses makes your eyesight worse and worse — glasses ruin your eyes",
+   "claim_zh": "近视眼镜越戴度数越深，眼镜会把眼睛戴坏",
+   "id": "E11",
+   "verdict": "谣言",
+   "why_zh": "度数加深是眼球还在长长造成的，跟戴不戴眼镜无关，不戴眼镜反而看不清、更容易疲劳。"
+  },
+  {
+   "category": "日常常识",
+   "citations": [
+    {
+     "authors": "Holmes et al.",
+     "journal": "BMJ",
+     "key_finding": "individuals genetically predisposed to drink less alcohol had lower cardiovascular risk at all consumption levels",
+     "pmid": "25011450",
+     "title": "Association between alcohol and cardiovascular disease: Mendelian randomisation analysis based on individual participant data",
+     "year": 2014
+    },
+    {
+     "authors": "Millwood et al.",
+     "journal": "The Lancet",
+     "key_finding": "genetic epidemiology showed the apparently protective effects of moderate alcohol intake against stroke are largely non-causal",
+     "pmid": "30955975",
+     "title": "Conventional and genetic evidence on alcohol and vascular disease aetiology: a prospective study of 500 000 men and women in China",
+     "year": 2019
+    },
+    {
+     "authors": "GBD 2016 Alcohol Collaborators et al.",
+     "journal": "The Lancet",
+     "key_finding": "the level of alcohol consumption that minimised harm across health outcomes was zero",
+     "pmid": "30146330",
+     "title": "Alcohol use and burden for 195 countries and territories, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+     "year": 2018
+    }
+   ],
+   "claim_en": "A daily glass of red wine softens blood vessels and protects the heart",
+   "claim_zh": "每天喝一杯红酒能软化血管、保护心脏",
+   "id": "E12",
+   "verdict": "谣言",
+   "why_zh": "用基因方法做的大规模研究发现，喝酒对心脏血管没有保护作用，以前看到的'好处'其实是统计假象。"
+  },
+  {
+   "category": "日常常识",
+   "citations": [
+    {
+     "authors": "Heikkinen et al.",
+     "journal": "The Lancet",
+     "key_finding": "the common cold is an acute viral infection of the upper respiratory tract, principally caused by rhinoviruses",
+     "pmid": "12517470",
+     "title": "The common cold",
+     "year": 2003
+    },
+    {
+     "authors": "Cohen et al.",
+     "journal": "The New England Journal of Medicine",
+     "key_finding": "after controlled viral exposure, psychological stress increased infection and clinical colds in a dose-response manner",
+     "pmid": "1713648",
+     "title": "Psychological stress and susceptibility to the common cold",
+     "year": 1991
+    },
+    {
+     "authors": "Cohen et al.",
+     "journal": "Archives of Internal Medicine",
+     "key_finding": "participants sleeping less than 7 hours were 2.94 times more likely to develop a cold after rhinovirus exposure",
+     "pmid": "19139325",
+     "title": "Sleep habits and susceptibility to the common cold",
+     "year": 2009
+    }
+   ],
+   "claim_en": "Colds are caused by getting chilled — dress too lightly in winter and you will catch a cold",
+   "claim_zh": "感冒就是冻出来的，冬天穿少了就会感冒",
+   "id": "E13",
+   "verdict": "谣言",
+   "why_zh": "感冒必须先有病毒才能发生，光冻变不出病毒，受凉和缺觉只是让身体防线变弱、更容易被病毒攻破而已。"
+  },
+  {
+   "category": "日常常识",
+   "citations": [
+    {
+     "authors": "Chandrashekar et al.",
+     "journal": "Nature",
+     "key_finding": "distinct receptor cells for each of the five basic tastes are found in taste buds across all areas of the tongue",
+     "pmid": "17108952",
+     "title": "The receptors and cells for mammalian taste",
+     "year": 2006
+    },
+    {
+     "authors": "Huang et al.",
+     "journal": "Nature",
+     "key_finding": "sour taste is detected by a dedicated PKD2L1-expressing cell population distinct from sweet, bitter and umami cells",
+     "pmid": "16929298",
+     "title": "The cells and logic for mammalian sour taste detection",
+     "year": 2006
+    },
+    {
+     "authors": "Yarmolinsky et al.",
+     "journal": "Cell",
+     "key_finding": "taste qualities are encoded by distinct, strictly segregated labelled-line populations of taste receptor cells",
+     "pmid": "19837029",
+     "title": "Common sense about taste: from mammals to insects",
+     "year": 2009
+    }
+   ],
+   "claim_en": "The tongue has a taste map: the tip tastes sweet, the back tastes bitter",
+   "claim_zh": "舌头上有味觉地图，舌尖尝甜、舌根尝苦",
+   "id": "E14",
+   "verdict": "谣言",
+   "why_zh": "科学家发现，尝甜、尝苦的'小开关'遍布整个舌头，每个区域都能尝到所有味道，根本没有分区的味觉地图。"
+  },
+  {
+   "category": "日常常识",
+   "citations": [
+    {
+     "authors": "Spalding et al.",
+     "journal": "Cell",
+     "key_finding": "carbon-14 birth dating showed occipital cortex neurons are as old as the individual while non-neuronal cells are exchanged",
+     "pmid": "16009139",
+     "title": "Retrospective birth dating of cells in humans",
+     "year": 2005
+    },
+    {
+     "authors": "Spalding et al.",
+     "journal": "Cell",
+     "key_finding": "about 700 new neurons are added in each hippocampus per day, an annual turnover of 1.75% of the renewing fraction",
+     "pmid": "23746839",
+     "title": "Dynamics of hippocampal neurogenesis in adult humans",
+     "year": 2013
+    },
+    {
+     "authors": "Sender et al.",
+     "journal": "Nature Medicine",
+     "key_finding": "about 330 billion cells turn over per day, dominated by blood cells and gut epithelial cells",
+     "pmid": "33432173",
+     "title": "The distribution of cellular turnover in the human body",
+     "year": 2021
+    }
+   ],
+   "claim_en": "Every cell in your body is replaced with a new one every 7 years",
+   "claim_zh": "人的全身细胞每7年就全部换成新的了",
+   "id": "E15",
+   "verdict": "半真半假",
+   "why_zh": "不同细胞寿命差很多：肠道细胞几天就换、骨骼约十年，而大脑的大部分神经元几乎陪你一辈子，并不是统一7年全换。"
+  },
+  {
+   "category": "日常常识",
+   "citations": [
+    {
+     "authors": "Spiegel et al.",
+     "journal": "The Lancet",
+     "key_finding": "Six nights of 4-hour sleep lowered glucose tolerance and raised evening cortisol in young men",
+     "pmid": "10543671",
+     "title": "Impact of sleep debt on metabolic and endocrine function",
+     "year": 1999
+    },
+    {
+     "authors": "Nedeltcheva et al.",
+     "journal": "Annals of Internal Medicine",
+     "key_finding": "Sleep curtailment cut fat loss by 55% and increased hunger during caloric restriction",
+     "pmid": "20921542",
+     "title": "Insufficient sleep undermines dietary efforts to reduce adiposity",
+     "year": 2010
+    },
+    {
+     "authors": "Broussard et al.",
+     "journal": "Annals of Internal Medicine",
+     "key_finding": "Four nights of sleep restriction made fat cells about 30% less sensitive to insulin",
+     "pmid": "23070488",
+     "title": "Impaired insulin signaling in human adipocytes after experimental sleep restriction: a randomized, crossover study",
+     "year": 2012
+    }
+   ],
+   "claim_en": "Chronic sleep deprivation really does make you gain weight and worsens metabolism",
+   "claim_zh": "长期熬夜缺觉真的会让人发胖、代谢变差",
+   "id": "E16",
+   "verdict": "属实",
+   "why_zh": "实验发现，哪怕只少睡几天，身体处理血糖和管食欲的激素就会乱套，人更容易饿、更想吃高热量食物，时间长了自然发胖。"
+  },
+  {
+   "category": "日常常识",
+   "citations": [
+    {
+     "authors": "Ekelund et al.",
+     "journal": "The Lancet",
+     "key_finding": "In over 1 million people, high activity (about 60-75 min/day) eliminated the extra mortality risk of prolonged sitting",
+     "pmid": "27475271",
+     "title": "Does physical activity attenuate, or even eliminate, the detrimental association of sitting time with mortality? A harmonised meta-analysis of data from more than 1 million men and women",
+     "year": 2016
+    },
+    {
+     "authors": "Biswas et al.",
+     "journal": "Annals of Internal Medicine",
+     "key_finding": "Prolonged sedentary time was independently linked to higher mortality, cardiovascular disease, cancer and diabetes risk",
+     "pmid": "25599350",
+     "title": "Sedentary time and its association with risk for disease incidence, mortality, and hospitalization in adults: a systematic review and meta-analysis",
+     "year": 2015
+    },
+    {
+     "authors": "van der Ploeg et al.",
+     "journal": "Archives of Internal Medicine",
+     "key_finding": "Sitting 11 or more hours a day was linked to 40% higher all-cause mortality than sitting under 4 hours",
+     "pmid": "22450936",
+     "title": "Sitting time and all-cause mortality risk in 222 497 Australian adults",
+     "year": 2012
+    }
+   ],
+   "claim_en": "Sitting all day is harmful, but about an hour of daily exercise offsets most of that risk",
+   "claim_zh": "久坐伤身，但每天运动约一小时能抵消掉大部分久坐风险",
+   "id": "E17",
+   "verdict": "属实",
+   "why_zh": "上百万人的研究发现，每天坐着时间很长的人死亡风险更高，但每天运动约一小时能把这部分多出来的风险基本抵消掉。"
+  },
+  {
+   "category": "日常常识",
+   "citations": [
+    {
+     "authors": "De Obaldia et al.",
+     "journal": "Cell",
+     "key_finding": "People most attractive to mosquitoes had higher skin carboxylic acids in their skin odor, not sweeter blood",
+     "pmid": "36261039",
+     "title": "Differential mosquito attraction to humans is associated with skin-derived carboxylic acid levels",
+     "year": 2022
+    },
+    {
+     "authors": "McMeniman et al.",
+     "journal": "Cell",
+     "key_finding": "Mosquito attraction to humans is orchestrated by integration of carbon dioxide, human odor and heat",
+     "pmid": "24581501",
+     "title": "Multimodal integration of carbon dioxide and other sensory cues drives mosquito attraction to humans",
+     "year": 2014
+    },
+    {
+     "authors": "McBride et al.",
+     "journal": "Nature",
+     "key_finding": "Mosquito preference for humans is linked to an odorant receptor detecting a human body-odor compound",
+     "pmid": "25391959",
+     "title": "Evolution of mosquito preference for humans linked to an odorant receptor",
+     "year": 2014
+    }
+   ],
+   "claim_en": "Mosquitoes prefer people with 'sweet blood'",
+   "claim_zh": "蚊子最爱叮'血甜'的人，血甜招蚊子",
+   "id": "E18",
+   "verdict": "谣言",
+   "why_zh": "蚊子找人主要靠呼出的二氧化碳和皮肤的气味，跟血是甜的还是咸的一点关系都没有。"
+  },
+  {
+   "category": "日常常识",
+   "citations": [
+    {
+     "authors": "Marin et al.",
+     "journal": "The Lancet",
+     "key_finding": "Untreated severe sleep apnoea nearly tripled fatal cardiovascular event risk versus healthy men",
+     "pmid": "15781100",
+     "title": "Long-term cardiovascular outcomes in men with obstructive sleep apnoea-hypopnoea with or without treatment with continuous positive airway pressure: an observational study",
+     "year": 2005
+    },
+    {
+     "authors": "Yaggi et al.",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "Obstructive sleep apnea independently increased the risk of stroke or death (adjusted hazard ratio 1.97)",
+     "pmid": "16282178",
+     "title": "Obstructive sleep apnea as a risk factor for stroke and death",
+     "year": 2005
+    },
+    {
+     "authors": "McEvoy et al.",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "In 2,717 patients with moderate-to-severe sleep apnea and cardiovascular disease, cardiovascular events were common over 3.7 years",
+     "pmid": "27571048",
+     "title": "CPAP for Prevention of Cardiovascular Events in Obstructive Sleep Apnea",
+     "year": 2016
+    }
+   ],
+   "claim_en": "Snoring just means you sleep soundly — nothing to worry about",
+   "claim_zh": "打呼噜就是睡得香，不用管它",
+   "id": "E19",
+   "verdict": "谣言",
+   "why_zh": "严重的打呼噜可能是睡眠呼吸暂停，整夜反复憋气缺氧，会明显增加高血压、心脏病和中风的风险，绝不是'睡得香'。"
+  },
+  {
+   "category": "日常常识",
+   "citations": [
+    {
+     "authors": "Inskip et al.",
+     "journal": "New England Journal of Medicine",
+     "key_finding": "Case-control data did not support that hand-held cellular telephone use causes brain tumors",
+     "pmid": "11150357",
+     "title": "Cellular-telephone use and brain tumors",
+     "year": 2001
+    },
+    {
+     "authors": "Frei et al.",
+     "journal": "BMJ",
+     "key_finding": "In 358,403 Danish subscribers, even 13+ years of mobile phone use showed no increased brain tumour risk",
+     "pmid": "22016439",
+     "title": "Use of mobile phones and risk of brain tumours: update of Danish cohort study",
+     "year": 2011
+    },
+    {
+     "authors": "Little et al.",
+     "journal": "BMJ",
+     "key_finding": "US glioma incidence stayed flat while phone use rose from near 0% to almost 100%, inconsistent with raised risk claims",
+     "pmid": "22403263",
+     "title": "Mobile phone use and glioma risk: comparison of epidemiological study results with incidence trends in the United States",
+     "year": 2012
+    }
+   ],
+   "claim_en": "Mobile phone radiation causes cancer — heavy phone users get brain tumors",
+   "claim_zh": "手机辐射会致癌，打电话多了会得脑瘤",
+   "id": "E20",
+   "verdict": "谣言",
+   "why_zh": "几十万人的长期跟踪发现，打手机多的人得脑瘤的比例并没有更高，手机的非电离辐射能量太低，伤不了DNA。"
+  }
+ ]
+}

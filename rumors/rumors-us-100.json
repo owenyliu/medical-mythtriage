@@ -1,0 +1,3327 @@
+{
+ "dataset": "Rumor Crusher — US Edition: 100 American claims with evidence verdicts",
+ "built": "2026-11-05",
+ "note": "Trending categories (Trending on X / Trending on Reddit) reflect claims circulating Nov 1-6, 2026, around the Nov 3, 2026 US midterm elections.",
+ "claims": [
+  {
+   "id": "A01",
+   "category": "Thanksgiving",
+   "claim": "Turkey makes you sleepy because it is packed with a sleep chemical called tryptophan.",
+   "verdict": "Myth",
+   "why": "Turkey has no more tryptophan than chicken, and it is the huge meal itself — not the bird — that makes you drowsy.",
+   "citations": [
+    {
+     "authors": "Wurtman RJ et al.",
+     "title": "Effects of normal meals rich in carbohydrates or proteins on plasma tryptophan and tyrosine ratios",
+     "source": "The American Journal of Clinical Nutrition",
+     "year": 2003,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/12499331/",
+     "key_finding": "A protein-rich meal like turkey actually lowers the plasma tryptophan ratio that controls how much tryptophan reaches the brain."
+    },
+    {
+     "authors": "Richard DM et al.",
+     "title": "L-Tryptophan: Basic Metabolic Functions, Behavioral Research and Therapeutic Indications",
+     "source": "International Journal of Tryptophan Research",
+     "year": 2009,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/20651948/",
+     "key_finding": "Review of tryptophan science: its effects on the brain depend on blood amino-acid ratios, not on eating a single tryptophan-containing food."
+    },
+    {
+     "authors": "Afaghi A et al.",
+     "title": "High-glycemic-index carbohydrate meals shorten sleep onset",
+     "source": "The American Journal of Clinical Nutrition",
+     "year": 2007,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/17284739/",
+     "key_finding": "A carbohydrate-rich meal eaten before bed significantly shortened the time to fall asleep — meal makeup, not turkey, drives post-feast sleepiness."
+    }
+   ]
+  },
+  {
+   "id": "A02",
+   "category": "Thanksgiving",
+   "claim": "Most Americans gain five to ten pounds between Thanksgiving and New Year's Day.",
+   "verdict": "Myth",
+   "why": "When researchers actually weighed people, the average holiday gain was only about one pound — though people tend to keep that pound.",
+   "citations": [
+    {
+     "authors": "Yanovski JA et al.",
+     "title": "A prospective study of holiday weight gain",
+     "source": "The New England Journal of Medicine",
+     "year": 2000,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/10727591/",
+     "key_finding": "About 200 adults gained an average of only 0.37 kg (0.8 lb) over the holidays — far less than commonly claimed — and the gain was not lost afterward."
+    },
+    {
+     "authors": "Helander EE et al.",
+     "title": "Weight Gain over the Holidays in Three Countries",
+     "source": "The New England Journal of Medicine",
+     "year": 2016,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/27653588/",
+     "key_finding": "Objective smart-scale data from nearly 3,000 adults in the US, Germany and Japan showed a holiday weight bump well under 1 kg, with roughly half still present months later."
+    },
+    {
+     "authors": "Schoeller DA",
+     "title": "The effect of holiday weight gain on body weight",
+     "source": "Physiology & Behavior",
+     "year": 2014,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/24662697/",
+     "key_finding": "Review concludes holiday weight gain averages far below the mythical 5-10 lb, but because it is rarely fully lost it accounts for much of adult yearly weight creep."
+    }
+   ]
+  },
+  {
+   "id": "A03",
+   "category": "Thanksgiving",
+   "claim": "Stuffing cooked inside the turkey is perfectly safe as long as the turkey itself is fully cooked.",
+   "verdict": "Myth",
+   "why": "The center of the stuffing is the very last spot to get hot, so germs can still be alive in it even when the turkey meat reads done.",
+   "citations": [
+    {
+     "authors": "USDA Food Safety and Inspection Service",
+     "title": "Turkey Basics: Stuffing",
+     "source": "USDA Food Safety and Inspection Service",
+     "year": 2024,
+     "link": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/turkey-basics-stuffing",
+     "key_finding": "USDA warns cooking a home-stuffed turkey is riskier: bacteria can survive in stuffing that has not reached 165°F even when the turkey has, and recommends cooking stuffing separately."
+    },
+    {
+     "authors": "Centers for Disease Control and Prevention",
+     "title": "Preparing Your Holiday Turkey Safely",
+     "source": "Centers for Disease Control and Prevention",
+     "year": 2024,
+     "link": "https://www.cdc.gov/food-safety/foods/holiday-turkey.html",
+     "key_finding": "CDC says it is safest to cook stuffing in a casserole dish, because germs can survive in stuffing whose center has not reached 165°F."
+    },
+    {
+     "authors": "Gaze J (Campden & Chorleywood Food Research Association)",
+     "title": "Cooking the Christmas Turkey",
+     "source": "Safefood (Ireland)",
+     "year": 2009,
+     "link": "https://www.safefood.net/professional/research/cooking-christmas-turkey",
+     "key_finding": "Cooking trials found the centre of the stuffing is the slowest point of a stuffed turkey to heat, and a stuffed bird takes about 30% longer to cook safely than an unstuffed one."
+    }
+   ]
+  },
+  {
+   "id": "A04",
+   "category": "Thanksgiving",
+   "claim": "Rinsing a raw turkey in the sink spreads germs around the kitchen instead of making the turkey safer.",
+   "verdict": "True",
+   "why": "Water cannot wash the germs off the bird, but it splashes them into the sink and onto nearby food — only cooking kills them.",
+   "citations": [
+    {
+     "authors": "U.S. Department of Agriculture",
+     "title": "Washing Raw Poultry: Our Science, Your Choice",
+     "source": "USDA (press release)",
+     "year": 2019,
+     "link": "https://www.usda.gov/about-usda/news/press-releases/2019/08/20/washing-raw-poultry-our-science-your-choice",
+     "key_finding": "In USDA's observational study, 60% of participants who washed raw poultry had bacteria in their sink afterward, 14% still had it after cleaning the sink, and 26% transferred bacteria to salad lettuce."
+    },
+    {
+     "authors": "USDA Food Safety and Inspection Service",
+     "title": "Washing Food: Does it Promote Food Safety?",
+     "source": "USDA Food Safety and Inspection Service",
+     "year": 2024,
+     "link": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/washing-food-does-it-promote-food",
+     "key_finding": "USDA research found washing or rinsing meat and poultry increases the risk of cross-contamination in the kitchen; cooking to the right temperature, not washing, kills germs."
+    },
+    {
+     "authors": "Centers for Disease Control and Prevention",
+     "title": "Chicken and Food Poisoning",
+     "source": "Centers for Disease Control and Prevention",
+     "year": 2024,
+     "link": "https://www.cdc.gov/food-safety/foods/chicken.html",
+     "key_finding": "CDC says raw poultry is ready to cook and does not need to be washed first, citing the USDA finding that 1 in 7 people who cleaned their sink after washing chicken still had germs in it."
+    }
+   ]
+  },
+  {
+   "id": "A05",
+   "category": "Thanksgiving",
+   "claim": "It is fine to thaw a frozen turkey by leaving it out on the kitchen counter.",
+   "verdict": "Myth",
+   "why": "The outside of the bird warms into the germ-growing zone hours before the inside thaws, so bacteria multiply all over the surface.",
+   "citations": [
+    {
+     "authors": "Centers for Disease Control and Prevention",
+     "title": "Preparing Your Holiday Turkey Safely",
+     "source": "Centers for Disease Control and Prevention",
+     "year": 2024,
+     "link": "https://www.cdc.gov/food-safety/foods/holiday-turkey.html",
+     "key_finding": "CDC: never thaw a turkey on the counter — after more than 2 hours at room temperature its surface enters the 40-140°F danger zone where germs grow rapidly, even if the center is still frozen."
+    },
+    {
+     "authors": "U.S. Food and Drug Administration",
+     "title": "Are You Storing Food Safely?",
+     "source": "U.S. Food and Drug Administration",
+     "year": 2023,
+     "link": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely",
+     "key_finding": "FDA's two-hour rule: never allow meat or poultry to sit at room temperature for more than two hours, because keeping food chilled is what slows bacterial growth."
+    },
+    {
+     "authors": "USDA Food Safety and Inspection Service",
+     "title": "Leftovers and Food Safety",
+     "source": "USDA Food Safety and Inspection Service",
+     "year": 2020,
+     "link": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+     "key_finding": "USDA lists only three safe thawing methods — the refrigerator, cold water, and the microwave; thawing on the counter is not one of them."
+    }
+   ]
+  },
+  {
+   "id": "A06",
+   "category": "Thanksgiving",
+   "claim": "Cooked Thanksgiving leftovers stay safe to eat for a whole week in the refrigerator.",
+   "verdict": "Myth",
+   "why": "The real limit is three to four days — after that, germs can reach risky levels even if the food still looks and smells fine.",
+   "citations": [
+    {
+     "authors": "USDA Food Safety and Inspection Service",
+     "title": "Leftovers and Food Safety",
+     "source": "USDA Food Safety and Inspection Service",
+     "year": 2020,
+     "link": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+     "key_finding": "USDA: leftovers can be kept in the refrigerator for only 3 to 4 days (or frozen for 3 to 4 months)."
+    },
+    {
+     "authors": "Centers for Disease Control and Prevention",
+     "title": "Preparing Your Holiday Turkey Safely",
+     "source": "Centers for Disease Control and Prevention",
+     "year": 2024,
+     "link": "https://www.cdc.gov/food-safety/foods/holiday-turkey.html",
+     "key_finding": "CDC: eat cooked turkey and dishes made with it, such as soup or casserole, within 3 to 4 days; freeze leftovers to store them longer."
+    },
+    {
+     "authors": "U.S. Food and Drug Administration",
+     "title": "Are You Storing Food Safely?",
+     "source": "U.S. Food and Drug Administration",
+     "year": 2023,
+     "link": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely",
+     "key_finding": "FDA warns food can make you very sick even when it does not look, smell, or taste spoiled — so the calendar, not your nose, sets the safety limit."
+    }
+   ]
+  },
+  {
+   "id": "A07",
+   "category": "Thanksgiving",
+   "claim": "Drinking cranberry juice can cure a urinary tract infection.",
+   "verdict": "Myth",
+   "why": "Cranberry may slightly lower the chance of repeat infections for some people, but it cannot cure an infection you already have — that takes antibiotics.",
+   "citations": [
+    {
+     "authors": "Williams G et al.",
+     "title": "Cranberries for preventing urinary tract infections",
+     "source": "Cochrane Database of Systematic Reviews",
+     "year": 2023,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/37947276/",
+     "key_finding": "Cochrane's updated review found cranberry products modestly reduce the risk of repeat UTIs in women with recurrent infections and in children — evidence about prevention, not treatment."
+    },
+    {
+     "authors": "Barbosa-Cesnik C et al.",
+     "title": "Cranberry juice fails to prevent recurrent urinary tract infection: results from a randomized placebo-controlled trial",
+     "source": "Clinical Infectious Diseases",
+     "year": 2011,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/21148516/",
+     "key_finding": "In a randomized trial of college women with a prior UTI, drinking cranberry juice did no better than a placebo drink at preventing repeat infections."
+    },
+    {
+     "authors": "Juthani-Mehta M et al.",
+     "title": "Effect of Cranberry Capsules on Bacteriuria Plus Pyuria Among Older Women in Nursing Homes: A Randomized Clinical Trial",
+     "source": "JAMA",
+     "year": 2016,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/27787564/",
+     "key_finding": "Among older nursing-home women, daily cranberry capsules did not reduce bacteria in urine or UTI episodes compared with placebo."
+    }
+   ]
+  },
+  {
+   "id": "A08",
+   "category": "Thanksgiving",
+   "claim": "All of the alcohol in a dish burns off completely while it cooks.",
+   "verdict": "Myth",
+   "why": "Even after two and a half hours of simmering, about 5% of the alcohol is still in the food — and a quick flambé leaves most of it behind.",
+   "citations": [
+    {
+     "authors": "Augustin J et al.",
+     "title": "Alcohol retention in food preparation",
+     "source": "Journal of the American Dietetic Association",
+     "year": 1992,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/1556354/",
+     "key_finding": "USDA-funded laboratory tests found 4% to 95% of added alcohol remained in finished dishes depending on the cooking method — never zero under normal cooking."
+    },
+    {
+     "authors": "USDA Agricultural Research Service",
+     "title": "USDA Table of Nutrient Retention Factors, Release 6",
+     "source": "USDA Agricultural Research Service",
+     "year": 2007,
+     "link": "https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/methods-and-application-of-food-composition-laboratory/mafcl-site-pages/nutrient-retention-factors/",
+     "key_finding": "USDA's official retention data: alcohol simmered in a dish is still 40% present after 15 minutes, 25% after 1 hour and 5% after 2.5 hours; flaming keeps about 75%."
+    },
+    {
+     "authors": "Snitkjær P et al.",
+     "title": "Fate of ethanol during cooking of liquid foods prepared with alcoholic beverages: Theory and experimental studies",
+     "source": "Food Chemistry",
+     "year": 2017,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/28407905/",
+     "key_finding": "Experiments on wine-based liquids confirmed ethanol is lost only gradually during cooking and remains detectable after prolonged simmering."
+    }
+   ]
+  },
+  {
+   "id": "A09",
+   "category": "Thanksgiving",
+   "claim": "Food dropped on the floor is safe to eat if you pick it up within five seconds.",
+   "verdict": "Myth",
+   "why": "Germs jump onto food the instant it touches the floor — there is no five-second safety window.",
+   "citations": [
+    {
+     "authors": "Dawson P et al.",
+     "title": "Residence time and food contact time effects on transfer of Salmonella Typhimurium from tile, wood and carpet: testing the five-second rule",
+     "source": "Journal of Applied Microbiology",
+     "year": 2007,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/17381737/",
+     "key_finding": "Salmonella survived on tile, wood and carpet for weeks and transferred onto bologna and bread after as little as 5 seconds of contact."
+    },
+    {
+     "authors": "Miranda RC et al.",
+     "title": "Longer Contact Times Increase Cross-Contamination of Enterobacter aerogenes from Surfaces to Foods",
+     "source": "Applied and Environmental Microbiology",
+     "year": 2016,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/27590818/",
+     "key_finding": "Bacteria transferred to foods instantly in many tests — sometimes in under a second — with moist foods like watermelon picking up the most contamination."
+    },
+    {
+     "authors": "Redmond EC et al.",
+     "title": "Consumer food handling in the home: a review of food safety studies",
+     "source": "Journal of Food Protection",
+     "year": 2003,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/12540194/",
+     "key_finding": "Review of home food-safety studies documents how readily bacteria cross-contaminate food from kitchen surfaces during everyday cooking."
+    }
+   ]
+  },
+  {
+   "id": "A10",
+   "category": "Thanksgiving",
+   "claim": "Canned pumpkin isn't really pumpkin — it's made from other kinds of squash.",
+   "verdict": "Mixed",
+   "why": "Half true: the big brands pack a tan, squash-like cousin called Dickinson — but botanists count it as a pumpkin too, and food rules have allowed the name for decades.",
+   "citations": [
+    {
+     "authors": "U.S. Food and Drug Administration",
+     "title": "CPG Sec 585.725 \"Pumpkin\" - Labeling Articles Made from Certain Varieties of Squash",
+     "source": "U.S. Food and Drug Administration",
+     "year": 1988,
+     "link": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-585725-pumpkin-labeling-articles-made-certain-varieties-squash",
+     "key_finding": "Since 1938 the FDA has told canners it will not object to labeling golden-fleshed sweet squash, field pumpkin, or blends of them as 'pumpkin'."
+    },
+    {
+     "authors": "Smithsonian National Museum of Natural History",
+     "title": "How Ancient Humans Helped Bring Pumpkins to Your Thanksgiving Table",
+     "source": "Smithsonian Magazine",
+     "year": 2021,
+     "link": "https://www.smithsonianmag.com/blogs/national-museum-of-natural-history/2021/11/18/how-ancient-humans-helped-bring-pumpkins-to-your-thanksgiving-table/",
+     "key_finding": "Smithsonian curator Logan Kistler explains canned pumpkin is made from the Dickinson, a cultivated variety more closely related to butternut squash than to the orange carving pumpkin."
+    },
+    {
+     "authors": "Iowa State University Extension and Outreach",
+     "title": "Is canned pumpkin actually made from a mixture of butternut and other squashes?",
+     "source": "Iowa State University Extension and Outreach (Yard and Garden)",
+     "year": 2022,
+     "link": "https://yardandgarden.extension.iastate.edu/faq/canned-pumpkin-actually-made-mixture-butternut-and-other-squashes",
+     "key_finding": "Extension horticulturists note 'pumpkin' is defined by appearance and use, not species: Dickinson belongs to Cucurbita moschata, the same species as butternut squash, and is the main source of commercial purée."
+    }
+   ]
+  },
+  {
+   "id": "A11",
+   "category": "Christmas & Holidays",
+   "claim": "Poinsettias are deadly poisonous to children and pets who eat a leaf.",
+   "verdict": "Myth",
+   "why": "Poison centers have logged tens of thousands of poinsettia nibbles with no deaths and, at worst, a mild stomachache.",
+   "citations": [
+    {
+     "authors": "Krenzelok EP et al.",
+     "title": "Poinsettia exposures have good outcomes...just as we thought",
+     "source": "The American Journal of Emergency Medicine",
+     "year": 1996,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/8906768/",
+     "key_finding": "Review of 22,793 poinsettia exposures reported to US poison centers found no fatalities and virtually no serious effects."
+    },
+    {
+     "authors": "ASPCA",
+     "title": "Poinsettia (Toxic and Non-Toxic Plants database)",
+     "source": "ASPCA Animal Poison Control",
+     "year": 2026,
+     "link": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/poinsettia",
+     "key_finding": "ASPCA lists poinsettia as toxic to dogs, cats and horses only because its irritant sap can upset the mouth and stomach, and calls its toxicity 'generally over-rated'."
+    },
+    {
+     "authors": "Krenzelok EP et al.",
+     "title": "Toxic Christmas and New Year Holiday Plants...or Are They?",
+     "source": "Asia Pacific Journal of Medical Toxicology",
+     "year": 2015,
+     "link": "https://apjmt.mums.ac.ir/article_3539_142c65e00f4f7cf2e6c4c996e34005df.pdf",
+     "key_finding": "In 19,862 poinsettia ingestions logged by US poison centers from 2000-2009, the large majority of people had no symptoms at all and there was no mortality."
+    }
+   ]
+  },
+  {
+   "id": "A12",
+   "category": "Christmas & Holidays",
+   "claim": "December actually has one of the lowest suicide rates of any month of the year.",
+   "verdict": "True",
+   "why": "US death records show December's daily suicide rate is typically the year's lowest — the holiday 'spike' is a story, not a statistic.",
+   "citations": [
+    {
+     "authors": "Annenberg Public Policy Center",
+     "title": "Lowest Suicide Rate Is in December but Some in Media Still Promote Holiday-Suicide Myth",
+     "source": "Annenberg Public Policy Center, University of Pennsylvania",
+     "year": 2025,
+     "link": "https://www.annenbergpublicpolicycenter.org/lowest-suicide-rate-is-in-december-but-some-in-media-still-promote-holiday-suicide-myth/",
+     "key_finding": "Analyzing CDC data, APPC found December had the lowest average daily suicide rate of any month in 2024, continuing a pattern tracked since 1999."
+    },
+    {
+     "authors": "To S et al.",
+     "title": "Seasonal variation in suicide: age group and summer effects in the United States (2015-2020)",
+     "source": "BMC Psychiatry",
+     "year": 2024,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/39609761/",
+     "key_finding": "US death data from 2015-2020 show suicides peak in the summer months, not during the winter holiday season."
+    },
+    {
+     "authors": "Jessen G et al.",
+     "title": "Postponed suicide death? Suicides around birthdays and major public holidays",
+     "source": "Suicide and Life-Threatening Behavior",
+     "year": 1999,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/10531639/",
+     "key_finding": "Danish registry data found suicides dip around major public holidays such as Christmas and rise afterward — a postponement pattern, not a holiday spike."
+    }
+   ]
+  },
+  {
+   "id": "A13",
+   "category": "Christmas & Holidays",
+   "claim": "Eating sugar makes children hyperactive.",
+   "verdict": "Myth",
+   "why": "In blinded experiments, kids given sugar act no differently — but parents who believe their child had sugar rate the same behavior as wilder.",
+   "citations": [
+    {
+     "authors": "Wolraich ML et al.",
+     "title": "The effect of sugar on behavior or cognition in children. A meta-analysis",
+     "source": "JAMA",
+     "year": 1995,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/7474248/",
+     "key_finding": "Meta-analysis of 23 controlled challenge studies found sugar does not affect children's behavior or cognitive performance."
+    },
+    {
+     "authors": "Wolraich ML et al.",
+     "title": "Effects of diets high in sucrose or aspartame on the behavior and cognitive performance of children",
+     "source": "The New England Journal of Medicine",
+     "year": 1994,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/8277950/",
+     "key_finding": "Children rotated through high-sugar, low-sugar and aspartame diets for three weeks each showed no differences in behavior — even children described as sugar-sensitive."
+    },
+    {
+     "authors": "Hoover DW et al.",
+     "title": "Effects of sugar ingestion expectancies on mother-child interactions",
+     "source": "Journal of Abnormal Child Psychology",
+     "year": 1994,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/7963081/",
+     "key_finding": "Mothers told their son had just eaten sugar — when he had actually had a sugar-free drink — rated him as significantly more hyperactive."
+    }
+   ]
+  },
+  {
+   "id": "A14",
+   "category": "Christmas & Holidays",
+   "claim": "Swallowing a few mistletoe berries will kill a child or a pet.",
+   "verdict": "Mixed",
+   "why": "The American mistletoe used in US decorations almost never causes more than an upset stomach in small amounts — but large doses and the European species are genuinely dangerous, so it still belongs out of reach.",
+   "citations": [
+    {
+     "authors": "Krenzelok EP et al.",
+     "title": "American mistletoe exposures",
+     "source": "The American Journal of Emergency Medicine",
+     "year": 1997,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/9270395/",
+     "key_finding": "Of 1,754 American mistletoe exposures reported to poison centers, 99.2% were associated with no illness at all and there were no fatalities."
+    },
+    {
+     "authors": "Evens ZN et al.",
+     "title": "Holiday plants with toxic misconceptions",
+     "source": "Western Journal of Emergency Medicine",
+     "year": 2012,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/23359840/",
+     "key_finding": "Review concludes ingesting 1-3 American mistletoe berries or 1-2 leaves is unlikely to produce serious toxicity, while European mistletoe is the more toxic species."
+    },
+    {
+     "authors": "Krenzelok EP et al.",
+     "title": "Toxic Christmas and New Year Holiday Plants...or Are They?",
+     "source": "Asia Pacific Journal of Medical Toxicology",
+     "year": 2015,
+     "link": "https://apjmt.mums.ac.ir/article_3539_142c65e00f4f7cf2e6c4c996e34005df.pdf",
+     "key_finding": "In 1,138 American mistletoe exposures in 2000-2009 poison-center data, most cases were symptom-free with no mortality, though stomach symptoms occurred more often than with poinsettia."
+    }
+   ]
+  },
+  {
+   "id": "A15",
+   "category": "Christmas & Holidays",
+   "claim": "'Christmas tree syndrome' is real — mold growing on a live tree can set off allergy and asthma symptoms.",
+   "verdict": "True",
+   "why": "Real trees carry dozens of kinds of mold, and most of those molds are known allergy triggers, so the holiday sneezing is not imaginary.",
+   "citations": [
+    {
+     "authors": "Kurlandsky LE et al.",
+     "title": "Identification of mold on seasonal indoor coniferous trees",
+     "source": "Annals of Allergy, Asthma & Immunology",
+     "year": 2011,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/21624760/",
+     "key_finding": "Sampling clippings from 28 Christmas trees identified 53 species of mold, about 70% of them potential allergens linked to wheeze, persistent cough and allergic sensitization."
+    },
+    {
+     "authors": "Wyse DM et al.",
+     "title": "Christmas tree allergy: mould and pollen studies",
+     "source": "Canadian Medical Association Journal",
+     "year": 1970,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/5485790/",
+     "key_finding": "Early clinical study documented genuine allergic reactions to Christmas trees among allergy patients and investigated the moulds and pollens responsible."
+    },
+    {
+     "authors": "SUNY Upstate Medical University",
+     "title": "Christmas trees may harbor unwanted presence, study says",
+     "source": "SUNY Upstate Medical University (Upstate News)",
+     "year": 2011,
+     "link": "https://www.upstate.edu/news/articles/2011/12-christmas-trees-may-harbor-unwanted-presence-study.php",
+     "key_finding": "Upstate's summary of the Annals study: most molds identified on trees are potential allergens shown to increase the risk of wheeze, persistent cough and allergic sensitization in infants."
+    }
+   ]
+  },
+  {
+   "id": "A16",
+   "category": "Christmas & Holidays",
+   "claim": "A nightcap — an alcoholic drink right before bed — helps you sleep better.",
+   "verdict": "Myth",
+   "why": "Alcohol knocks you out faster but chops up the second half of the night and cuts your dream sleep, so you wake up less rested.",
+   "citations": [
+    {
+     "authors": "Ebrahim IO et al.",
+     "title": "Alcohol and sleep I: effects on normal sleep",
+     "source": "Alcoholism: Clinical and Experimental Research",
+     "year": 2013,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/23347102/",
+     "key_finding": "Review of 27 laboratory studies: at all doses alcohol reduces the time to fall asleep but increases sleep disruption in the second half of the night and reduces REM sleep."
+    },
+    {
+     "authors": "Gardiner C et al.",
+     "title": "The effect of alcohol on subsequent sleep in healthy adults: A systematic review and meta-analysis",
+     "source": "Sleep Medicine Reviews",
+     "year": 2025,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/39631226/",
+     "key_finding": "A 2025 systematic review and meta-analysis of sleep-lab studies confirms evening alcohol suppresses REM sleep and fragments sleep across the night."
+    },
+    {
+     "authors": "Colrain IM et al.",
+     "title": "Alcohol and the sleeping brain",
+     "source": "Handbook of Clinical Neurology",
+     "year": 2014,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/25307588/",
+     "key_finding": "Review of alcohol's effects on the sleeping brain: alcohol's sedation is not normal sleep, and sleep architecture deteriorates as the alcohol is metabolized."
+    }
+   ]
+  },
+  {
+   "id": "A17",
+   "category": "Christmas & Holidays",
+   "claim": "A hangover can be cured — with coffee, a greasy breakfast, sports drinks, or a 'hair of the dog' drink.",
+   "verdict": "Myth",
+   "why": "Every proposed remedy has failed controlled testing; only time clears the alcohol byproducts that make you feel awful.",
+   "citations": [
+    {
+     "authors": "Pittler MH et al.",
+     "title": "Interventions for preventing or treating alcohol hangover: systematic review of randomised controlled trials",
+     "source": "BMJ",
+     "year": 2005,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/16373736/",
+     "key_finding": "Systematic review of all randomized controlled trials found no compelling evidence that any intervention prevents or treats alcohol hangover."
+    },
+    {
+     "authors": "National Institute on Alcohol Abuse and Alcoholism",
+     "title": "Hangovers",
+     "source": "National Institute on Alcohol Abuse and Alcoholism (NIAAA)",
+     "year": 2026,
+     "link": "https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/hangovers",
+     "key_finding": "NIAAA states there is no cure for a hangover other than time, and that a morning 'hair of the dog' drink only prolongs the malaise."
+    },
+    {
+     "authors": "Verster JC et al.",
+     "title": "Unknown safety and efficacy of alcohol hangover treatments puts consumers at risk",
+     "source": "Addictive Behaviors",
+     "year": 2021,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/34225031/",
+     "key_finding": "Review of marketed hangover treatments found none with demonstrated efficacy, while some products carry safety risks of their own."
+    }
+   ]
+  },
+  {
+   "id": "A18",
+   "category": "Christmas & Holidays",
+   "claim": "Homemade eggnog made with raw eggs can give you Salmonella food poisoning.",
+   "verdict": "True",
+   "why": "Even clean, uncracked eggs can hide Salmonella inside, and eggnog never cooks them — using pasteurized eggs or a cooked base removes the risk.",
+   "citations": [
+    {
+     "authors": "U.S. Food and Drug Administration",
+     "title": "What You Need to Know About Egg Safety",
+     "source": "U.S. Food and Drug Administration",
+     "year": 2025,
+     "link": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+     "key_finding": "FDA warns fresh eggs, even those with clean, uncracked shells, may contain Salmonella, and advises using pasteurized eggs for recipes that call for raw or undercooked eggs."
+    },
+    {
+     "authors": "Centers for Disease Control and Prevention",
+     "title": "Salmonella and Food",
+     "source": "Centers for Disease Control and Prevention",
+     "year": 2023,
+     "link": "https://stacks.cdc.gov/view/cdc/128715/cdc_128715_DS1.pdf",
+     "key_finding": "CDC lists eggs among the common food sources of Salmonella infection and advises cooking eggs properly and never eating them raw."
+    },
+    {
+     "authors": "Iowa State University Extension and Outreach",
+     "title": "Homemade Eggnog Made Safe",
+     "source": "Iowa State University Extension and Outreach (AnswerLine)",
+     "year": 2022,
+     "link": "https://blogs.extension.iastate.edu/answerline/2022/12/08/homemade-eggnog-made-safe/",
+     "key_finding": "Extension food-safety experts warn homemade eggnog can cause Salmonella poisoning from raw or undercooked eggs, and recommend a cooked egg base (160°F) or pasteurized eggs instead."
+    }
+   ]
+  },
+  {
+   "id": "A19",
+   "category": "Christmas & Holidays",
+   "claim": "More people die of heart attacks on Christmas Day than on any other day of the year.",
+   "verdict": "True",
+   "why": "US records put December 25 first for cardiac deaths, with December 26 and New Year's Day right behind it.",
+   "citations": [
+    {
+     "authors": "Phillips DP et al.",
+     "title": "Cardiac mortality is higher around Christmas and New Year's than at any other time: the holidays as a risk factor for death",
+     "source": "Circulation",
+     "year": 2004,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/15596560/",
+     "key_finding": "Analysis of US death records found more cardiac deaths occur on December 25 than on any other day of the year, followed by December 26 and January 1."
+    },
+    {
+     "authors": "Mohammad MA et al.",
+     "title": "Christmas, national holidays, sport events, and time factors as triggers of acute myocardial infarction: SWEDEHEART observational study 1998-2013",
+     "source": "BMJ",
+     "year": 2018,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/30541902/",
+     "key_finding": "In 16 years of Swedish registry data, heart attacks rose 15% across the Christmas holiday and 37% on Christmas Eve, peaking at about 10 p.m."
+    },
+    {
+     "authors": "American Heart Association",
+     "title": "Heart attack deaths spike during the holidays",
+     "source": "American Heart Association Newsroom",
+     "year": 2025,
+     "link": "https://newsroom.heart.org/local-news/heart-attack-deaths-spike-during-the-holidays",
+     "key_finding": "The AHA reports research showing more people die from heart attacks during the last week of December than at any other time of the year."
+    }
+   ]
+  },
+  {
+   "id": "A20",
+   "category": "Christmas & Holidays",
+   "claim": "A post-holiday detox or juice cleanse flushes built-up toxins out of your body and resets it.",
+   "verdict": "Myth",
+   "why": "Your liver and kidneys already clear waste around the clock, and careful reviews find no good evidence that cleanses remove anything extra.",
+   "citations": [
+    {
+     "authors": "Klein AV et al.",
+     "title": "Detox diets for toxin elimination and weight management: a critical review of the evidence",
+     "source": "Journal of Human Nutrition and Dietetics",
+     "year": 2015,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/25522674/",
+     "key_finding": "Critical review found no clinical evidence that commercial detox diets eliminate toxins from the body, and only a handful of low-quality studies on weight loss."
+    },
+    {
+     "authors": "National Center for Complementary and Integrative Health",
+     "title": "\"Detoxes\" and \"Cleanses\": What You Need To Know",
+     "source": "National Center for Complementary and Integrative Health (NIH)",
+     "year": 2025,
+     "link": "https://www.nccih.nih.gov/health/detoxes-and-cleanses-what-you-need-to-know",
+     "key_finding": "NIH's NCCIH notes studies of detox programs are few and low-quality, regulators have acted against detox products sold with false claims, and some cleansing programs can be unsafe."
+    },
+    {
+     "authors": "Acosta RD et al.",
+     "title": "Clinical effects of colonic cleansing for general health promotion: a systematic review",
+     "source": "The American Journal of Gastroenterology",
+     "year": 2009,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/19724266/",
+     "key_finding": "Systematic review found no evidence supporting colonic cleansing for general health promotion, while documenting adverse effects ranging from cramping to kidney failure."
+    }
+   ]
+  },
+  {
+   "id": "B01",
+   "category": "Everyday Classics",
+   "claim": "If you swallow chewing gum, it stays in your stomach for seven years.",
+   "verdict": "Myth",
+   "why": "Swallowed gum can't be digested, but it rides along with everything else and leaves in your poop within days — it never sits in your stomach for seven years.",
+   "citations": [
+    {
+     "authors": "Milov DE et al.",
+     "title": "Chewing gum bezoars of the gastrointestinal tract",
+     "source": "Pediatrics",
+     "year": 1998,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/9685468/",
+     "key_finding": "Gum caused blockages (bezoars) only in children who repeatedly swallowed large amounts; ordinary swallowed pieces pass through the gut."
+    },
+    {
+     "authors": "ASGE Standards of Practice Committee",
+     "title": "Management of ingested foreign bodies and food impactions",
+     "source": "Gastrointestinal Endoscopy",
+     "year": 2011,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/21628009/",
+     "key_finding": "Gastroenterology guideline: most swallowed blunt objects travel through the digestive tract and pass on their own without any treatment."
+    },
+    {
+     "authors": "Mayo Clinic",
+     "title": "Swallowing gum: Is it harmful?",
+     "source": "Mayo Clinic",
+     "year": 2025,
+     "link": "https://www.mayoclinic.org/diseases-conditions/indigestion/expert-answers/digestive-system/faq-20058446",
+     "key_finding": "Mayo Clinic states the seven-year story is folklore: undigested gum moves relatively intact through the digestive system and passes out in the stool."
+    }
+   ]
+  },
+  {
+   "id": "B02",
+   "category": "Everyday Classics",
+   "claim": "People only use 10% of their brains.",
+   "verdict": "Myth",
+   "why": "Brain scans and the brain's huge energy bill show every part of your brain is busy working — there is no sleeping 90% waiting to be unlocked.",
+   "citations": [
+    {
+     "authors": "Vreeman RC et al.",
+     "title": "Medical myths",
+     "source": "BMJ",
+     "year": 2007,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/18156231/",
+     "key_finding": "Review of the evidence: brain imaging shows no area of the brain is completely silent or inactive, and damage to almost any area harms abilities — refuting the 10% idea."
+    },
+    {
+     "authors": "Azevedo FA et al.",
+     "title": "Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain",
+     "source": "The Journal of Comparative Neurology",
+     "year": 2009,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/19226510/",
+     "key_finding": "Cell counting found the human brain is a fully built organ of about 86 billion neurons — there is no dormant reserve making up 90% of it."
+    },
+    {
+     "authors": "Raichle ME et al.",
+     "title": "Appraising the brain's energy budget",
+     "source": "Proceedings of the National Academy of Sciences of the United States of America",
+     "year": 2002,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/12149485/",
+     "key_finding": "The brain consumes about 20% of the body's resting energy despite being about 2% of body weight — far too energy-hungry to be 90% idle."
+    }
+   ]
+  },
+  {
+   "id": "B03",
+   "category": "Everyday Classics",
+   "claim": "Your tongue has a taste map: sweet at the tip, bitter at the back, and each zone tastes only one flavor.",
+   "verdict": "Myth",
+   "why": "Every part of your tongue can taste sweet, sour, salty and bitter — the old tongue map with one flavor per zone came from a mistranslated chart.",
+   "citations": [
+    {
+     "authors": "Mueller KL et al.",
+     "title": "The receptors and coding logic for bitter taste",
+     "source": "Nature",
+     "year": 2005,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/15759003/",
+     "key_finding": "Bitter-taste receptor cells were found in taste buds spread across the tongue and palate, not locked into a single 'bitter zone' at the back."
+    },
+    {
+     "authors": "Tomchik SM et al.",
+     "title": "Breadth of tuning and taste coding in mammalian taste buds",
+     "source": "The Journal of Neuroscience",
+     "year": 2007,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/17913917/",
+     "key_finding": "Individual taste buds respond to several different taste qualities at once instead of just one flavor each."
+    },
+    {
+     "authors": "Roper SD et al.",
+     "title": "Taste buds: cells, signals and synapses",
+     "source": "Nature Reviews Neuroscience",
+     "year": 2017,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/28655883/",
+     "key_finding": "Review of taste-bud biology: taste buds containing cells for all five taste qualities are distributed across the tongue's surface."
+    }
+   ]
+  },
+  {
+   "id": "B04",
+   "category": "Everyday Classics",
+   "claim": "Cracking your knuckles gives you arthritis.",
+   "verdict": "Myth",
+   "why": "Studies of lifelong knuckle-crackers — including one man who cracked only one hand for 50 years — found no arthritis.",
+   "citations": [
+    {
+     "authors": "Deweber K et al.",
+     "title": "Knuckle cracking and hand osteoarthritis",
+     "source": "Journal of the American Board of Family Medicine",
+     "year": 2011,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/21383216/",
+     "key_finding": "In a study of adults aged 50–89, people who cracked their knuckles had the same rate of hand osteoarthritis as those who didn't."
+    },
+    {
+     "authors": "Castellanos J et al.",
+     "title": "Effect of habitual knuckle cracking on hand function",
+     "source": "Annals of the Rheumatic Diseases",
+     "year": 1990,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/2344210/",
+     "key_finding": "Habitual knuckle crackers showed no arthritis, though their hands were slightly more swollen and grip strength a bit lower."
+    },
+    {
+     "authors": "Unger DL et al.",
+     "title": "Does knuckle cracking lead to arthritis of the fingers?",
+     "source": "Arthritis and Rheumatism",
+     "year": 1998,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/9588755/",
+     "key_finding": "A physician cracked the knuckles of only his left hand for over 50 years; afterward both hands were free of arthritis."
+    }
+   ]
+  },
+  {
+   "id": "B05",
+   "category": "Everyday Classics",
+   "claim": "Your hair and fingernails keep growing after you die.",
+   "verdict": "Myth",
+   "why": "Dead skin dries out and shrinks back, so hair and nails only look longer — growing takes living cells, and those stop at death.",
+   "citations": [
+    {
+     "authors": "Vreeman RC et al.",
+     "title": "Medical myths",
+     "source": "BMJ",
+     "year": 2007,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/18156231/",
+     "key_finding": "Forensic and dermatology experts explain that post-death dehydration retracts the skin around hair and nails, creating an illusion of growth; real growth needs complex hormonal regulation that stops at death."
+    },
+    {
+     "authors": "Schneider MR et al.",
+     "title": "The hair follicle as a dynamic miniorgan",
+     "source": "Current Biology",
+     "year": 2009,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/19211055/",
+     "key_finding": "Hair is produced by the hair follicle, a living, cycling mini-organ — an active biological process that cannot continue without living tissue."
+    },
+    {
+     "authors": "Palmeri A et al.",
+     "title": "Drugs in nails: physiology, pharmacokinetics and forensic toxicology",
+     "source": "Clinical Pharmacokinetics",
+     "year": 2000,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/10709775/",
+     "key_finding": "Nail physiology review: the nail plate is continuously produced by the living nail matrix during life, which is how substances become incorporated into growing nails."
+    }
+   ]
+  },
+  {
+   "id": "B06",
+   "category": "Everyday Classics",
+   "claim": "You lose most of your body heat through your head, so a hat matters more than anything else.",
+   "verdict": "Myth",
+   "why": "Your head is only about a tenth of your skin, so it loses about a tenth of your heat — the 'half your heat' story came from soldiers bundled up in everything except a hat.",
+   "citations": [
+    {
+     "authors": "Vreeman RC et al.",
+     "title": "Festive medical myths",
+     "source": "BMJ",
+     "year": 2008,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/19091758/",
+     "key_finding": "BMJ review traced the claim to flawed 1950s military experiments on fully bundled subjects with bare heads; the head is roughly 10% of body surface, so it accounts for roughly 7–10% of heat loss."
+    },
+    {
+     "authors": "Pretorius T et al.",
+     "title": "Thermal effects of whole head submersion in cold water on nonshivering humans",
+     "source": "Journal of Applied Physiology",
+     "year": 2006,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/16614357/",
+     "key_finding": "Submerging the whole head in cold water did not contribute relatively more to total surface heat loss than the rest of the body."
+    },
+    {
+     "authors": "Giesbrecht GG et al.",
+     "title": "Thermal effects of dorsal head immersion in cold water on nonshivering humans",
+     "source": "Journal of Applied Physiology",
+     "year": 2005,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/16227460/",
+     "key_finding": "Cold-water immersion experiments showed head heat loss in line with the head's share of skin surface area, not at a special, higher rate."
+    }
+   ]
+  },
+  {
+   "id": "B07",
+   "category": "Everyday Classics",
+   "claim": "Eating lots of carrots will give you amazing night vision and dramatically improve your eyesight.",
+   "verdict": "Myth",
+   "why": "Carrots only help your eyes if you're missing vitamin A; if you already eat normally, extra carrots can't upgrade your vision — the night-vision superpower story traces back to British wartime propaganda.",
+   "citations": [
+    {
+     "authors": "Sommer A et al.",
+     "title": "Assessment and control of vitamin A deficiency: the Annecy Accords",
+     "source": "The Journal of Nutrition",
+     "year": 2002,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/12221259/",
+     "key_finding": "Night blindness is an early warning sign of vitamin A deficiency — vitamin A matters for vision when it is actually lacking."
+    },
+    {
+     "authors": "Imdad A et al.",
+     "title": "Vitamin A supplementation for preventing morbidity and mortality in children from six months to five years of age",
+     "source": "Cochrane Database of Systematic Reviews",
+     "year": 2022,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/35294044/",
+     "key_finding": "Vitamin A supplements protect children in regions where deficiency is common — the benefit comes from fixing a shortage, not boosting already healthy eyes."
+    },
+    {
+     "authors": "Evans JR et al.",
+     "title": "Antioxidant vitamin and mineral supplements for preventing age-related macular degeneration",
+     "source": "Cochrane Database of Systematic Reviews",
+     "year": 2017,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/28756617/",
+     "key_finding": "Large randomized trials found antioxidant vitamin supplements (including beta-carotene types) did not prevent age-related macular degeneration in well-nourished adults."
+    }
+   ]
+  },
+  {
+   "id": "B08",
+   "category": "Everyday Classics",
+   "claim": "You must drink eight glasses of water every day or you'll be dehydrated.",
+   "verdict": "Myth",
+   "why": "Healthy people get plenty of water from food and everyday drinks — thirst is a fine guide, and no study backs the eight-glasses rule.",
+   "citations": [
+    {
+     "authors": "Valtin H",
+     "title": "\"Drink at least eight glasses of water a day.\" Really? Is there scientific evidence for \"8 x 8\"?",
+     "source": "American Journal of Physiology - Regulatory, Integrative and Comparative Physiology",
+     "year": 2002,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/12376390/",
+     "key_finding": "A kidney physiologist reviewed the evidence and found no scientific support for the 8x8 rule for healthy adults in temperate climates."
+    },
+    {
+     "authors": "Negoianu D et al.",
+     "title": "Just add water",
+     "source": "Journal of the American Society of Nephrology",
+     "year": 2008,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/18385417/",
+     "key_finding": "Review found no clear health benefit from drinking water beyond thirst for most healthy people."
+    },
+    {
+     "authors": "Vreeman RC et al.",
+     "title": "Medical myths",
+     "source": "BMJ",
+     "year": 2007,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/18156231/",
+     "key_finding": "BMJ review noted daily water needs are usually met through normal consumption of food and drinks such as juice, milk and even caffeinated beverages."
+    }
+   ]
+  },
+  {
+   "id": "B09",
+   "category": "Everyday Classics",
+   "claim": "For everyday handwashing, plain soap and water clean your hands just as well as antibacterial soap.",
+   "verdict": "True",
+   "why": "Big studies and the FDA agree: the scrubbing with regular soap does the work — the added antibacterial chemicals never proved they help.",
+   "citations": [
+    {
+     "authors": "U.S. Food and Drug Administration",
+     "title": "Skip the Antibacterial Soap; Use Plain Soap and Water",
+     "source": "U.S. Food and Drug Administration",
+     "year": 2016,
+     "link": "https://www.fda.gov/consumers/consumer-updates/skip-antibacterial-soap-use-plain-soap-and-water",
+     "key_finding": "FDA's 2016 final rule removed 19 antibacterial ingredients from consumer soaps because manufacturers never proved the products prevent illness better than plain soap and water."
+    },
+    {
+     "authors": "Aiello AE et al.",
+     "title": "Consumer antibacterial soaps: effective or just risky?",
+     "source": "Clinical Infectious Diseases",
+     "year": 2007,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/17683018/",
+     "key_finding": "Review of the evidence found consumer antibacterial soaps offered no extra protection against infectious illness compared with plain soap."
+    },
+    {
+     "authors": "Luby SP et al.",
+     "title": "Effect of handwashing on child health: a randomised controlled trial",
+     "source": "The Lancet",
+     "year": 2005,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/16023513/",
+     "key_finding": "In a large randomized trial, households given plain soap reduced child diarrhea and pneumonia about as much as households given antibacterial soap."
+    }
+   ]
+  },
+  {
+   "id": "B10",
+   "category": "Everyday Classics",
+   "claim": "Your brain stops growing new brain cells once you become an adult.",
+   "verdict": "Mixed",
+   "why": "This one is genuinely unsettled: some top studies find new brain cells in 70-year-olds and others find almost none in adults — so the old 'it stops completely' rule is outdated, but nobody knows the full answer yet.",
+   "citations": [
+    {
+     "authors": "Boldrini M et al.",
+     "title": "Human Hippocampal Neurogenesis Persists throughout Aging",
+     "source": "Cell Stem Cell",
+     "year": 2018,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/29625071/",
+     "key_finding": "Found thousands of immature neurons in the hippocampus of healthy people up to age 79, suggesting new brain cells keep forming across the lifespan."
+    },
+    {
+     "authors": "Sorrells SF et al.",
+     "title": "Human hippocampal neurogenesis drops sharply in children to undetectable levels in adults",
+     "source": "Nature",
+     "year": 2018,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/29513649/",
+     "key_finding": "A competing study found new neurons plentiful in infants but dropping sharply in childhood to undetectable levels in adults — the opposite conclusion."
+    },
+    {
+     "authors": "Kempermann G et al.",
+     "title": "Human Adult Neurogenesis: Evidence and Remaining Questions",
+     "source": "Cell Stem Cell",
+     "year": 2018,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/29681514/",
+     "key_finding": "Experts reviewing both sides concluded the existence and extent of adult human neurogenesis remains an open question needing better evidence."
+    }
+   ]
+  },
+  {
+   "id": "B11",
+   "category": "Food & Diet",
+   "claim": "Eating genetically modified (GMO) foods causes cancer and other diseases.",
+   "verdict": "Myth",
+   "why": "After hundreds of studies and decades of people and farm animals eating these foods, scientists have found no sign they cause cancer or disease.",
+   "citations": [
+    {
+     "authors": "National Academies of Sciences, Engineering, and Medicine",
+     "title": "Genetically Engineered Crops: Experiences and Prospects",
+     "source": "National Academies Press",
+     "year": 2016,
+     "link": "http://www.nap.edu/catalog/23395/genetically-engineered-crops-experiences-and-prospects",
+     "key_finding": "A committee that reviewed roughly 900 publications found no substantiated evidence of a difference in human-health risks between GE crops and conventionally bred crops, and no rise in cancer or other diseases tied to GE foods."
+    },
+    {
+     "authors": "Nicolia A et al.",
+     "title": "An overview of the last 10 years of genetically engineered crop safety research",
+     "source": "Critical Reviews in Biotechnology",
+     "year": 2014,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/24041244/",
+     "key_finding": "Overview of 1,783 scientific records found the research conducted so far has not detected any significant hazards directly connected to the use of GE crops."
+    },
+    {
+     "authors": "Van Eenennaam AL et al.",
+     "title": "Prevalence and impacts of genetically engineered feedstuffs on livestock populations",
+     "source": "Journal of Animal Science",
+     "year": 2014,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/25184846/",
+     "key_finding": "Field data covering more than 100 billion animals fed GE feed since 1996 showed no unfavorable trends in livestock health or productivity."
+    }
+   ]
+  },
+  {
+   "id": "B12",
+   "category": "Food & Diet",
+   "claim": "Organic food is grown completely without pesticides.",
+   "verdict": "Myth",
+   "why": "Organic farms can spray approved pesticides — usually natural ones — and traces can drift in from other fields, so 'organic' means fewer pesticides, not none.",
+   "citations": [
+    {
+     "authors": "Smith-Spangler C et al.",
+     "title": "Are organic foods safer or healthier than conventional alternatives?: a systematic review",
+     "source": "Annals of Internal Medicine",
+     "year": 2012,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/22944875/",
+     "key_finding": "Systematic review: pesticide residues are less common in organic produce but still detectable — organic does not mean pesticide-free."
+    },
+    {
+     "authors": "Barański M et al.",
+     "title": "Higher antioxidant and lower cadmium concentrations and lower incidence of pesticide residues in organically grown crops: a systematic literature review and meta-analyses",
+     "source": "British Journal of Nutrition",
+     "year": 2014,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/24968103/",
+     "key_finding": "Across 343 studies, pesticide residues occurred about four times less often in organic crops — less often, not never."
+    },
+    {
+     "authors": "Baker BP et al.",
+     "title": "Pesticide residues in conventional, integrated pest management (IPM)-grown and organic foods: insights from three US data sets",
+     "source": "Food Additives and Contaminants",
+     "year": 2002,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/12028642/",
+     "key_finding": "US residue data sets found pesticide residues in organic foods too, reflecting that organic standards permit certain (mostly natural) pesticides."
+    }
+   ]
+  },
+  {
+   "id": "B13",
+   "category": "Food & Diet",
+   "claim": "MSG is a toxic chemical that damages your brain and makes people sick.",
+   "verdict": "Myth",
+   "why": "In blind taste tests, people can't reliably tell MSG from a fake — the FDA and major reviews say normal amounts in food are safe.",
+   "citations": [
+    {
+     "authors": "U.S. Food and Drug Administration",
+     "title": "Questions and Answers on Monosodium glutamate (MSG)",
+     "source": "U.S. Food and Drug Administration",
+     "year": 2012,
+     "link": "https://www.fda.gov/food/food-additives-petitions/questions-and-answers-monosodium-glutamate-msg",
+     "key_finding": "FDA considers added MSG 'generally recognized as safe' (GRAS), and in studies scientists have not been able to consistently trigger reactions even in self-described MSG-sensitive people."
+    },
+    {
+     "authors": "Geha RS et al.",
+     "title": "Review of alleged reaction to monosodium glutamate and outcome of a multicenter double-blind placebo-controlled study",
+     "source": "The Journal of Nutrition",
+     "year": 2000,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/10736382/",
+     "key_finding": "In double-blind, placebo-controlled challenges, people reporting MSG sensitivity did not react consistently to MSG versus placebo."
+    },
+    {
+     "authors": "Zanfirescu A et al.",
+     "title": "A review of the alleged health hazards of monosodium glutamate",
+     "source": "Comprehensive Reviews in Food Science and Food Safety",
+     "year": 2019,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/31920467/",
+     "key_finding": "Comprehensive review concluded the evidence does not support claims that MSG at normal dietary levels causes the headaches or harm attributed to it."
+    }
+   ]
+  },
+  {
+   "id": "B14",
+   "category": "Food & Diet",
+   "claim": "A juice cleanse or detox diet flushes toxins out of your body.",
+   "verdict": "Myth",
+   "why": "Your liver and kidneys already remove waste around the clock — no study has shown a juice cleanse pulling any named 'toxin' out of anybody.",
+   "citations": [
+    {
+     "authors": "Klein AV et al.",
+     "title": "Detox diets for toxin elimination and weight management: a critical review of the evidence",
+     "source": "Journal of Human Nutrition and Dietetics",
+     "year": 2015,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/25522674/",
+     "key_finding": "Critical review found no compelling clinical evidence that commercial detox diets eliminate toxins or produce lasting weight control."
+    },
+    {
+     "authors": "National Center for Complementary and Integrative Health",
+     "title": "\"Detoxes\" and \"Cleanses\": What You Need To Know",
+     "source": "NCCIH, National Institutes of Health",
+     "year": 2025,
+     "link": "https://www.nccih.nih.gov/health/detoxes-and-cleanses-what-you-need-to-know",
+     "key_finding": "NIH's fact sheet: a 2015 review found no compelling research supporting detox diets for eliminating toxins, and the FDA/FTC have acted against detox products sold with false claims."
+    },
+    {
+     "authors": "Obert J et al.",
+     "title": "Popular Weight Loss Strategies: a Review of Four Weight Loss Techniques",
+     "source": "Current Gastroenterology Reports",
+     "year": 2017,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/29124370/",
+     "key_finding": "Review found juicing and detox-style diets cause initial weight loss only through very low calorie intake, with weight typically regained when normal eating resumes."
+    }
+   ]
+  },
+  {
+   "id": "B15",
+   "category": "Food & Diet",
+   "claim": "Microwaving food destroys its nutrients and makes it radioactive.",
+   "verdict": "Myth",
+   "why": "Microwaves are just radio-wave energy that turns into heat — the food can't become radioactive, and quick cooking often keeps more vitamins than boiling.",
+   "citations": [
+    {
+     "authors": "U.S. Food and Drug Administration",
+     "title": "Microwave Ovens",
+     "source": "U.S. Food and Drug Administration",
+     "year": 2024,
+     "link": "https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-ovens",
+     "key_finding": "FDA states microwaves are non-ionizing radiation, the energy is changed to heat and does not make food radioactive, and microwave cooking does not reduce nutritional value any more than conventional cooking."
+    },
+    {
+     "authors": "Cross GA et al.",
+     "title": "The effect of microwaves on nutrient value of foods",
+     "source": "Critical Reviews in Food Science and Nutrition",
+     "year": 1982,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/7047080/",
+     "key_finding": "Review concluded microwave heating does not damage the nutrient value of foods beyond the effects of ordinary heating."
+    },
+    {
+     "authors": "Hoffman CJ et al.",
+     "title": "Effects of microwave cooking/reheating on nutrients and food systems: a review of recent studies",
+     "source": "Journal of the American Dietetic Association",
+     "year": 1985,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/3894486/",
+     "key_finding": "Review of recent studies found nutrient losses from microwave cooking were comparable to, or smaller than, losses from conventional cooking methods."
+    }
+   ]
+  },
+  {
+   "id": "B16",
+   "category": "Food & Diet",
+   "claim": "Eating too much sugar directly causes diabetes.",
+   "verdict": "Mixed",
+   "why": "Sugar doesn't flip a diabetes switch by itself — genes, weight and inactivity do most of it — but guzzling sugary drinks genuinely pushes your risk up.",
+   "citations": [
+    {
+     "authors": "Malik VS et al.",
+     "title": "Sugar-sweetened beverages and risk of metabolic syndrome and type 2 diabetes: a meta-analysis",
+     "source": "Diabetes Care",
+     "year": 2010,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/20693348/",
+     "key_finding": "Meta-analysis: people drinking the most sugar-sweetened beverages had about a 26% greater risk of developing type 2 diabetes."
+    },
+    {
+     "authors": "Imamura F et al.",
+     "title": "Consumption of sugar sweetened beverages, artificially sweetened beverages, and fruit juice and incidence of type 2 diabetes: systematic review, meta-analysis, and estimation of population attributable fraction",
+     "source": "BMJ",
+     "year": 2015,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/26199070/",
+     "key_finding": "Sugary drink intake was associated with higher type 2 diabetes incidence even after adjusting for body weight, suggesting sugar contributes to risk but is not the whole story."
+    },
+    {
+     "authors": "Stanhope KL et al.",
+     "title": "Sugar consumption, metabolic disease and obesity: The state of the controversy",
+     "source": "Critical Reviews in Clinical Laboratory Sciences",
+     "year": 2016,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/26376619/",
+     "key_finding": "Review of the controversy: diabetes risk is driven by genetics, total calorie intake, weight gain and inactivity together — sugar alone does not directly cause the disease."
+    }
+   ]
+  },
+  {
+   "id": "B17",
+   "category": "Food & Diet",
+   "claim": "Eating processed meat like bacon, sausage and hot dogs raises your risk of colorectal cancer.",
+   "verdict": "True",
+   "why": "This one checks out: the world's cancer experts reviewed hundreds of studies and found every daily serving of processed meat nudges colon cancer risk up.",
+   "citations": [
+    {
+     "authors": "Bouvard V et al.",
+     "title": "Carcinogenicity of consumption of red and processed meat",
+     "source": "The Lancet Oncology",
+     "year": 2015,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/26514947/",
+     "key_finding": "The WHO's IARC working group classified processed meat as carcinogenic to humans (Group 1), based on sufficient evidence that it causes colorectal cancer."
+    },
+    {
+     "authors": "International Agency for Research on Cancer",
+     "title": "IARC Monographs evaluate consumption of red meat and processed meat",
+     "source": "IARC / World Health Organization (Press Release No. 240)",
+     "year": 2015,
+     "link": "https://www.iarc.fr/en/media-centre/pr/2015/pdfs/pr240_E.pdf",
+     "key_finding": "After considering more than 800 studies, the experts concluded each 50-gram portion of processed meat eaten daily increases colorectal cancer risk by about 18%."
+    },
+    {
+     "authors": "Chan DS et al.",
+     "title": "Red and processed meat and colorectal cancer incidence: meta-analysis of prospective studies",
+     "source": "PLoS ONE",
+     "year": 2011,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/21674008/",
+     "key_finding": "Meta-analysis of prospective studies: each additional 50 grams of processed meat per day was associated with about an 18% higher risk of colorectal cancer."
+    }
+   ]
+  },
+  {
+   "id": "B18",
+   "category": "Food & Diet",
+   "claim": "Washing raw chicken before cooking spreads germs around your kitchen instead of making the chicken safer.",
+   "verdict": "True",
+   "why": "Tests show rinsing chicken splashes its germs onto your sink and salad, while only proper cooking actually kills them.",
+   "citations": [
+    {
+     "authors": "U.S. Department of Agriculture",
+     "title": "Washing Raw Poultry: Our Science, Your Choice",
+     "source": "U.S. Department of Agriculture",
+     "year": 2019,
+     "link": "https://www.usda.gov/about-usda/news/press-releases/2019/08/20/washing-raw-poultry-our-science-your-choice",
+     "key_finding": "In USDA's observational test-kitchen study, 60% of participants who washed raw poultry had bacteria in their sink afterward and 26% transferred bacteria to ready-to-eat salad lettuce; washing does not destroy bacteria."
+    },
+    {
+     "authors": "Centers for Disease Control and Prevention",
+     "title": "Chicken and Food Poisoning",
+     "source": "Centers for Disease Control and Prevention",
+     "year": 2024,
+     "link": "https://www.cdc.gov/food-safety/foods/chicken.html",
+     "key_finding": "CDC states raw chicken is ready to cook and doesn't need to be washed first; cooking chicken to 165°F is what kills the germs."
+    },
+    {
+     "authors": "Centers for Disease Control and Prevention",
+     "title": "10 Dangerous Food Safety Mistakes",
+     "source": "Centers for Disease Control and Prevention",
+     "year": 2023,
+     "link": "https://stacks.cdc.gov/view/cdc/129474/cdc_129474_DS1.pdf",
+     "key_finding": "CDC lists washing meat, chicken or turkey as dangerous mistake #10 because it can spread germs to the sink, countertops and other foods."
+    }
+   ]
+  },
+  {
+   "id": "B19",
+   "category": "Food & Diet",
+   "claim": "Eating raw cookie dough can make you sick — and it's not just about the raw eggs.",
+   "verdict": "True",
+   "why": "Outbreak detectives have traced real E. coli illnesses to the raw flour in dough — baking is what makes it safe, so the spoonful isn't worth it.",
+   "citations": [
+    {
+     "authors": "Crowe SJ et al.",
+     "title": "Shiga Toxin-Producing E. coli Infections Associated with Flour",
+     "source": "New England Journal of Medicine",
+     "year": 2017,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/29166238/",
+     "key_finding": "Investigators traced a multistate outbreak of Shiga toxin-producing E. coli to raw flour, with patients reporting tasting raw dough or batter."
+    },
+    {
+     "authors": "Neil KP et al.",
+     "title": "A novel vehicle for transmission of Escherichia coli O157:H7 to humans: multistate outbreak of E. coli O157:H7 infections associated with consumption of ready-to-bake commercial prepackaged cookie dough--United States, 2009",
+     "source": "Clinical Infectious Diseases",
+     "year": 2012,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/22157169/",
+     "key_finding": "A nationwide outbreak was linked to eating raw ready-to-bake cookie dough, showing unbaked dough itself can carry dangerous E. coli."
+    },
+    {
+     "authors": "U.S. Food and Drug Administration",
+     "title": "Flour Is a Raw Food and Other Safety Facts",
+     "source": "U.S. Food and Drug Administration",
+     "year": 2023,
+     "link": "https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts",
+     "key_finding": "FDA warns that most flour is a raw food not treated to kill bacteria such as E. coli and Salmonella, so people should not eat raw flour, dough or batter."
+    }
+   ]
+  },
+  {
+   "id": "B20",
+   "category": "Food & Diet",
+   "claim": "Frozen vegetables can be just as nutritious as fresh vegetables.",
+   "verdict": "True",
+   "why": "Frozen veggies are picked ripe and frozen fast, locking the vitamins in — while 'fresh' ones slowly lose nutrients on trucks and store shelves.",
+   "citations": [
+    {
+     "authors": "Bouzari A et al.",
+     "title": "Vitamin retention in eight fruits and vegetables: a comparison of refrigerated and frozen storage",
+     "source": "Journal of Agricultural and Food Chemistry",
+     "year": 2015,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/25526594/",
+     "key_finding": "Laboratory comparison found frozen produce retained vitamins as well as, and in some cases better than, the same produce stored refrigerated as 'fresh.'"
+    },
+    {
+     "authors": "Bouzari A et al.",
+     "title": "Mineral, fiber, and total phenolic retention in eight fruits and vegetables: a comparison of refrigerated and frozen storage",
+     "source": "Journal of Agricultural and Food Chemistry",
+     "year": 2015,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/25525668/",
+     "key_finding": "Minerals, fiber and total phenolics in frozen vegetables were comparable to refrigerated fresh-stored counterparts, with no consistent advantage for fresh."
+    },
+    {
+     "authors": "Giannakourou MC et al.",
+     "title": "Effect of Alternative Preservation Steps and Storage on Vitamin C Stability in Fruit and Vegetable Products: Critical Review and Kinetic Modelling Approaches",
+     "source": "Foods",
+     "year": 2021,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/34828909/",
+     "key_finding": "Critical review: freezing is among the best preservation methods for retaining vitamin C, while fresh produce steadily loses vitamin C during storage and distribution."
+    }
+   ]
+  },
+  {
+   "id": "C01",
+   "category": "Vaccines & Flu Season",
+   "claim": "The flu shot can give you the flu.",
+   "verdict": "Myth",
+   "why": "Flu shots are made with killed viruses or just a single piece of a virus, so there is nothing alive in the shot that could give you the flu.",
+   "citations": [
+    {
+     "authors": "Centers for Disease Control and Prevention (CDC)",
+     "title": "Misconceptions About Seasonal Flu and Flu Vaccines",
+     "source": "CDC",
+     "year": 2024,
+     "link": "https://www.cdc.gov/flu/prevention/misconceptions.html",
+     "key_finding": "CDC states flu vaccines cannot cause flu illness because shots use inactivated viruses or only a single viral protein."
+    },
+    {
+     "authors": "Govaert TM et al.",
+     "title": "Adverse reactions to influenza vaccine in elderly people: randomised double blind placebo controlled trial",
+     "source": "BMJ",
+     "year": 1993,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/8241913/",
+     "key_finding": "In a blinded trial, people who got the flu shot had no more aches, fever, or flu-like symptoms than people who got a salt-water placebo - only a sorer arm."
+    },
+    {
+     "authors": "Demicheli V et al.",
+     "title": "Vaccines for preventing influenza in healthy adults",
+     "source": "The Cochrane Database of Systematic Reviews",
+     "year": 2018,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/29388196/",
+     "key_finding": "Cochrane review of randomized trials found flu vaccination cut laboratory-confirmed influenza in healthy adults from about 2.3% to 0.9%."
+    }
+   ]
+  },
+  {
+   "id": "C02",
+   "category": "Vaccines & Flu Season",
+   "claim": "The MMR vaccine causes autism.",
+   "verdict": "Myth",
+   "why": "Studies following hundreds of thousands of children found that kids who got the MMR shot were no more likely to be diagnosed with autism than kids who never got it.",
+   "citations": [
+    {
+     "authors": "Hviid A et al.",
+     "title": "Measles, Mumps, Rubella Vaccination and Autism: A Nationwide Cohort Study",
+     "source": "Annals of Internal Medicine",
+     "year": 2019,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/30831578/",
+     "key_finding": "Following 657,461 Danish children, MMR vaccination did not increase autism risk - even in children whose older siblings had autism."
+    },
+    {
+     "authors": "Madsen KM et al.",
+     "title": "A population-based study of measles, mumps, and rubella vaccination and autism",
+     "source": "The New England Journal of Medicine",
+     "year": 2002,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/12421889/",
+     "key_finding": "In 537,303 Danish children, the risk of autism was essentially identical in MMR-vaccinated and unvaccinated children."
+    },
+    {
+     "authors": "Jain A et al.",
+     "title": "Autism occurrence by MMR vaccine status among US children with older siblings with and without autism",
+     "source": "JAMA",
+     "year": 2015,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/25898051/",
+     "key_finding": "Among US children at highest genetic risk (older sibling with autism), MMR vaccination showed no association with autism occurrence."
+    }
+   ]
+  },
+  {
+   "id": "C03",
+   "category": "Vaccines & Flu Season",
+   "claim": "COVID-19 vaccines can change or damage your DNA.",
+   "verdict": "Myth",
+   "why": "The vaccine's mRNA instructions never enter the part of the cell where your DNA is stored, and your body breaks down and throws away the mRNA within days.",
+   "citations": [
+    {
+     "authors": "Centers for Disease Control and Prevention (CDC)",
+     "title": "Myths & Facts About COVID-19 Vaccines",
+     "source": "CDC",
+     "year": 2024,
+     "link": "https://archive.cdc.gov/www_cdc_gov/covid/vaccines/myths-facts.html",
+     "key_finding": "CDC states COVID-19 vaccines do not change or interact with DNA because the delivered genetic material never enters the cell nucleus."
+    },
+    {
+     "authors": "Pardi N et al.",
+     "title": "mRNA vaccines - a new era in vaccinology",
+     "source": "Nature Reviews Drug Discovery",
+     "year": 2018,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/29326426/",
+     "key_finding": "Review of mRNA vaccine science: mRNA works in the cytoplasm, cannot enter the nucleus or integrate into the genome, and is rapidly degraded."
+    },
+    {
+     "authors": "Polack FP et al.",
+     "title": "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine",
+     "source": "The New England Journal of Medicine",
+     "year": 2020,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/33301246/",
+     "key_finding": "In a 43,548-person randomized trial, the mRNA vaccine was 95% effective at preventing COVID-19, with a safety profile of short-term, mild-to-moderate reactions."
+    }
+   ]
+  },
+  {
+   "id": "C04",
+   "category": "Vaccines & Flu Season",
+   "claim": "Babies get too many vaccines too soon, and it overloads their immune systems.",
+   "verdict": "Myth",
+   "why": "A baby's immune system battles thousands of germs every day, so the tiny amount of material in vaccines is a drop in the bucket by comparison.",
+   "citations": [
+    {
+     "authors": "Offit PA et al.",
+     "title": "Addressing parents' concerns: do multiple vaccines overwhelm or weaken the infant's immune system?",
+     "source": "Pediatrics",
+     "year": 2002,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/11773551/",
+     "key_finding": "Estimated that infants have the theoretical capacity to respond to about 10,000 vaccines at once; everyday environmental exposures dwarf vaccine antigens."
+    },
+    {
+     "authors": "Glanz JM et al.",
+     "title": "Association Between Estimated Cumulative Vaccine Antigen Exposure Through the First 23 Months of Life and Non-Vaccine-Targeted Infections From 24 Through 47 Months of Age",
+     "source": "JAMA",
+     "year": 2018,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/29509866/",
+     "key_finding": "Children who received more vaccine antigens in their first two years had no higher rate of unrelated infections at ages 2 to 4."
+    },
+    {
+     "authors": "Centers for Disease Control and Prevention (CDC)",
+     "title": "Multiple Vaccines at Once",
+     "source": "CDC",
+     "year": 2024,
+     "link": "https://www.cdc.gov/vaccine-safety/about/multiples.html",
+     "key_finding": "CDC notes babies encounter thousands of antigens daily and that scientific data show getting several vaccines at the same time causes no chronic health problems."
+    }
+   ]
+  },
+  {
+   "id": "C05",
+   "category": "Vaccines & Flu Season",
+   "claim": "If you're young and healthy, you don't need a flu shot.",
+   "verdict": "Myth",
+   "why": "Even strong, healthy people can end up in the hospital from the flu, and getting vaccinated also protects the babies, grandparents, and patients around you.",
+   "citations": [
+    {
+     "authors": "Nichol KL et al.",
+     "title": "The effectiveness of vaccination against influenza in healthy, working adults",
+     "source": "The New England Journal of Medicine",
+     "year": 1995,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/7666874/",
+     "key_finding": "Vaccinating healthy working adults reduced respiratory illnesses by 25% and sick days by 43%."
+    },
+    {
+     "authors": "Bhat N et al.",
+     "title": "Influenza-associated deaths among children in the United States, 2003-2004",
+     "source": "The New England Journal of Medicine",
+     "year": 2005,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/16354892/",
+     "key_finding": "Documented 153 US child flu deaths in a single season, many in children with no previously recognized high-risk condition."
+    },
+    {
+     "authors": "Centers for Disease Control and Prevention (CDC)",
+     "title": "Misconceptions About Seasonal Flu and Flu Vaccines",
+     "source": "CDC",
+     "year": 2024,
+     "link": "https://www.cdc.gov/flu/prevention/misconceptions.html",
+     "key_finding": "CDC warns flu can cause complications, hospitalization, or death even among otherwise healthy children and adults, and recommends yearly vaccination for everyone 6 months and older."
+    }
+   ]
+  },
+  {
+   "id": "C06",
+   "category": "Vaccines & Flu Season",
+   "claim": "The flu vaccine is pointless because it's only about 40% effective.",
+   "verdict": "Mixed",
+   "why": "The shot is imperfect at stopping every flu infection, but it still substantially cuts your chances of severe illness, hospitalization, and death - the outcomes that matter most.",
+   "citations": [
+    {
+     "authors": "Belongia EA et al.",
+     "title": "Variable influenza vaccine effectiveness by subtype: a systematic review and meta-analysis of test-negative design studies",
+     "source": "The Lancet Infectious Diseases",
+     "year": 2016,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/27061888/",
+     "key_finding": "Pooled effectiveness was about 61% against H1N1 and 54% against influenza B but only 33% against H3N2 - real but uneven protection that varies by strain and season."
+    },
+    {
+     "authors": "Rondy M et al.",
+     "title": "Effectiveness of influenza vaccines in preventing severe influenza illness among adults: A systematic review and meta-analysis of test-negative design case-control studies",
+     "source": "The Journal of Infection",
+     "year": 2017,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/28935236/",
+     "key_finding": "Meta-analysis found flu vaccination was about 51% effective against flu-related hospitalization in adults."
+    },
+    {
+     "authors": "Flannery B et al.",
+     "title": "Influenza Vaccine Effectiveness Against Pediatric Deaths: 2010-2014",
+     "source": "Pediatrics",
+     "year": 2017,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/28557757/",
+     "key_finding": "Flu vaccination reduced the risk of flu-associated death by 65% among healthy children and 51% among children with high-risk conditions."
+    }
+   ]
+  },
+  {
+   "id": "C07",
+   "category": "Vaccines & Flu Season",
+   "claim": "Getting a flu shot during pregnancy helps protect your baby from the flu after birth.",
+   "verdict": "True",
+   "why": "When a mother gets the flu shot, she passes protective antibodies to her baby before birth, guarding the baby during the first months when babies are too young for their own flu shot.",
+   "citations": [
+    {
+     "authors": "Zaman K et al.",
+     "title": "Effectiveness of maternal influenza immunization in mothers and infants",
+     "source": "The New England Journal of Medicine",
+     "year": 2008,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/18799552/",
+     "key_finding": "Randomized trial in Bangladesh: vaccinating pregnant women reduced laboratory-confirmed influenza in their infants by 63%."
+    },
+    {
+     "authors": "Omer SB et al.",
+     "title": "Efficacy, duration of protection, birth outcomes, and infant growth associated with influenza vaccination in pregnancy: a pooled analysis of three randomised controlled trials",
+     "source": "The Lancet Respiratory Medicine",
+     "year": 2020,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/32526188/",
+     "key_finding": "Pooling three randomized trials confirmed that vaccinating pregnant women significantly reduced influenza in their young infants, with protection strongest in the first months of life."
+    },
+    {
+     "authors": "Nunes MC et al.",
+     "title": "Prevention of influenza-related illness in young infants by maternal vaccination during pregnancy",
+     "source": "F1000Research",
+     "year": 2018,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/29445450/",
+     "key_finding": "Review concludes maternal influenza vaccination is an effective strategy for protecting infants too young to receive their own vaccine."
+    }
+   ]
+  },
+  {
+   "id": "C08",
+   "category": "Vaccines & Flu Season",
+   "claim": "Vaccines contain dangerous amounts of mercury that build up in children's bodies.",
+   "verdict": "Myth",
+   "why": "The mercury-based ingredient once used in some shots is the kind the body clears out within days - not the kind from fish that builds up - and it was removed from US childhood vaccines more than 20 years ago anyway.",
+   "citations": [
+    {
+     "authors": "Pichichero ME et al.",
+     "title": "Mercury concentrations and metabolism in infants receiving vaccines containing thiomersal: a descriptive study",
+     "source": "The Lancet",
+     "year": 2002,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/12480426/",
+     "key_finding": "Blood mercury levels in vaccinated infants were low and returned to baseline within about a month, showing ethylmercury is cleared quickly rather than accumulating."
+    },
+    {
+     "authors": "Hviid A et al.",
+     "title": "Association between thimerosal-containing vaccine and autism",
+     "source": "JAMA",
+     "year": 2003,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/14519711/",
+     "key_finding": "In Denmark, autism rates continued to rise after thimerosal was removed from vaccines in 1992 - the opposite of what a mercury-autism link predicts."
+    },
+    {
+     "authors": "Thompson WW et al.",
+     "title": "Early thimerosal exposure and neuropsychological outcomes at 7 to 10 years",
+     "source": "The New England Journal of Medicine",
+     "year": 2007,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/17898097/",
+     "key_finding": "In 1,047 children, early thimerosal exposure showed no consistent association with 42 neuropsychological outcomes at ages 7 to 10."
+    }
+   ]
+  },
+  {
+   "id": "C09",
+   "category": "Vaccines & Flu Season",
+   "claim": "Flu season happens because cold winter weather creates the flu virus.",
+   "verdict": "Myth",
+   "why": "Cold air does not create any virus; flu peaks in winter because the virus survives and travels better in cold, dry air while people crowd together indoors.",
+   "citations": [
+    {
+     "authors": "Lowen AC et al.",
+     "title": "Influenza virus transmission is dependent on relative humidity and temperature",
+     "source": "PLoS Pathogens",
+     "year": 2007,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/17953482/",
+     "key_finding": "In guinea pig experiments, flu virus spread best in cold, dry air and transmission was blocked at warm temperatures - weather affects spread, not creation of the virus."
+    },
+    {
+     "authors": "Shaman J et al.",
+     "title": "Absolute humidity and the seasonal onset of influenza in the continental United States",
+     "source": "PLoS Biology",
+     "year": 2010,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/20186267/",
+     "key_finding": "Unusually dry air preceded most US flu season onsets, supporting the idea that dry conditions help the virus survive and transmit."
+    },
+    {
+     "authors": "Moriyama M et al.",
+     "title": "Seasonality of Respiratory Viral Infections",
+     "source": "Annual Review of Virology",
+     "year": 2020,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/32196426/",
+     "key_finding": "Review attributes winter flu seasonality to virus stability in cold dry air, indoor crowding, and seasonal changes in airway defenses."
+    }
+   ]
+  },
+  {
+   "id": "C10",
+   "category": "Vaccines & Flu Season",
+   "claim": "When enough people around you are vaccinated, herd immunity protects people who can't be vaccinated, like newborns and cancer patients.",
+   "verdict": "True",
+   "why": "Germs spread along a chain from person to person; when most people are immune, the chain breaks and the germ usually can't reach the people who have no protection of their own.",
+   "citations": [
+    {
+     "authors": "Fine P et al.",
+     "title": "\"Herd immunity\": a rough guide",
+     "source": "Clinical Infectious Diseases",
+     "year": 2011,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/21427399/",
+     "key_finding": "Explains how indirect protection arises once enough of a population is immune, shielding individuals who are not themselves immune."
+    },
+    {
+     "authors": "Loeb M et al.",
+     "title": "Effect of influenza vaccination of children on infection rates in Hutterite communities: a randomized trial",
+     "source": "JAMA",
+     "year": 2010,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/20215608/",
+     "key_finding": "Cluster-randomized trial: vaccinating children reduced influenza by about half among unvaccinated members of their communities."
+    },
+    {
+     "authors": "Wang B et al.",
+     "title": "Effect of Influenza Vaccination of Children on Infection Rate in Hutterite Communities: Follow-Up Study of a Randomized Trial",
+     "source": "PLoS ONE",
+     "year": 2016,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/27977707/",
+     "key_finding": "Follow-up of the Hutterite trial confirmed that immunizing children provided indirect protection to unvaccinated community members."
+    }
+   ]
+  },
+  {
+   "id": "C11",
+   "category": "Supplements & Wellness Trends",
+   "claim": "IV vitamin drips boost a healthy person's immune system.",
+   "verdict": "Myth",
+   "why": "No study has shown vitamin drips help healthy people, and when doctors tested IV vitamins in seriously ill hospital patients, they didn't help them either.",
+   "citations": [
+    {
+     "authors": "Lamontagne F et al.",
+     "title": "Intravenous Vitamin C in Adults with Sepsis in the Intensive Care Unit",
+     "source": "The New England Journal of Medicine",
+     "year": 2022,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/35704292/",
+     "key_finding": "In the LOVIT trial of 872 ICU patients, IV vitamin C was associated with a higher risk of death or persistent organ dysfunction than placebo."
+    },
+    {
+     "authors": "Fowler AA 3rd et al.",
+     "title": "Effect of Vitamin C Infusion on Organ Failure and Biomarkers of Inflammation and Vascular Injury in Patients With Sepsis and Severe Acute Respiratory Failure: The CITRIS-ALI Randomized Clinical Trial",
+     "source": "JAMA",
+     "year": 2019,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/31573637/",
+     "key_finding": "IV vitamin C did not significantly improve organ failure scores in patients with sepsis and severe respiratory failure."
+    },
+    {
+     "authors": "Adhikari NKJ et al.",
+     "title": "Intravenous Vitamin C for Patients Hospitalized With COVID-19: Two Harmonized Randomized Clinical Trials",
+     "source": "JAMA",
+     "year": 2023,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/37877585/",
+     "key_finding": "Two large harmonized trials concluded IV vitamin C was unlikely to help hospitalized COVID-19 patients."
+    }
+   ]
+  },
+  {
+   "id": "C12",
+   "category": "Supplements & Wellness Trends",
+   "claim": "Taking megadoses of vitamin C will keep you from catching a cold.",
+   "verdict": "Mixed",
+   "why": "Vitamin C doesn't stop most people from catching colds, though taking it daily can make a cold slightly shorter - and it does seem to help people doing extreme exercise in the cold.",
+   "citations": [
+    {
+     "authors": "Hemila H et al.",
+     "title": "Vitamin C for preventing and treating the common cold",
+     "source": "The Cochrane Database of Systematic Reviews",
+     "year": 2013,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/23440782/",
+     "key_finding": "Across more than 11,000 people, regular vitamin C did not reduce colds in the general population but shortened colds by about 8% in adults, and halved cold risk in people under extreme physical exertion."
+    },
+    {
+     "authors": "Carr AC et al.",
+     "title": "Vitamin C and Immune Function",
+     "source": "Nutrients",
+     "year": 2017,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/29099763/",
+     "key_finding": "Review finds vitamin C supports immune cell function and correcting deficiency matters, but evidence does not support megadosing for people who already get enough."
+    },
+    {
+     "authors": "NIH Office of Dietary Supplements",
+     "title": "Vitamin C: Fact Sheet for Health Professionals",
+     "source": "NIH Office of Dietary Supplements",
+     "year": 2025,
+     "link": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+     "key_finding": "NIH states that for most people, vitamin C supplements do not reduce the risk of getting the common cold, though regular users may have slightly shorter colds."
+    }
+   ]
+  },
+  {
+   "id": "C13",
+   "category": "Supplements & Wellness Trends",
+   "claim": "Collagen powder rebuilds your skin and joints.",
+   "verdict": "Mixed",
+   "why": "Small studies - many funded by collagen companies - show slightly smoother, more hydrated skin and a bit less joint ache, but that is a long way from rebuilding tissue, and the evidence is still thin.",
+   "citations": [
+    {
+     "authors": "de Miranda RB et al.",
+     "title": "Effects of hydrolyzed collagen supplementation on skin aging: a systematic review and meta-analysis",
+     "source": "International Journal of Dermatology",
+     "year": 2021,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/33742704/",
+     "key_finding": "Meta-analysis of 19 studies found modest improvements in skin hydration and elasticity, mostly in small, short trials."
+    },
+    {
+     "authors": "Choi FD et al.",
+     "title": "Oral Collagen Supplementation: A Systematic Review of Dermatological Applications",
+     "source": "Journal of Drugs in Dermatology",
+     "year": 2019,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/30681787/",
+     "key_finding": "Systematic review found preliminary evidence for skin benefits but noted the need for larger, better-designed human trials."
+    },
+    {
+     "authors": "Clark KL et al.",
+     "title": "24-Week study on the use of collagen hydrolysate as a dietary supplement in athletes with activity-related joint pain",
+     "source": "Current Medical Research and Opinion",
+     "year": 2008,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/18416885/",
+     "key_finding": "In one small 24-week trial, athletes taking collagen hydrolysate reported greater reductions in joint pain than placebo."
+    }
+   ]
+  },
+  {
+   "id": "C14",
+   "category": "Supplements & Wellness Trends",
+   "claim": "Drinking apple cider vinegar melts away belly fat.",
+   "verdict": "Myth",
+   "why": "The best-known study found vinegar drinkers lost only about 2 to 4 pounds over three months - and gained it back afterward - which is not melting belly fat by any stretch.",
+   "citations": [
+    {
+     "authors": "Kondo T et al.",
+     "title": "Vinegar intake reduces body weight, body fat mass, and serum triglyceride levels in obese Japanese subjects",
+     "source": "Bioscience, Biotechnology, and Biochemistry",
+     "year": 2009,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/19661687/",
+     "key_finding": "In a 12-week trial, daily vinegar drinks produced only about 1-2 kg of weight loss, which was regained after participants stopped."
+    },
+    {
+     "authors": "Hadi A et al.",
+     "title": "The effect of apple cider vinegar on lipid profiles and glycemic parameters: a systematic review and meta-analysis of randomized clinical trials",
+     "source": "BMC Complementary Medicine and Therapies",
+     "year": 2021,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/34187442/",
+     "key_finding": "Meta-analysis found small effects on blood sugar and some lipid measures, but no evidence of meaningful fat or belly-fat loss."
+    },
+    {
+     "authors": "Petsiou EI et al.",
+     "title": "Effect and mechanisms of action of vinegar on glucose metabolism, lipid profile, and body weight",
+     "source": "Nutrition Reviews",
+     "year": 2014,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/25168916/",
+     "key_finding": "Review concludes vinegar may slightly blunt blood-sugar responses, while evidence for weight loss remains weak and preliminary."
+    }
+   ]
+  },
+  {
+   "id": "C15",
+   "category": "Supplements & Wellness Trends",
+   "claim": "Taking probiotics while you're on antibiotics can lower your chance of getting diarrhea from the antibiotics.",
+   "verdict": "True",
+   "why": "Antibiotics kill helpful gut bacteria along with the harmful ones, and trials show certain probiotic strains help protect your gut while you take the medicine.",
+   "citations": [
+    {
+     "authors": "Hempel S et al.",
+     "title": "Probiotics for the prevention and treatment of antibiotic-associated diarrhea: a systematic review and meta-analysis",
+     "source": "JAMA",
+     "year": 2012,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/22570464/",
+     "key_finding": "Across 63 trials with nearly 12,000 participants, probiotic use was associated with a 42% lower risk of antibiotic-associated diarrhea."
+    },
+    {
+     "authors": "Goldenberg JZ et al.",
+     "title": "Probiotics for the prevention of Clostridium difficile-associated diarrhea in adults and children",
+     "source": "The Cochrane Database of Systematic Reviews",
+     "year": 2017,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/29257353/",
+     "key_finding": "Cochrane review found probiotics reduced C. difficile-associated diarrhea by about 60% in people taking antibiotics."
+    },
+    {
+     "authors": "Su GL et al.",
+     "title": "AGA Clinical Practice Guidelines on the Role of Probiotics in the Management of Gastrointestinal Disorders",
+     "source": "Gastroenterology",
+     "year": 2020,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/32531291/",
+     "key_finding": "The American Gastroenterological Association conditionally recommends specific probiotic strains to prevent C. difficile infection in people taking antibiotics."
+    }
+   ]
+  },
+  {
+   "id": "C16",
+   "category": "Supplements & Wellness Trends",
+   "claim": "Detox teas flush fat and toxins out of your body.",
+   "verdict": "Myth",
+   "why": "Your liver and kidneys already filter waste around the clock for free, and reviews found no real evidence detox products remove toxins or fat - the quick weight loss people see is mostly water.",
+   "citations": [
+    {
+     "authors": "Klein AV et al.",
+     "title": "Detox diets for toxin elimination and weight management: a critical review of the evidence",
+     "source": "Journal of Human Nutrition and Dietetics",
+     "year": 2015,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/25522674/",
+     "key_finding": "Critical review found no compelling clinical evidence that detox diets eliminate toxins or produce sustainable weight management."
+    },
+    {
+     "authors": "National Center for Complementary and Integrative Health (NCCIH)",
+     "title": "\"Detoxes\" and \"Cleanses\": What You Need To Know",
+     "source": "National Center for Complementary and Integrative Health (NIH)",
+     "year": 2025,
+     "link": "https://www.nccih.nih.gov/health/detoxes-and-cleanses-what-you-need-to-know",
+     "key_finding": "NCCIH reports detox research is sparse and low-quality, and that FDA and FTC have taken action against detox products containing hidden ingredients or sold with false claims."
+    },
+    {
+     "authors": "Fontana RJ et al.",
+     "title": "Trends in the etiologies and outcomes of idiosyncratic drug-induced liver injury in the united states: The DILIN prospective registry, 2004 to 2024",
+     "source": "Hepatology",
+     "year": 2026,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/42912720/",
+     "key_finding": "Twenty years of US registry data show herbal and dietary supplements - the category detox teas belong to - account for a growing share of severe liver injury cases."
+    }
+   ]
+  },
+  {
+   "id": "C17",
+   "category": "Supplements & Wellness Trends",
+   "claim": "'Adrenal fatigue' is a real medical diagnosis that explains why you're tired all the time.",
+   "verdict": "Myth",
+   "why": "Hormone specialists have checked repeatedly and found no proof that stress wears out your adrenal glands - and pills sold for 'adrenal support' have even been caught hiding real hormones.",
+   "citations": [
+    {
+     "authors": "Cadegiani FA et al.",
+     "title": "Adrenal fatigue does not exist: a systematic review",
+     "source": "BMC Endocrine Disorders",
+     "year": 2016,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/27557747/",
+     "key_finding": "Reviewing 58 studies of adrenal function in fatigued patients, the authors found results so inconsistent that they concluded adrenal fatigue is not a substantiated condition."
+    },
+    {
+     "authors": "Akturk HK et al.",
+     "title": "Over-the-Counter \"Adrenal Support\" Supplements Contain Thyroid and Steroid-Based Adrenal Hormones",
+     "source": "Mayo Clinic Proceedings",
+     "year": 2018,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/29502560/",
+     "key_finding": "Laboratory analysis of 12 over-the-counter 'adrenal support' supplements found all contained thyroid hormone and most contained steroid hormones."
+    },
+    {
+     "authors": "Cleveland Clinic",
+     "title": "The Truth About Adrenal Fatigue: What Your Symptoms Really Mean",
+     "source": "Cleveland Clinic",
+     "year": 2024,
+     "link": "https://health.clevelandclinic.org/the-truth-about-adrenal-fatigue",
+     "key_finding": "Cleveland Clinic endocrinologists state adrenal fatigue is not an officially recognized diagnosis, because adrenal glands do not simply tire out from stress."
+    }
+   ]
+  },
+  {
+   "id": "C18",
+   "category": "Supplements & Wellness Trends",
+   "claim": "Cold plunges boost your immune system so you get sick less often.",
+   "verdict": "Myth",
+   "why": "People who take cold showers in studies did call in sick less, but they were not actually sick less - and direct measures of immune function showed no boost.",
+   "citations": [
+    {
+     "authors": "Buijze GA et al.",
+     "title": "The Effect of Cold Showering on Health and Work: A Randomized Controlled Trial",
+     "source": "PLoS ONE",
+     "year": 2016,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/27631616/",
+     "key_finding": "In 3,018 adults, a cold shower finish reduced reported sickness absence by 29% but did not reduce the number of days people were actually ill."
+    },
+    {
+     "authors": "Cain T et al.",
+     "title": "Effects of cold-water immersion on health and wellbeing: A systematic review and meta-analysis",
+     "source": "PLoS ONE",
+     "year": 2025,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/39879231/",
+     "key_finding": "Meta-analysis of 11 trials (3,177 participants) found no significant effect on immune function; stress fell 12 hours after immersion while inflammation briefly rose."
+    },
+    {
+     "authors": "Kox M et al.",
+     "title": "Voluntary activation of the sympathetic nervous system and attenuation of the innate immune response in humans",
+     "source": "Proceedings of the National Academy of Sciences",
+     "year": 2014,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/24799686/",
+     "key_finding": "In a small experiment, intensively trained volunteers could temporarily dampen their immune response to injected bacterial toxin - a short-term lab effect that actually suppresses, not boosts, immunity."
+    }
+   ]
+  },
+  {
+   "id": "C19",
+   "category": "Supplements & Wellness Trends",
+   "claim": "Taping your mouth shut at night is a safe, proven way to sleep better and improve your health.",
+   "verdict": "Myth",
+   "why": "There is almost no solid research behind mouth taping, and for people with a blocked nose or sleep apnea, keeping the mouth shut during sleep can make breathing worse and be dangerous.",
+   "citations": [
+    {
+     "authors": "Rhee J et al.",
+     "title": "Breaking social media fads and uncovering the safety and efficacy of mouth taping in patients with mouth breathing, sleep disordered breathing, or obstructive sleep apnea: A systematic review",
+     "source": "PLoS ONE",
+     "year": 2025,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/40397877/",
+     "key_finding": "Systematic review found little evidence that mouth taping helps and identified potential serious risks, especially for people with nasal obstruction or sleep apnea."
+    },
+    {
+     "authors": "Lee YC et al.",
+     "title": "The Impact of Mouth-Taping in Mouth-Breathers with Mild Obstructive Sleep Apnea: A Preliminary Study",
+     "source": "Healthcare",
+     "year": 2022,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/36141367/",
+     "key_finding": "The main supporting study enrolled only 20 people with mild sleep apnea and measured one night of snoring and apnea indices - far from proof of broad health benefits or safety."
+    },
+    {
+     "authors": "Alshehri NA et al.",
+     "title": "Impact of Nasal Obstruction and Mouth Taping on Sleep Apnea Indicators: Systematic Review and Meta-Analysis",
+     "source": "OTO Open",
+     "year": 2026,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/42662994/",
+     "key_finding": "Systematic review and meta-analysis examining how nasal obstruction changes the effect of mouth taping on sleep apnea indicators, underscoring that a blocked nose makes taping risky."
+    }
+   ]
+  },
+  {
+   "id": "C20",
+   "category": "Supplements & Wellness Trends",
+   "claim": "Creatine monohydrate is one of the few supplements actually proven to help build muscle and strength.",
+   "verdict": "True",
+   "why": "Creatine is one of the most tested supplements in sports science, and study after study shows it helps muscles produce energy during lifting so people gain more strength from training.",
+   "citations": [
+    {
+     "authors": "Kreider RB et al.",
+     "title": "International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine",
+     "source": "Journal of the International Society of Sports Nutrition",
+     "year": 2017,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/28615996/",
+     "key_finding": "Position stand concludes creatine monohydrate is the most effective nutritional supplement available for increasing high-intensity exercise capacity and lean body mass during training."
+    },
+    {
+     "authors": "Lanhers C et al.",
+     "title": "Creatine Supplementation and Upper Limb Strength Performance: A Systematic Review and Meta-Analysis",
+     "source": "Sports Medicine",
+     "year": 2017,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/27328852/",
+     "key_finding": "Meta-analysis found creatine supplementation significantly improved upper-limb strength performance, especially bench press."
+    },
+    {
+     "authors": "Kazeminasab F et al.",
+     "title": "The Effects of Creatine Supplementation on Upper- and Lower-Body Strength and Power: A Systematic Review and Meta-Analysis",
+     "source": "Nutrients",
+     "year": 2025,
+     "link": "https://pubmed.ncbi.nlm.nih.gov/40944139/",
+     "key_finding": "A 2025 systematic review and meta-analysis confirms creatine supplementation improves upper- and lower-body strength and power."
+    }
+   ]
+  },
+  {
+   "category": "Winter Health",
+   "citations": [
+    {
+     "authors": "Ellen F. Foxman et al.",
+     "key_finding": "rhinovirus replicated better at cool nasal temperature because antiviral interferon defenses were weaker at 33°C than at 37°C",
+     "link": "https://pmc.ncbi.nlm.nih.gov:443/articles/PMC4311828/",
+     "source": "Proceedings of the National Academy of Sciences",
+     "title": "Temperature-dependent innate defense against the common cold virus limits viral replication at warm temperature in mouse airway cells",
+     "year": 2015
+    },
+    {
+     "authors": "Di Huang et al.",
+     "key_finding": "cold exposure impaired nasal antiviral defenses by reducing extracellular vesicle secretion and their virus-binding ability",
+     "link": "https://pubmed.ncbi.nlm.nih.gov/36494212/",
+     "source": "Journal of Allergy and Clinical Immunology",
+     "title": "Cold exposure impairs extracellular vesicle swarm-mediated nasal antiviral immunity",
+     "year": 2023
+    },
+    {
+     "authors": "E. G. Mourtzoukou et al.",
+     "key_finding": "review found cold exposure linked to increased susceptibility to respiratory infections via mucosal vasoconstriction and suppressed immune responses",
+     "link": "https://pubmed.ncbi.nlm.nih.gov/17705968",
+     "source": "The International Journal of Tuberculosis and Lung Disease",
+     "title": "Exposure to cold and respiratory tract infections",
+     "year": 2007
+    }
+   ],
+   "claim": "Cold weather by itself gives you a cold.",
+   "id": "D01",
+   "verdict": "Mixed",
+   "why": "Colds are caused by viruses, not by cold air itself — but cold, dry air helps those viruses live longer and can weaken your nose's defenses."
+  },
+  {
+   "category": "Winter Health",
+   "citations": [
+    {
+     "authors": "Centers for Disease Control and Prevention (CDC)",
+     "key_finding": "more than 200 respiratory viruses can cause colds, with rhinoviruses the most frequent cause, spread through droplets and touching the eyes, nose, or mouth",
+     "link": "https://www.cdc.gov/common-cold/about/",
+     "source": "Centers for Disease Control and Prevention (CDC)",
+     "title": "About Common Cold",
+     "year": 2026
+    },
+    {
+     "authors": "Ronald Eccles",
+     "key_finding": "review notes respiratory viruses cause the common cold and that chilling as a cause persisted as folklore with poor evidence and scientific explanation",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10324571/",
+     "source": "Frontiers in Allergy",
+     "title": "Common cold",
+     "year": 2023
+    },
+    {
+     "authors": "E. G. Mourtzoukou et al.",
+     "key_finding": "cold exposure was associated with increased risk and susceptibility to respiratory tract infections, which are infections by pathogens",
+     "link": "https://pubmed.ncbi.nlm.nih.gov/17705968",
+     "source": "The International Journal of Tuberculosis and Lung Disease",
+     "title": "Exposure to cold and respiratory tract infections",
+     "year": 2007
+    }
+   ],
+   "claim": "Going outside with wet hair on a cold day will make you sick.",
+   "id": "D02",
+   "verdict": "Myth",
+   "why": "Wet hair cannot create a virus; you only catch a cold when a cold virus gets into your nose or mouth."
+  },
+  {
+   "category": "Winter Health",
+   "citations": [
+    {
+     "authors": "Gijs R. van den Brink et al.",
+     "key_finding": "tiny 6-volunteer study found eating raised gamma interferon and fasting raised interleukin-4, and the authors said further studies were clearly needed",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC119893/",
+     "source": "Clinical and Diagnostic Laboratory Immunology",
+     "title": "Feed a Cold, Starve a Fever?",
+     "year": 2002
+    },
+    {
+     "authors": "Cleveland Clinic",
+     "key_finding": "eating nutritious food during a fever can help reinforce the immune system, there is no reason to intentionally stop eating, and fluids are especially critical",
+     "link": "https://health.clevelandclinic.org/feed-a-cold-starve-a-fever",
+     "source": "Cleveland Clinic",
+     "title": "Feed a Cold, Starve a Fever: True or False?",
+     "year": 2026
+    },
+    {
+     "authors": "University of Virginia",
+     "key_finding": "no evidence suggests you should feed a cold and starve a fever; starving is not good and fluids should be pushed while sick",
+     "link": "https://news.virginia.edu/content/should-you-feed-cold-and-starve-fever",
+     "source": "UVA Today (University of Virginia)",
+     "title": "Should you feed a cold and starve a fever?",
+     "year": 2026
+    }
+   ],
+   "claim": "You should feed a cold and starve a fever.",
+   "id": "D03",
+   "verdict": "Myth",
+   "why": "Your body needs food and fluids whether you have a cold or a fever, and skipping meals does not starve a fever away."
+  },
+  {
+   "category": "Winter Health",
+   "citations": [
+    {
+     "authors": "National Institute on Alcohol Abuse and Alcoholism (NIAAA)",
+     "key_finding": "alcohol widens skin blood vessels so you feel warm, but body temperature is actually dropping and this can lead to hypothermia in cold environments",
+     "link": "https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/truth-about-holiday-spirits",
+     "source": "National Institute on Alcohol Abuse and Alcoholism (NIAAA)",
+     "title": "The Truth About Holiday Spirits",
+     "year": 2025
+    },
+    {
+     "authors": "H. Kalant et al.",
+     "key_finding": "at low temperature ethanol inhibits shivering and increases heat loss by cutaneous vasodilation, making core temperature fall faster despite a greater feeling of comfort",
+     "link": "https://pubmed.ncbi.nlm.nih.gov/6144116/",
+     "source": "Pharmacol Ther",
+     "title": "Effects of ethanol on thermoregulation",
+     "year": 1983
+    },
+    {
+     "authors": "Tamae Yoda et al.",
+     "key_finding": "after drinking alcohol in the cold, sensations of cold and thermal discomfort were greatly diminished even though core temperature still decreased",
+     "link": "https://pubmed.ncbi.nlm.nih.gov/18420115/",
+     "source": "Alcohol",
+     "title": "Effects of alcohol on autonomic responses and thermal sensation during cold exposure in humans",
+     "year": 2008
+    }
+   ],
+   "claim": "Drinking alcohol warms your body up in cold weather.",
+   "id": "D04",
+   "verdict": "Myth",
+   "why": "Alcohol makes your skin feel warm because it pulls blood to the surface, but it actually makes your body lose core heat faster."
+  },
+  {
+   "category": "Winter Health",
+   "citations": [
+    {
+     "authors": "Centers for Disease Control and Prevention (CDC)",
+     "key_finding": "do not rub the frostbitten area with snow or massage it at all because this can cause more damage; put it in warm, not hot, water",
+     "link": "https://www.cdc.gov/winter-weather/prevention/preventing-frostbite.html",
+     "source": "Centers for Disease Control and Prevention (CDC)",
+     "title": "Preventing Frostbite | Winter Weather | CDC",
+     "year": 2026
+    },
+    {
+     "authors": "Scott E. McIntosh et al.",
+     "key_finding": "expert panel issued evidence-based guidelines for frostbite prevention and treatment, with rewarming among the therapeutic approaches reviewed",
+     "link": "https://pubmed.ncbi.nlm.nih.gov/31326282/",
+     "source": "Wilderness & Environmental Medicine",
+     "title": "Wilderness Medical Society Clinical Practice Guidelines for the Prevention and Treatment of Frostbite: 2019 Update",
+     "year": 2019
+    },
+    {
+     "authors": "Renford Cindass et al.",
+     "key_finding": "vigorous rubbing should be avoided because it can cause additional tissue damage; rewarm in a warm water bath at about 37°C to 39°C until tissue is soft and pliable",
+     "link": "https://www.statpearls.com/point-of-care/21979",
+     "source": "StatPearls",
+     "title": "Frostbite | Treatment & Management | Point of Care",
+     "year": 2026
+    }
+   ],
+   "claim": "Rubbing snow on frostbite helps it heal.",
+   "id": "D05",
+   "verdict": "Myth",
+   "why": "Rubbing frostbite with snow adds more cold and friction damage; frostbite needs gentle rewarming in warm water instead."
+  },
+  {
+   "category": "Winter Health",
+   "citations": [
+    {
+     "authors": "CDC",
+     "key_finding": "flu and the common cold are caused by different viruses, and flu is worse, more intense, and can cause serious complications while colds generally do not",
+     "link": "https://www.cdc.gov/flu/about/coldflu.html",
+     "source": "CDC",
+     "title": "Cold Versus Flu",
+     "year": 2024
+    },
+    {
+     "authors": "CDC",
+     "key_finding": "flu caused an estimated 9.4 million to 51 million illnesses, 120,000 to 710,000 hospitalizations, and 6,300 to 52,000 deaths annually in the US between 2010 and 2025",
+     "link": "https://www.cdc.gov/flu-burden/php/about/index.html?CDC_AAref_Val=https://www.cdc.gov/flu/about/burden/past-seasons.html",
+     "source": "CDC",
+     "title": "About Estimated Flu Burden",
+     "year": 2026
+    },
+    {
+     "authors": "Krammer et al.",
+     "key_finding": "expert primer reviews influenza as a distinct viral disease, covering its biology, disease course, and global burden",
+     "link": "https://www.nature.com/articles/s41572-018-0002-y",
+     "source": "Nature Reviews Disease Primers",
+     "title": "Influenza",
+     "year": 2018
+    }
+   ],
+   "claim": "The flu is just a bad cold.",
+   "id": "D06",
+   "verdict": "Myth",
+   "why": "Flu and colds are caused by different viruses, and flu hits much harder and can put healthy people in the hospital."
+  },
+  {
+   "category": "Winter Health",
+   "citations": [
+    {
+     "authors": "National Institute of Mental Health (NIMH)",
+     "key_finding": "SAD is a type of depression with a recurrent seasonal pattern lasting about 4 to 5 months a year, distinct from holiday blues, and light therapy is a mainstay treatment",
+     "link": "http://nimh.nih.gov/sad",
+     "source": "National Institute of Mental Health (NIMH)",
+     "title": "Seasonal Affective Disorder",
+     "year": 2023
+    },
+    {
+     "authors": "Golden et al.",
+     "key_finding": "meta-analysis of randomized trials found bright light treatment and dawn simulation significantly reduced depression symptom severity in seasonal affective disorder",
+     "link": "https://pubmed.ncbi.nlm.nih.gov/15800134/",
+     "source": "American Journal of Psychiatry",
+     "title": "The efficacy of light therapy in the treatment of mood disorders: a review and meta-analysis of the evidence",
+     "year": 2005
+    },
+    {
+     "authors": "Melrose",
+     "key_finding": "SAD is a recurrent major depressive disorder with a seasonal pattern usually beginning in fall and continuing into winter months",
+     "link": "https://pubmed.ncbi.nlm.nih.gov/26688752/",
+     "source": "Depression Research and Treatment",
+     "title": "Seasonal Affective Disorder: An Overview of Assessment and Treatment Approaches",
+     "year": 2015
+    }
+   ],
+   "claim": "Seasonal affective disorder (winter depression) is a real medical condition, not just a bad mood.",
+   "id": "D07",
+   "verdict": "True",
+   "why": "Doctors recognize seasonal affective disorder as a real type of depression tied to dark winter days, and treatments like light therapy can help."
+  },
+  {
+   "category": "Winter Health",
+   "citations": [
+    {
+     "authors": "CDC",
+     "key_finding": "put areas affected by frostbite in warm, not hot, water, and do not use a heating pad, heat lamp, stove, or radiator because numb areas can easily burn",
+     "link": "https://www.cdc.gov/winter-weather/prevention/preventing-frostbite.html",
+     "source": "CDC",
+     "title": "Preventing Frostbite",
+     "year": 2026
+    },
+    {
+     "authors": "McIntosh et al.",
+     "key_finding": "evidence-based expert guidelines for frostbite prevention and treatment, including rewarming recommendations",
+     "link": "https://pubmed.ncbi.nlm.nih.gov/38577729/",
+     "source": "Wilderness & Environmental Medicine",
+     "title": "Wilderness Medical Society Clinical Practice Guidelines for the Prevention and Treatment of Frostbite: 2024 Update",
+     "year": 2024
+    },
+    {
+     "authors": "Van Tilburg",
+     "key_finding": "frostbite is treated with rapid rewarming with non-scalding, warm water, and a thawed extremity must not be allowed to refreeze",
+     "link": "https://www.cdc.gov/yellow-book/hcp/travel-for-work-other/adventure-travel.html",
+     "source": "CDC Yellow Book",
+     "title": "Adventure Travel",
+     "year": 2025
+    }
+   ],
+   "claim": "Frostbite should be rewarmed in warm (not hot) water.",
+   "id": "D08",
+   "verdict": "True",
+   "why": "The safe way to treat frostbite is soaking it in warm — never hot — water until the skin softens, because numb skin burns easily."
+  },
+  {
+   "category": "Winter Health",
+   "citations": [
+    {
+     "authors": "CDC",
+     "key_finding": "hypothermia can occur at cool temperatures above 40 degrees Fahrenheit if a person is wet from rain, sweat, or cold water and becomes chilled",
+     "link": "https://www.cdc.gov/winter-weather/prevention/",
+     "source": "CDC",
+     "title": "Preventing Hypothermia",
+     "year": 2026
+    },
+    {
+     "authors": "National Weather Service",
+     "key_finding": "hypothermia deaths can occur with temperatures between 30 and 50 degrees, and hypothermia becomes even more likely if you or your clothing are wet",
+     "link": "https://www.weather.gov/bou/windchill",
+     "source": "National Weather Service",
+     "title": "Wind Chill Safety",
+     "year": 2026
+    },
+    {
+     "authors": "Paal et al.",
+     "key_finding": "accidental hypothermia is an unintentional drop of core temperature below 35 degrees C, and injured or intoxicated patients can cool quickly even in subtropical regions",
+     "link": "https://pubmed.ncbi.nlm.nih.gov/35010760/",
+     "source": "International Journal of Environmental Research and Public Health",
+     "title": "Accidental Hypothermia: 2021 Update",
+     "year": 2022
+    }
+   ],
+   "claim": "You can get hypothermia even when it is above freezing outside.",
+   "id": "D09",
+   "verdict": "True",
+   "why": "Your body can lose heat faster than it makes it even above freezing if you are wet and the wind is blowing, and that is hypothermia."
+  },
+  {
+   "category": "Winter Health",
+   "citations": [
+    {
+     "authors": "Jefferson et al.",
+     "key_finding": "hand hygiene gave a 14% relative reduction in acute respiratory infections versus control across 9 trials with 52,105 participants",
+     "link": "http://pmc.ncbi.nlm.nih.gov/articles/PMC9885521/?s=35",
+     "source": "Cochrane Database of Systematic Reviews",
+     "title": "Physical interventions to interrupt or reduce the spread of respiratory viruses",
+     "year": 2023
+    },
+    {
+     "authors": "Aiello et al.",
+     "key_finding": "improved hand hygiene reduced respiratory illness by 21% across 30 studies, with hand-hygiene education using nonantibacterial soap the most beneficial intervention",
+     "link": "https://pubmed.ncbi.nlm.nih.gov:443/18556606/",
+     "source": "American Journal of Public Health",
+     "title": "Effect of hand hygiene on infectious disease risk in the community setting: a meta-analysis",
+     "year": 2008
+    },
+    {
+     "authors": "CDC",
+     "key_finding": "handwashing with soap can prevent 1 in 5 respiratory infections such as a cold or flu, and handwashing education reduces respiratory illnesses like colds by about 16% to 21%",
+     "link": "https://www.cdc.gov/clean-hands/globalhandwashingday/index.html?utm_content=308008296&utm_medium=social&utm_source=facebook&hss_channel=fbp-108505380659290",
+     "source": "CDC",
+     "title": "Global Handwashing Day",
+     "year": 2024
+    }
+   ],
+   "claim": "Washing your hands with soap helps keep you from catching a cold.",
+   "id": "D10",
+   "verdict": "True",
+   "why": "Soap and water wash cold and flu viruses off your hands before they can reach your nose, mouth, or eyes."
+  },
+  {
+   "category": "US Elections & Civic Facts",
+   "citations": [
+    {
+     "authors": "North Carolina State Board of Elections",
+     "key_finding": "States no election ends on Election Day by design under state and federal law, with provisional, cured mail, and military/overseas ballots still to be counted before the Nov. 13 county canvass",
+     "link": "https://www.ncsbe.gov/news/press-releases/2026/11/04/whats-next-finalizing-2026-midterm-elections",
+     "source": "North Carolina State Board of Elections",
+     "title": "What's Next for Finalizing 2026 Midterm Elections?",
+     "year": 2026
+    },
+    {
+     "authors": "Camilla Rodriguez Guzman",
+     "key_finding": "States vote counting continues after Election Day; 35 states require mail ballots received by Election Day while 15 states plus D.C. and territories count ballots postmarked by Election Day and received later",
+     "link": "https://www.ncsl.org/state-legislatures-news/details/the-polls-have-closed-what-happens-now",
+     "source": "National Conference of State Legislatures",
+     "title": "The Polls Have Closed. What Happens Now?",
+     "year": 2026
+    },
+    {
+     "authors": "MIT Election Lab",
+     "key_finding": "States counting speed varies by mode (early, mail, in-person) and jurisdiction, and reporting results later does not necessarily mean something has gone wrong",
+     "link": "https://electionlab.mit.edu/research/election-return-reporting",
+     "source": "MIT Election Lab",
+     "title": "Election return reporting",
+     "year": 2026
+    }
+   ],
+   "claim": "Ballots counted after Election Day are evidence of fraud.",
+   "id": "D11",
+   "verdict": "Myth",
+   "why": "Counting legal ballots after Election Day is the normal, lawful process in every state; it takes time because each ballot must be checked."
+  },
+  {
+   "category": "US Elections & Civic Facts",
+   "citations": [
+    {
+     "authors": "MIT Election Lab",
+     "key_finding": "Documents the 'blue shift': later-counted votes have often leaned one way, smaller rural counties finish sooner than larger urban ones, and totals can shift perceptibly over days and weeks",
+     "link": "https://electionlab.mit.edu/research/election-return-reporting",
+     "source": "MIT Election Lab",
+     "title": "Election return reporting",
+     "year": 2026
+    },
+    {
+     "authors": "Fernando Cervantes Jr.",
+     "key_finding": "Explains 'red mirage' and 'blue shift': a candidate can lead during the night and be behind by morning as mail and absentee ballots counted later are added",
+     "link": "https://www.usatoday.com/story/news/politics/elections/2026/11/03/when-will-we-know-midterm-election-results/92567488007/",
+     "source": "USA Today",
+     "title": "When will we know midterm election results? Details on the process",
+     "year": 2026
+    },
+    {
+     "authors": "North Carolina State Board of Elections",
+     "key_finding": "States Election Day results are unofficial and there will still be changes to the count over the next 10 days as more ballot types are counted",
+     "link": "https://www.ncsbe.gov/news/press-releases/2026/11/04/whats-next-finalizing-2026-midterm-elections",
+     "source": "North Carolina State Board of Elections",
+     "title": "What's Next for Finalizing 2026 Midterm Elections?",
+     "year": 2026
+    }
+   ],
+   "claim": "When a candidate's lead changes overnight, it means the election is being rigged.",
+   "id": "D12",
+   "verdict": "Myth",
+   "why": "Leads change as different kinds of ballots are counted in a known order — mail ballots and city votes are often reported later than Election Day votes."
+  },
+  {
+   "category": "US Elections & Civic Facts",
+   "citations": [
+    {
+     "authors": "Maryland State Board of Elections",
+     "key_finding": "Reports the June 29, 2026 Watson v. Republican National Committee ruling upholds states' authority to process mail-in ballots received after Election Day if timely postmarked by Election Day",
+     "link": "https://elections.maryland.gov/press_room/documents/2026/Supreme_Court_Upholds_Maryland_Mail_In_Ballot_Law.pdf",
+     "source": "Maryland State Board of Elections",
+     "title": "The Supreme Court Upholds Maryland's Mail-In Ballot Law Among Other States",
+     "year": 2026
+    },
+    {
+     "authors": "Camilla Rodriguez Guzman",
+     "key_finding": "States each state sets its own receipt rule: 15 states plus D.C. and territories accept and count mail ballots received after Election Day if postmarked on or before Election Day",
+     "link": "https://www.ncsl.org/state-legislatures-news/details/the-polls-have-closed-what-happens-now",
+     "source": "National Conference of State Legislatures",
+     "title": "The Polls Have Closed. What Happens Now?",
+     "year": 2026
+    },
+    {
+     "authors": "MEAWW",
+     "key_finding": "Rates the viral ban claim false: as of Nov. 2, 2026 the Supreme Court had issued no decision supporting it after its Mississippi-case ruling, and 15 states count postmarked ballots arriving after Election Day",
+     "link": "https://news.meaww.com/fact-check-did-us-supreme-court-ban-counting-mail-in-ballots-received-after-election-day",
+     "source": "MEAWW News",
+     "title": "Fact Check: Did US Supreme Court ban counting mail-in ballots received after Election Day?",
+     "year": 2026
+    }
+   ],
+   "claim": "The Supreme Court banned states from counting mail ballots received after Election Day.",
+   "id": "D13",
+   "verdict": "Myth",
+   "why": "The Supreme Court made no such ban — in June 2026 it upheld state grace-period rules, holding that federal Election Day law does not stop states from counting ballots postmarked by Election Day and received later."
+  },
+  {
+   "category": "US Elections & Civic Facts",
+   "citations": [
+    {
+     "authors": "U.S. Election Assistance Commission",
+     "key_finding": "States even when results say '100% Precincts Reporting,' they are still unofficial, and unofficial results keep being released until all ballots are counted",
+     "link": "https://www.eac.gov/election-officials/election-results-canvass-and-certification",
+     "source": "U.S. Election Assistance Commission",
+     "title": "Election Results, Canvass, and Certification",
+     "year": 2026
+    },
+    {
+     "authors": "MIT Election Lab",
+     "key_finding": "States initial returns are unofficial and incomplete; the canvass must still aggregate and confirm absentee, early, Election Day, provisional, challenged, and overseas ballots before certification",
+     "link": "https://electionlab.mit.edu/research/election-return-reporting",
+     "source": "MIT Election Lab",
+     "title": "Election return reporting",
+     "year": 2026
+    },
+    {
+     "authors": "The Desert Sun",
+     "key_finding": "Shows results arrive in waves — mail ballots already received, Election Day ballots, late-arriving mail ballots, and provisional ballots — so early totals are not a complete count, with certified results due Dec. 11",
+     "link": "https://www.desertsun.com/story/news/politics/elections/2026/11/03/california-election-results-final-vote-counting-explained/92587411007/",
+     "source": "Palm Springs Desert Sun",
+     "title": "When will California election results be final? What to know",
+     "year": 2026
+    }
+   ],
+   "claim": "When TV says 100% of precincts are reporting, every vote has been counted.",
+   "id": "D14",
+   "verdict": "Myth",
+   "why": "'100% of precincts reporting' only means every polling place has sent in its Election Day numbers; mail, overseas, and provisional ballots can still be uncounted."
+  },
+  {
+   "category": "US Elections & Civic Facts",
+   "citations": [
+    {
+     "authors": "U.S. Election Assistance Commission",
+     "key_finding": "States election-night results are not final even though the media may call the projected winner; only election officials provide official election results, by written certification",
+     "link": "https://www.eac.gov/election-officials/election-results-canvass-and-certification",
+     "source": "U.S. Election Assistance Commission",
+     "title": "Election Results, Canvass, and Certification",
+     "year": 2026
+    },
+    {
+     "authors": "The Associated Press",
+     "key_finding": "Describes AP calls as its own declarations made only when trailing candidates no longer have a path to victory — a news judgment based on counted and outstanding ballots, not a government certification",
+     "link": "https://www.ap.org/elections/our-role-in-the-u-s-elections/how-we-declare-winners/",
+     "source": "The Associated Press",
+     "title": "How we declare winners",
+     "year": 2026
+    },
+    {
+     "authors": "Camilla Rodriguez Guzman",
+     "key_finding": "States election night results and 'called' races are unofficial — news organizations make projections and calls — and only certified results are the official election results",
+     "link": "https://www.ncsl.org/state-legislatures-news/details/the-polls-have-closed-what-happens-now",
+     "source": "National Conference of State Legislatures",
+     "title": "The Polls Have Closed. What Happens Now?",
+     "year": 2026
+    }
+   ],
+   "claim": "Election results are official as soon as TV networks call the race.",
+   "id": "D15",
+   "verdict": "Myth",
+   "why": "TV networks make unofficial projections; results only become official when state and local officials certify them."
+  },
+  {
+   "category": "US Elections & Civic Facts",
+   "citations": [
+    {
+     "authors": "U.S. Election Assistance Commission",
+     "key_finding": "Election-night results are never the final, certified results; results stay unofficial until officials complete the canvass and certify them",
+     "link": "https://www.eac.gov/election-officials/election-results-canvass-and-certification",
+     "source": "U.S. Election Assistance Commission",
+     "title": "Election Results, Canvass, and Certification",
+     "year": 2026
+    },
+    {
+     "authors": "National Conference of State Legislatures",
+     "key_finding": "State law sets canvass deadlines ranging from the day after the election in Alaska to 30 days after in California, with state canvasses running as late as the second Tuesday in December in Missouri",
+     "link": "https://www.ncsl.org/elections-and-campaigns/canvass-deadlines",
+     "source": "National Conference of State Legislatures",
+     "title": "Canvass Deadlines",
+     "year": 2026
+    },
+    {
+     "authors": "National Conference of State Legislatures",
+     "key_finding": "Results are unofficial on election night and through the local canvass; only the certified results are official and determine who gets sworn in",
+     "link": "https://www.ncsl.org/elections-and-campaigns/election-certification-deadlines",
+     "source": "National Conference of State Legislatures",
+     "title": "Election Certification Deadlines",
+     "year": 2026
+    }
+   ],
+   "claim": "Election results are not final until states certify them, which legally takes weeks.",
+   "id": "D16",
+   "verdict": "True",
+   "why": "By law, election officials must check and certify results after Election Day, and that official process normally takes days to weeks."
+  },
+  {
+   "category": "US Elections & Civic Facts",
+   "citations": [
+    {
+     "authors": "Eggers et al.",
+     "key_finding": "Reviewing the most prominent statistical claims of 2020 election fraud, the authors conclude none of them is even remotely convincing",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8609310/",
+     "source": "Proceedings of the National Academy of Sciences (PNAS)",
+     "title": "No evidence for systematic voter fraud: A guide to statistical claims about the 2020 election",
+     "year": 2021
+    },
+    {
+     "authors": "Brennan Center for Justice",
+     "key_finding": "About 1,100 fraud cases collected over decades add up to a molecular fraction of total votes cast; voter fraud is vanishingly rare",
+     "link": "https://www.brennancenter.org/our-work/research-reports/heritage-fraud-database-assessment",
+     "source": "Brennan Center for Justice",
+     "title": "Heritage Fraud Database: An Assessment",
+     "year": 2017
+    },
+    {
+     "authors": "Rachel Layne",
+     "key_finding": "Decades of research show documented voter fraud is exceedingly rare, and MIT Election Data and Science Lab researchers found negligible evidence of fraud in state elections",
+     "link": "https://www.sciline.org/elections/voter-fraud/",
+     "source": "SciLine",
+     "title": "What research tells us about voter fraud",
+     "year": 2026
+    }
+   ],
+   "claim": "Widespread voter fraud regularly changes the outcomes of US elections.",
+   "id": "D17",
+   "verdict": "Myth",
+   "why": "Audits and studies that checked millions of ballots find fraud is extremely rare — far too rare to change national outcomes."
+  },
+  {
+   "category": "US Elections & Civic Facts",
+   "citations": [
+    {
+     "authors": "Associated Press",
+     "key_finding": "Georgia's citizenship audit found only 20 noncitizens among 8.2 million registered voters, and just nine of the 20 had ever voted",
+     "link": "https://gray-walb-prod.cdn.arcpublishing.com/2024/10/24/georgia-citizenship-audit-finds-few-noncitizens-voter-rolls/",
+     "source": "Associated Press",
+     "title": "Georgia citizenship audit finds few noncitizens on voter rolls",
+     "year": 2024
+    },
+    {
+     "authors": "Ohio Secretary of State",
+     "key_finding": "Ohio's most extensive citizenship verification audit identified 597 noncitizen registrations, including 138 people who appeared to have cast a ballot",
+     "link": "https://www.ohiosos.gov/office/media-center/categories/press-releases/2024-08-21",
+     "source": "Ohio Secretary of State",
+     "title": "Secretary LaRose Refers Evidence of Non-Citizen Voter Registrations to Ohio Attorney General for Potential Prosecution",
+     "year": 2024
+    },
+    {
+     "authors": "Brennan Center for Justice",
+     "key_finding": "Across 42 jurisdictions covering 23.5 million votes in 2016, officials referred only an estimated 30 suspected noncitizen votes — 0.0001 percent",
+     "link": "https://www.brennancenter.org/our-work/research-reports/noncitizen-voting-missing-millions",
+     "source": "Brennan Center for Justice",
+     "title": "Noncitizen Voting: The Missing Millions",
+     "year": 2017
+    }
+   ],
+   "claim": "Large numbers of noncitizens vote in US elections.",
+   "id": "D18",
+   "verdict": "Myth",
+   "why": "State audits that checked voter rolls against citizenship records found only a tiny handful of cases out of millions of voters."
+  },
+  {
+   "category": "US Elections & Civic Facts",
+   "citations": [
+    {
+     "authors": "National Conference of State Legislatures",
+     "key_finding": "Electronic ballot return is limited to certain voters — typically military or overseas voters, or voters with disabilities — in 32 states and D.C.; returning ballots by mail is the most common method and the only method in 18 states",
+     "link": "https://www.ncsl.org/elections-and-campaigns/electronic-ballot-return-internet-voting",
+     "source": "National Conference of State Legislatures",
+     "title": "Electronic Ballot Return",
+     "year": 2026
+    },
+    {
+     "authors": "Cybersecurity and Infrastructure Security Agency (CISA) et al.",
+     "key_finding": "Four federal agencies assess electronic ballot return as high-risk even with controls in place and recommend paper ballot return instead",
+     "link": "https://archive.org/download/gov.uscourts.nyed.453732/gov.uscourts.nyed.453732.44.3.pdf",
+     "source": "Cybersecurity and Infrastructure Security Agency (CISA), U.S. Election Assistance Commission (EAC), Federal Bureau of Investigation (FBI), and National Institute of Standards and Technology (NIST)",
+     "title": "Risk Management for Electronic Ballot Delivery, Marking, and Return",
+     "year": 2020
+    },
+    {
+     "authors": "National Academies of Sciences, Engineering, and Medicine",
+     "key_finding": "Marked ballots should not be returned over the Internet because no current technology can guarantee their secrecy, security, and verifiability; elections should use human-readable paper ballots",
+     "link": "https://www.nationalacademies.org/projects/PGA-STL-16-02/resources",
+     "source": "National Academies of Sciences, Engineering, and Medicine",
+     "title": "Securing the Vote: Protecting American Democracy",
+     "year": 2018
+    }
+   ],
+   "claim": "You can vote online or by phone in US elections.",
+   "id": "D19",
+   "verdict": "Myth",
+   "why": "There is no online or phone voting for the general public in US elections; nearly everyone votes on paper, in person or by mail."
+  },
+  {
+   "category": "US Elections & Civic Facts",
+   "citations": [
+    {
+     "authors": "National Conference of State Legislatures",
+     "key_finding": "36 states request or require some ID at the polls while 14 states and D.C. require no documentation; of the ID states, 24 ask for photo ID and 12 also accept non-photo ID",
+     "link": "https://www.ncsl.org/elections-and-campaigns/voter-id",
+     "source": "National Conference of State Legislatures",
+     "title": "Voter ID Laws",
+     "year": 2026
+    },
+    {
+     "authors": "USAGov",
+     "key_finding": "Each state sets its own voter ID rules; a state may require a photo ID such as a driver's license or may ask for another form of identification",
+     "link": "https://www.usa.gov/voter-id",
+     "source": "USA.gov",
+     "title": "Voter ID requirements",
+     "year": 2026
+    },
+    {
+     "authors": "Vote.org",
+     "key_finding": "State-by-state table shows photo ID required in states like Alabama, a mix of photo and non-photo documents accepted in Alaska, and no ID needed for most registered voters in California",
+     "link": "https://www.vote.org/voter-id-laws/",
+     "source": "Vote.org",
+     "title": "Voter ID Laws",
+     "year": 2026
+    }
+   ],
+   "claim": "You need a photo ID to vote in every state.",
+   "id": "D20",
+   "verdict": "Mixed",
+   "why": "Some states require photo ID, others accept non-photo ID or none at all — the rule depends on where you live."
+  },
+  {
+   "category": "Trending on X",
+   "citations": [
+    {
+     "authors": "Mary Whitfill Roeloffs",
+     "key_finding": "Doctors and a WHO official say no research shows ivermectin works against hantavirus; the viral X post was viewed 3.5 million times.",
+     "link": "https://forbestodays.pages.dev/sites/maryroeloffs/2026/05/07/no-ivermectin-is-not-proven-to-treat-hantavirus/",
+     "source": "Forbes",
+     "title": "Ivermectin Is Not Proven To Treat Hantavirus, Doctors Warn",
+     "year": 2026
+    },
+    {
+     "authors": "Reuters Fact Check",
+     "key_finding": "Fact check (May 13, 2026) found no scientific evidence that ivermectin works against hantaviruses.",
+     "link": "https://www.reuters.com/fact-check/no-evidence-that-ivermectin-should-work-against-hantaviruses-2026-05-13/",
+     "source": "Reuters",
+     "title": "No evidence that ivermectin 'should work' against hantaviruses",
+     "year": 2026
+    },
+    {
+     "authors": "Centers for Disease Control and Prevention",
+     "key_finding": "There is no specific treatment, cure, or vaccine for hantavirus infection; patients receive supportive care.",
+     "link": "https://www.cdc.gov/hantavirus/about/index.html",
+     "source": "CDC",
+     "title": "About Hantavirus | Hantavirus | CDC",
+     "year": 2024
+    }
+   ],
+   "claim": "Ivermectin can treat hantavirus infections.",
+   "id": "E01",
+   "provenance": "A post on X claiming ivermectin 'should work' against hantavirus was viewed about 3.5 million times during this week's cruise-ship hantavirus outbreak coverage; Forbes published a fact-check of it dated Nov 6, 2026 (page metadata).",
+   "verdict": "Myth",
+   "why": "Doctors and the WHO say there is no proof ivermectin works against hantavirus, and the only real care for patients is hospital support like oxygen and fluids."
+  },
+  {
+   "category": "Trending on X",
+   "citations": [
+    {
+     "authors": "Aloys Michael",
+     "key_finding": "PSK's Nov 5, 2026 statement warns the viral cetirizine trend is dangerous and has no medical basis.",
+     "link": "https://peopledaily.digital/news/pharmaceutical-society-of-kenya-issues-warning-over-viral-cetirizine-trend",
+     "source": "People Daily",
+     "title": "Pharmaceutical Society of Kenya issues warning over viral cetirizine trend",
+     "year": 2026
+    },
+    {
+     "authors": "Radio47",
+     "key_finding": "Reports the Pharmacy and Poisons Board's Nov 4, 2026 alert and Health Ministry plans to track cetirizine misuse.",
+     "link": "https://www.radio47.fm/news/psk-health-ministry-warn-over-cetirizine-misuse-as-government-plans-tracking-43492/",
+     "source": "Radio47",
+     "title": "PSK, Health Ministry warn over Cetirizine misuse as government plans tracking",
+     "year": 2026
+    },
+    {
+     "authors": "DailyMed",
+     "key_finding": "The official US drug label lists cetirizine only as an oral antihistamine for allergy symptoms — no other approved use.",
+     "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ae02b16b-77dc-4bd6-8c07-e734fb448492",
+     "source": "DailyMed",
+     "title": "DailyMed - CETIRIZINE HYDROCHLORIDE (ALLERGY)- cetirizine hydrochloride tablet",
+     "year": 2024
+    }
+   ],
+   "claim": "Cetirizine (allergy pills) can be used for vaginal tightening and to suppress libido.",
+   "id": "E02",
+   "provenance": "Viral social-media trend during the week of Nov 3, 2026; Kenya's Pharmacy and Poisons Board issued a public alert on Nov 4, 2026 and the Pharmaceutical Society of Kenya warned the public on Nov 5, 2026.",
+   "verdict": "Myth",
+   "why": "Cetirizine is just an allergy medicine, and health officials warn that using it this way is unsupported and can harm your health."
+  },
+  {
+   "category": "Trending on X",
+   "citations": [
+    {
+     "authors": "Hims UK",
+     "key_finding": "Traces '11 per day' to an NHS page that was later removed and says there are no good estimates of the true number.",
+     "link": "https://www.forhims.co.uk/blog/erections-per-day",
+     "source": "hims",
+     "title": "How Many Times a Day Do Men Get Erections?",
+     "year": 2026
+    },
+    {
+     "authors": "Hims Australia",
+     "key_finding": "Repeats the 11-a-day estimate but notes the original source is hard to find.",
+     "link": "https://hims.com.au/blog/how-many-erections-per-day",
+     "source": "Hims Australia",
+     "title": "How Many Erections Per Day Is Normal?",
+     "year": 2026
+    },
+    {
+     "authors": "Ryan Berglund, MD et al.",
+     "key_finding": "Explains nighttime erections (nocturnal tumescence) without any 'exactly 11 a day' figure.",
+     "link": "https://health.clevelandclinic.org/morning-wood",
+     "source": "Cleveland Clinic",
+     "title": "Why Do Men Get Morning Erections?",
+     "year": 2026
+    }
+   ],
+   "claim": "A healthy man has exactly 11 erections a day — about 250,000 in a lifetime.",
+   "id": "E03",
+   "provenance": "Viral stat graphic ('11 erections a day / 250,000 in a lifetime') recirculating on X and social media in early November 2026; the figure is widely attributed to the NHS, but that source page was removed and no original study exists.",
+   "verdict": "Mixed",
+   "why": "The '11 a day' number gets repeated everywhere, but nobody can find a real study behind it, so nobody actually knows the true average."
+  },
+  {
+   "category": "Trending on X",
+   "citations": [
+    {
+     "authors": "Associated Press",
+     "key_finding": "AP found rigging claims limited and unsupported as results came in from the Nov 3, 2026 midterms.",
+     "link": "https://www.ap.org/news-highlights/elections/2026/fact-focus-false-claims-of-rigged-elections-are-limited-as-midterm-vote-heavily-favors-democrats/",
+     "source": "AP",
+     "title": "FACT FOCUS: False claims of rigged elections are limited as midterm vote heavily favors Democrats",
+     "year": 2026
+    },
+    {
+     "authors": "National Conference of State Legislatures",
+     "key_finding": "Explains mail-voting rules; in some states ballots postmarked by Election Day are legally counted when they arrive afterward.",
+     "link": "https://www.ncsl.org/elections-and-campaigns/voting-outside-the-polling-place",
+     "source": "NCSL",
+     "title": "Voting Outside the Polling Place: Absentee, All-Mail and other Voting at Home Options",
+     "year": 2026
+    },
+    {
+     "authors": "CISA et al.",
+     "key_finding": "Election-night results are always unofficial; counting continues afterward by design.",
+     "link": "https://www.CISA.Gov/news-events/news/joint-statement-cisa-and-eac-support-state-and-local-election-officials",
+     "source": "CISA",
+     "title": "Joint Statement from CISA and EAC in Support of State and Local Election Officials",
+     "year": 2024
+    }
+   ],
+   "claim": "Late-counted mail ballots and overnight lead changes in the 2026 midterms prove the election was rigged.",
+   "id": "E04",
+   "provenance": "Claims trending on X after the Nov 3, 2026 midterms as mail ballots were counted; AP's FACT FOCUS (published Nov 4, updated Nov 5, 2026) addressed them, and NewsGuard counted dozens of false midterm claims circulating, most of them on X.",
+   "verdict": "Myth",
+   "why": "Mail ballots legally take longer to count, so leads changing as they are added is normal — and officials say the 2026 count ran as expected."
+  },
+  {
+   "category": "Trending on X",
+   "citations": [
+    {
+     "authors": "Reuters Fact Check",
+     "key_finding": "FBI Houston denied the claim (Nov 5, 2026); the photos show San Francisco ballots and an FBI Atlanta vehicle.",
+     "link": "https://www.reuters.com/fact-check/fbi-did-not-find-20000-fraudulent-ballots-cast-democrats-houston-2026-11-05/",
+     "source": "Reuters",
+     "title": "FBI did not find 20,000 'fraudulent' ballots cast for Democrats in Houston",
+     "year": 2026
+    },
+    {
+     "authors": "MEAWW",
+     "key_finding": "Rates the claim false (published Nov 4, 2026): no such FBI raid or ballot seizure occurred.",
+     "link": "https://news.meaww.com/fact-check-did-fbi-really-seize-20-000-fraudulent-democratic-ballots-in-houston",
+     "source": "MEAWW",
+     "title": "Fact Check: Did FBI seize 20,000 fraudulent Democratic ballots in Houston?",
+     "year": 2026
+    },
+    {
+     "authors": "Associated Press",
+     "key_finding": "AP's Nov 4–5, 2026 roundup found post-midterm fraud claims, including ballot-seizure stories, unsupported.",
+     "link": "https://www.ap.org/news-highlights/elections/2026/fact-focus-false-claims-of-rigged-elections-are-limited-as-midterm-vote-heavily-favors-democrats/",
+     "source": "AP",
+     "title": "FACT FOCUS: False claims of rigged elections are limited as midterm vote heavily favors Democrats",
+     "year": 2026
+    }
+   ],
+   "claim": "The FBI raided a site in Houston and found 20,000 fraudulent ballots cast for Democrats.",
+   "id": "E05",
+   "provenance": "Viral posts on X after the Nov 3, 2026 midterms; Reuters Fact Check debunked the claim on Nov 5, 2026 and MEAWW fact-checked it on Nov 4, 2026, both citing the FBI Houston denial.",
+   "verdict": "Myth",
+   "why": "The FBI's Houston office says it never happened — the viral photos show ballots in San Francisco and an FBI vehicle in Atlanta, not Houston."
+  },
+  {
+   "category": "Trending on X",
+   "citations": [
+    {
+     "authors": "MEAWW",
+     "key_finding": "Rates the claim false: as of November 2 the Supreme Court's website showed no decision banning late-arriving ballots, and NCSL data show 15 states count ballots postmarked by Election Day that arrive later.",
+     "link": "https://news.meaww.com/fact-check-did-us-supreme-court-ban-counting-mail-in-ballots-received-after-election-day",
+     "source": "MEAWW",
+     "title": "Fact Check: Did US Supreme Court ban counting mail-in ballots received after Election Day?",
+     "year": 2026
+    },
+    {
+     "authors": "National Conference of State Legislatures",
+     "key_finding": "State-by-state table shows many states accept ballots postmarked or sent by Election Day and received days afterward (e.g. California 7 days, Illinois 14 days, Mississippi 5 business days).",
+     "link": "https://www.ncsl.org/elections-and-campaigns/table-11-receipt-and-postmark-deadlines-for-absentee-mail-ballots",
+     "source": "National Conference of State Legislatures (NCSL)",
+     "title": "Table 11: Receipt and Postmark Deadlines for Absentee/Mail Ballots",
+     "year": 2026
+    },
+    {
+     "authors": "Barrett, J. et al.",
+     "key_finding": "The Mississippi case was decided June 29, 2026 — not pending: the Court held the federal election-day statutes do not preempt Mississippi's law counting ballots postmarked by Election Day but received up to five days later.",
+     "link": "https://www.law.cornell.edu/supremecourt/text/24-1260",
+     "source": "Cornell Law School Legal Information Institute",
+     "title": "WATSON v. REPUBLICAN NATIONAL COMMITTEE",
+     "year": 2026
+    }
+   ],
+   "claim": "The Supreme Court has banned counting mail-in ballots that arrive after Election Day.",
+   "id": "E06",
+   "provenance": "Viral posts on Facebook and X from Oct 30, 2026 onward (incl. commentator David J. Harris Jr.) claimed Justice Alito had written such a decision; a fact check published Nov 3, 2026 found no ban decision on the Supreme Court's website, and the Mississippi mail-ballot case had in fact already been decided on June 29, 2026, upholding late-arrival counting.",
+   "verdict": "Myth",
+   "why": "The Supreme Court never made such a ban — in June 2026 it decided the Mississippi mail-ballot case the other way, and in many states a ballot posted by Election Day still counts if it arrives a few days later."
+  },
+  {
+   "category": "Trending on X",
+   "citations": [
+    {
+     "authors": "Lead Stories",
+     "key_finding": "Niagara Parks spokesperson Katy Wassenaar told Lead Stories on Nov. 4, 2026 that partisan political displays are not permitted and the circulating image is a teal illumination for Alzheimer's Awareness Month.",
+     "link": "https://leadstories.com/hoax-alert/2026/11/fact-check-park-denies-image-shows-niagara-falls-turning-blue-because-of-nov-3-2026-blue-wave-in-us.html",
+     "source": "Lead Stories",
+     "title": "Fact Check: Canadian Park DENIES Image Shows Niagara Falls Turning Blue Because Of Nov. 3, 2026, Blue Wave In U.S.",
+     "year": 2026
+    },
+    {
+     "authors": "PolicyWire Editorial Desk",
+     "key_finding": "Photographer Shauna Stewart confirmed she captured the photo in mid-September 2026; the Illumination Board's election-night schedule was teal for Alzheimer's Awareness Month, not blue for Democrats.",
+     "link": "https://policy-wire.com/policy-wire-fact-check-did-canada-light-niagara-falls-blue-to-celebrate-democrats-midterm-wins/",
+     "source": "Policy Wire",
+     "title": "POLICY WIRE FACT CHECK: Did Canada light Niagara Falls blue to celebrate Democrats' midterm wins?",
+     "year": 2026
+    },
+    {
+     "authors": "What The Fact",
+     "key_finding": "Rates the claim false: the Nov. 3, 2026 display was a teal illumination for Alzheimer's Awareness Month (10:00–10:15 pm), and the Illumination Board does not permit partisan political displays.",
+     "link": "https://whatthefact.app/fact-checks/2026-11-05-niagara-falls-lit-blue-for-democrats-midterm-win",
+     "source": "What The Fact",
+     "title": "Did Canada light up Niagara Falls blue in solidarity with the Democrats?",
+     "year": 2026
+    }
+   ],
+   "claim": "Canada lit up Niagara Falls in blue to celebrate the Democrats' midterm wins.",
+   "id": "E07",
+   "provenance": "Photo with the caption 'Canada just lit up Niagara Falls Blue showing their solidarity with Democrats' spread on X, Threads and Facebook on Nov 3–4, 2026; Snopes, AFP and Lead Stories all fact-checked it on Nov 4, 2026.",
+   "verdict": "Myth",
+   "why": "The photo is real but was taken in mid-September; on election night the falls were lit teal for Alzheimer's awareness, and the lighting board does not allow partisan displays."
+  },
+  {
+   "category": "Trending on X",
+   "citations": [
+    {
+     "authors": "Snopes Fact Checks",
+     "key_finding": "The official Yavapai County elections account @YavapaiRecorder did post the 'president is NOT on the ballot' message to X on Oct. 31, 2026, so the quote is correctly attributed.",
+     "link": "https://conspiracyresource.com/2026/11/04/did-arizona-county-say-voters-asked-why-trump-was-missing-on-ballot/",
+     "source": "Snopes via Conspiracy Resource archive",
+     "title": "Did Arizona county say voters asked why Trump was ‘missing’ on ballot?",
+     "year": 2026
+    },
+    {
+     "authors": "Jose R. Gonzalez et al.",
+     "key_finding": "Yavapai County Recorder Michelle Burchill posted on Oct. 30 that the president is NOT on the ballot after many voter questions; the 2026 election is a midterm and the presidential election is every four years.",
+     "link": "https://www.azcentral.com/story/news/politics/elections/2026/10/31/trump-ballot-arizona-voters-confused/92539940007/",
+     "source": "The Arizona Republic (azcentral.com)",
+     "title": "Is there a presidential election in Arizona this year? Some think so",
+     "year": 2026
+    },
+    {
+     "authors": "The Nerd Stash",
+     "key_finding": "Reports Burchill's Oct. 30 post addressing voters who believed the presidential race had been left off their ballots, noting the next presidential election is in 2028.",
+     "link": "https://thenerdstash.com/we-are-doomed-election-official-is-fed-up-with-arizona-voters-asking-why-trump-isnt-on-the-2026-ballot/",
+     "source": "The Nerd Stash",
+     "title": "'We Are Doomed': Election Official Is Fed Up With Arizona Voters Asking Why Trump Isn't on the 2026 Ballot",
+     "year": 2026
+    }
+   ],
+   "claim": "An Arizona county elections office posted on X that the president is NOT on the ballot after receiving many calls from voters asking why his race was missing.",
+   "id": "E08",
+   "provenance": "The @YavapaiRecorder post of Oct 31, 2026 went viral on X and Facebook during election week; Snopes rated the attribution 'Correct' on Nov 4, 2026 and Arizona news outlets covered the voter confusion.",
+   "verdict": "True",
+   "why": "2026 is a midterm election — presidents are only voted on every four years — and the Yavapai County elections account really did post that message on Oct 31, 2026."
+  },
+  {
+   "category": "Trending on X",
+   "citations": [
+    {
+     "authors": "Paul Blumenthal et al.",
+     "key_finding": "Reproduces Graham's May 3, 2016 post verbatim — 'If we nominate Trump, we will get destroyed.......and we will deserve it.' — in coverage of the Nov. 4, 2026 midterm fallout.",
+     "link": "https://www.buzzfeed.com/paulblumenthalhp/donald-trump-2026-election-loss",
+     "source": "BuzzFeed (originally HuffPost)",
+     "title": "Republicans Learn True Cost Of Blind Loyalty To Trump",
+     "year": 2026
+    },
+    {
+     "authors": "CNN",
+     "key_finding": "CNN recounts that Graham, once fearful of a Trump presidency, warned in 2016 that 'if we nominate Trump we will get destroyed…….and we will deserve it,' before later becoming a close Trump ally.",
+     "link": "https://www.cnn.com/2026/07/13/politics/lindsey-graham-donald-trump-alliance?cid=external-feeds_iluminar_meta",
+     "source": "CNN",
+     "title": "Graham and Trump’s unlikely alliance: From opponents to key allies — and golf buddies",
+     "year": 2026
+    },
+    {
+     "authors": "Wikipedia contributors",
+     "key_finding": "Records: 'In May 2016 Graham tweeted, \"If we nominate Trump, we will get destroyed...and we will deserve it.\"'",
+     "link": "https://en.wikipedia.org/w/index.php?title=Lindsey_Graham&printable=yes",
+     "source": "Wikipedia",
+     "title": "Lindsey Graham",
+     "year": 2026
+    }
+   ],
+   "claim": "Lindsey Graham once said that if Republicans nominated Trump, 'we will get destroyed — and we will deserve it.'",
+   "id": "E09",
+   "provenance": "The quote recirculated widely on X during the Nov 3, 2026 midterms; Snopes included it in its Nov 5, 2026 midterm-rumors fact-check roundup and verified Graham said it in 2016.",
+   "verdict": "True",
+   "why": "Graham really posted that in May 2016, before later becoming a Trump ally; the quote going viral this week is genuine, just ten years old."
+  },
+  {
+   "category": "Trending on X",
+   "citations": [
+    {
+     "authors": "Reuters Fact Check",
+     "key_finding": "The 'Problem Solved' bloodied shirt is a Halloween novelty pictured online since at least 2024, and the City of Rogers said the Republican election judge wore it as Halloween attire on Oct. 31 with 'absolutely no political message or intent.'",
+     "link": "https://www.reuters.com/fact-check/minnesota-poll-workers-bloody-t-shirt-was-halloween-attire-city-rogers-says-2026-11-05/",
+     "source": "Reuters",
+     "title": "Minnesota poll worker's bloody T-shirt was Halloween attire, City of Rogers says",
+     "year": 2026
+    },
+    {
+     "authors": "Bored Panda",
+     "key_finding": "Quotes the City of Rogers statement in full: the judge assured the city there was 'absolutely no political message or intent,' it was worn as Halloween attire, and the judge is a Republican judge under Minnesota's party-balance statute.",
+     "link": "https://www.boredpanda.com/election-judge-faces-calls-for-arrest-over-halloween-costume/",
+     "source": "Bored Panda",
+     "title": "Election Judge Faces Backlash Over Halloween Costume, But Twist Takes Wind Out Of Outraged Republicans' Sails",
+     "year": 2026
+    },
+    {
+     "authors": "Patrick Penrose et al.",
+     "key_finding": "Nov. 4, 2026 coverage quoting the same City of Rogers statement and noting the shirt did not break Minnesota election laws, though officials would have asked her to cover it had the perceived connection been known.",
+     "link": "https://tvovermind.com/election-judge-faces-calls-for-arrest-over-halloween-costume/",
+     "source": "TVOverMind",
+     "title": "Election Judge Faces Backlash Over Halloween Costume, But Twist Takes Wind Out Of Outraged Republicans’ Sails",
+     "year": 2026
+    }
+   ],
+   "claim": "A Minnesota poll worker wore a blood-stained 'Problem Solved' shirt to mock the assassination of Charlie Kirk.",
+   "id": "E10",
+   "provenance": "A photo of the Rogers, Minnesota election worker was posted on X on Nov 3, 2026 with the 'mocking Kirk' caption and spread widely; Reuters Fact Check debunked it on Nov 5, 2026 citing the City of Rogers.",
+   "verdict": "Myth",
+   "why": "The shirt is a mass-produced Halloween novelty sold online since at least 2024, and the city says the election judge — a Republican — was simply wearing Halloween attire with no political message."
+  },
+  {
+   "category": "Trending on Reddit",
+   "citations": [
+    {
+     "authors": "UK Parliament",
+     "key_finding": "Official account of Fawkes's torture, trial and execution after the Gunpowder Plot.",
+     "link": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/the-gunpowder-plot-of-1605/overview/aftermath/toture-trial-and-execution/",
+     "source": "UK Parliament",
+     "title": "Torture, trial and execution",
+     "year": 2026
+    },
+    {
+     "authors": "Britannica Editors",
+     "key_finding": "Fawkes jumped or fell from the scaffold ladder and broke his neck; his body was quartered anyway.",
+     "link": "https://www.britannica.com/biography/Guy-Fawkes",
+     "source": "Britannica",
+     "title": "Guy Fawkes | Biography, Gunpowder Plot, & Death",
+     "year": 2026
+    },
+    {
+     "authors": "Rebecca Simon",
+     "key_finding": "Explains the full punishment: a traitor's body parts were displayed at the 'four corners of the kingdom.'",
+     "link": "https://www.historyextra.com/period/medieval/hanging-drawing-quartering-what-why-treason-disembowelment/",
+     "source": "History Extra",
+     "title": "'Godly butchery': the horrifying history of hanging, drawing and quartering",
+     "year": 2021
+    }
+   ],
+   "claim": "Guy Fawkes escaped being hanged, drawn and quartered by jumping from the scaffold and breaking his neck.",
+   "id": "E11",
+   "provenance": "r/todayilearned post trending during Guy Fawkes Night week (Nov 5, 2026), listed among the top TIL posts on Trending Soup's Reddit tracker (opened Nov 6, 2026; tracker updated Nov 6, 2026, 00:44 UTC).",
+   "verdict": "Mixed",
+   "why": "Fawkes really did jump and break his neck so he died fast, but his body was still cut into quarters and put on display — so he only escaped part of the punishment."
+  },
+  {
+   "category": "Trending on Reddit",
+   "citations": [
+    {
+     "authors": "Donald Bernhardt et al.",
+     "key_finding": "Federal Reserve history of the crash: the Dow Jones Industrial Average fell 22.6% on Oct 19, 1987.",
+     "link": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987",
+     "source": "Federal Reserve History",
+     "title": "Stock Market Crash of 1987",
+     "year": 2026
+    },
+    {
+     "authors": "Britannica",
+     "key_finding": "Overview of Black Monday, Oct 19, 1987 — the worst one-day crash in US market history.",
+     "link": "https://www.britannica.com/video/what-was-Black-Monday/-291786",
+     "source": "Britannica",
+     "title": "Black Monday: What Caused the 1987 Stock Market Crash?",
+     "year": 2023
+    },
+    {
+     "authors": "The Motley Fool",
+     "key_finding": "S&P 500 fell 20.5% on Oct 19, 1987 — still its worst single day ever.",
+     "link": "https://WWW.FOOL.COM/investing/2026/10/19/the-s-and-p-500-s-worst-day-was-39-years-ago-today-should-you-buy-when-stocks-crash/",
+     "source": "The Motley Fool",
+     "title": "The S&P 500's Worst Day Was 39 Years Ago Today. Should You Buy When Stocks Crash?",
+     "year": 2026
+    }
+   ],
+   "claim": "On Black Monday (Oct 19, 1987), the S&P 500 dropped 20.47% in a single day — still its worst day ever.",
+   "id": "E12",
+   "provenance": "r/todayilearned post trending this week, listed on Trending Soup's Reddit tracker (opened Nov 6, 2026; tracker updated Nov 6, 2026, 00:44 UTC).",
+   "verdict": "True",
+   "why": "It's true — the 1987 crash really was that big; the Dow fell 22.6% the very same day."
+  },
+  {
+   "category": "Trending on Reddit",
+   "citations": [
+    {
+     "authors": "Patrick D. Nunn et al.",
+     "key_finding": "Documents Aboriginal stories at 21 coastal locations matching inundation dated 7,250–13,070 years ago.",
+     "link": "https://v9.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/deep-time-history-resources/Nunn-and-Reid-%282016%29-Aboriginal-memories-of-coastal-drowning-%28print-version%29.pdf",
+     "source": "Australian Geographer",
+     "title": "Aboriginal Memories of Inundation of the Australian Coast Dating from More than 7000 Years Ago",
+     "year": 2016
+    },
+    {
+     "authors": "University of the Sunshine Coast",
+     "key_finding": "University release on the Nunn–Reid research showing the coastal stories are more than 7,000 years old.",
+     "link": "https://www.sciencedaily.com/releases/2015/09/150917091401.htm",
+     "source": "ScienceDaily",
+     "title": "Aboriginal 'memories' of Australia's coastline go back more than 7,000 years",
+     "year": 2015
+    },
+    {
+     "authors": "Maris Fessenden",
+     "key_finding": "Reports the stories preserve accurate details of post-glacial sea-level rise.",
+     "link": "https://www.smithsonianmag.com/smart-news/australian-stories-capture-10000-year-old-climate-history-180954030/",
+     "source": "Smithsonian Magazine",
+     "title": "Australian Stories Capture 10,000-Year-Old Climate History",
+     "year": 2015
+    }
+   ],
+   "claim": "Aboriginal Australian 'myths' about the coastline turned out to be true memories of sea-level rise from more than 7,000 years ago.",
+   "id": "E13",
+   "provenance": "Post trending on Reddit this week, listed on Trending Soup's Reddit tracker (opened Nov 6, 2026; tracker updated Nov 6, 2026, 00:44 UTC), sharing research that Aboriginal oral traditions record real ancient sea-level rise.",
+   "verdict": "True",
+   "why": "Scientists matched the old stories to real flooded coastlines — the tales really do preserve memories thousands of years old."
+  },
+  {
+   "category": "Trending on Reddit",
+   "citations": [
+    {
+     "authors": "Karina Kofman et al.",
+     "key_finding": "Precordial catch syndrome is benign; reassurance is the recommended management.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11261817/",
+     "source": "Paediatrics & Child Health",
+     "title": "Practical Tips for Paediatricians: Precordial catch syndrome",
+     "year": 2024
+    },
+    {
+     "authors": "Carl H. Gumbiner",
+     "key_finding": "Clinical review describing precordial catch syndrome as a benign cause of chest pain in children and adolescents.",
+     "link": "https://pubmed.ncbi.nlm.nih.gov/12602711/",
+     "source": "Southern Medical Journal",
+     "title": "Precordial catch syndrome",
+     "year": 2003
+    },
+    {
+     "authors": "Federica Fogliazza et al.",
+     "key_finding": "Review of pediatric chest-pain causes that includes benign precordial catch syndrome.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11594360/",
+     "source": "Journal of Clinical Medicine",
+     "title": "Approaches to Pediatric Chest Pain: A Narrative Review",
+     "year": 2024
+    }
+   ],
+   "claim": "Precordial catch syndrome — a sharp, brief chest pain common in kids and teens — is harmless.",
+   "id": "E14",
+   "provenance": "Health post trending on Reddit this week, listed on Trending Soup's Reddit tracker (opened Nov 6, 2026), describing precordial catch syndrome ('Texidor's twinge').",
+   "verdict": "True",
+   "why": "Doctors say this quick stabbing chest pain feels scary but is benign and goes away on its own — it isn't a heart problem."
+  },
+  {
+   "category": "Trending on Reddit",
+   "citations": [
+    {
+     "authors": "News-Medical",
+     "key_finding": "Nature Health modelling study estimates 2.96M deaths and 10.17M cases averted per year across 193 countries if potassium-enriched salt replaced regular salt.",
+     "link": "https://www.news-medical.net/news/20261105/A-simple-salt-swap-could-prevent-nearly-3-million-deaths-a-year-researchers-estimate.aspx",
+     "source": "News-Medical",
+     "title": "A simple salt swap could prevent nearly 3 million deaths a year, researchers estimate",
+     "year": 2026
+    },
+    {
+     "authors": "Healthline",
+     "key_finding": "Notes the estimate comes from a model relying on assumptions and older data — not a direct trial result.",
+     "link": "https://www.healthline.com/health-news/healthy-salt-substitute-may-prevent-millions-of-heart-disease-stroke-deaths",
+     "source": "Healthline",
+     "title": "Stroke, Heart Disease: Salt Substitutes May Prevent Millions of Deaths",
+     "year": 2026
+    },
+    {
+     "authors": "Bruce Neal et al.",
+     "key_finding": "SSaSS randomized trial (20,995 people): salt substitute cut stroke (risk ratio 0.86) and death (risk ratio 0.88).",
+     "link": "https://pubmed.ncbi.nlm.nih.gov/34459569/",
+     "source": "New England Journal of Medicine",
+     "title": "Effect of Salt Substitution on Cardiovascular Events and Death",
+     "year": 2021
+    }
+   ],
+   "claim": "Switching to potassium-enriched salt could prevent nearly 3 million deaths a year worldwide.",
+   "id": "E15",
+   "provenance": "r/science post trending this week, listed on Trending Soup's Reddit tracker (opened Nov 6, 2026); the underlying Nature Health modelling study was reported by News-Medical on Nov 5, 2026.",
+   "verdict": "Mixed",
+   "why": "A big real-world trial showed salt substitutes cut strokes and deaths, but the '3 million a year' figure is a computer-model estimate, not a counted result."
+  },
+  {
+   "category": "Trending on Reddit",
+   "citations": [
+    {
+     "authors": "H. von Foerster et al.",
+     "key_finding": "The 1960 Science paper (132(3436):1291-5) is a hyperbolic extrapolation about population growth, not an end-of-the-world prediction.",
+     "link": "https://pubmed.ncbi.nlm.nih.gov/13782058/",
+     "source": "Science",
+     "title": "Doomsday: Friday, 13 November, A.D. 2026. At this date human population will approach infinity if it grows as it has grown in the last two millenia",
+     "year": 1960
+    },
+    {
+     "authors": "LatestLY",
+     "key_finding": "Explainer on the claim's resurgence: the 'doomsday' date comes from von Foerster's tongue-in-cheek 1960 equation.",
+     "link": "https://www.latestly.com/technology/science/end-of-the-world-on-friday-november-13-2026-the-real-story-behind-heinz-von-foersters-equation-7432558.html",
+     "source": "LatestLY",
+     "title": "End of the World on Friday, November 13, 2026? The Real Story Behind Heinz Von Foerster's Equation",
+     "year": 2026
+    },
+    {
+     "authors": "United Nations",
+     "key_finding": "UN World Population Prospects 2024: world population peaks in the mid-2080s at about 10.3 billion — no 2026 collapse.",
+     "link": "https://moldova.un.org/en/273936-un-projects-world-population-peak-within-century",
+     "source": "United Nations",
+     "title": "UN projects world population to peak within this century",
+     "year": 2024
+    }
+   ],
+   "claim": "Scientists predicted the world will end on Friday, November 13, 2026.",
+   "id": "E16",
+   "provenance": "Resurfacing across social media as Nov 13, 2026 approaches — including a Threads post on Nov 2, 2026 and Reddit threads this week (Trending Soup tracker, opened Nov 6, 2026); LatestLY published an explainer on von Foerster's 'doomsday equation'.",
+   "verdict": "Myth",
+   "why": "A 1960 paper used a playful math curve that shoots to infinity on that date — it was never a real prediction that the world ends, and the UN expects population to peak in the 2080s instead."
+  },
+  {
+   "category": "Trending on Reddit",
+   "citations": [
+    {
+     "authors": "Mariana Lenharo",
+     "key_finding": "Three patients with hippocampal sclerosis had seizure reductions of over 90% after the therapy (Nov 4, 2026).",
+     "link": "https://www.nature.com/articles/d41586-026-03566-2?error=cookies_not_supported&code=ed8d7fe8-d638-4b57-b97-bb0e4de9ae2f",
+     "source": "Nature",
+     "title": "Epileptic seizures nearly vanish after people receive experimental gene therapy in their brains",
+     "year": 2026
+    },
+    {
+     "authors": "C&EN",
+     "key_finding": "Reports the first-in-human DREADD trial (NEJM 2026, DOI 10.1056/NEJMc2606815) and stresses the pilot study was not built to test efficacy.",
+     "link": "https://cen.acs.org/pharmaceuticals/drug-development/designer-gene-therapy-chemogenetics-dreadd-epilepsy-clinical-trial/104/web/2026/11",
+     "source": "C&EN",
+     "title": "Designer receptor therapy long used in the lab crosses over into humans",
+     "year": 2026
+    },
+    {
+     "authors": "Health and Me",
+     "key_finding": "Nov 5, 2026 report of over-90% seizure reduction in the trial's patients.",
+     "link": "https://www.healthandme.com/health-news/drug-resistant-epileptic-seizures-reduce-by-over-90-with-experimental-gene-therapy-article-156470747",
+     "source": "Health and Me",
+     "title": "Drug-Resistant Epileptic Seizures Reduce By Over 90% With Experimental Gene Therapy",
+     "year": 2026
+    }
+   ],
+   "claim": "An experimental gene therapy made epileptic seizures nearly vanish.",
+   "id": "E17",
+   "provenance": "r/science post trending this week, listed on Trending Soup's Reddit tracker (opened Nov 6, 2026), sharing Nature's Nov 4, 2026 news report on the first-in-human DREADD gene-therapy trial.",
+   "verdict": "Mixed",
+   "why": "It really helped — seizures dropped by over 90% — but only in three patients in a tiny first trial, so 'nearly vanish' is true for them, not yet proven for everyone."
+  },
+  {
+   "category": "Trending on Reddit",
+   "citations": [
+    {
+     "authors": "New York Post",
+     "key_finding": "Bryant Park Market at JFK Terminal 5 added a 3% fee ($0.66 on a $21.99 book); the receipt says the surcharge 'is not a gratuity.'",
+     "link": "https://nypost.com/2026/11/04/lifestyle/jfk-airport-shop-sparks-outrage-with-employee-and-retention-fee/",
+     "source": "New York Post",
+     "title": "Infuriated airport customer charged 'employee and retention' fee — at a self-checkout counter",
+     "year": 2026
+    },
+    {
+     "authors": "View from the Wing",
+     "key_finding": "Confirms the fee and notes Port Authority rules expressly allow an employee wage-and-benefit fee of up to 3%.",
+     "link": "https://viewfromthewing.com/passenger-forced-to-pay-employee-retention-fee-for-jfk-airport-self-checkout-machines/",
+     "source": "View from the Wing",
+     "title": "Passenger Forced To Pay 'Employee Retention Fee' For JFK Airport Self-Checkout Machines",
+     "year": 2026
+    },
+    {
+     "authors": "Johnny Jet",
+     "key_finding": "Independent coverage of the same receipt: $21.99 book, $0.66 employee benefits and retention fee, at self-checkout.",
+     "link": "https://johnnyjet.com/airport-bookstore-sparks-outrage-after-charging-passenger-an-employee-retention-fee-at-self-checkout/",
+     "source": "Johnny Jet",
+     "title": "Airport Bookstore Sparks Outrage After Charging Passenger an Employee Retention Fee at Self-Checkout",
+     "year": 2026
+    }
+   ],
+   "claim": "A shop at JFK Airport charged a 3% 'employee benefit and retention' fee even at self-checkout.",
+   "id": "E18",
+   "provenance": "r/EndTipping post by u/alternativo- ('Mandatory employee fee at bookstore when I used self checkout') trending on Reddit this week per Trending Soup's tracker (opened Nov 6, 2026); covered by the New York Post on Nov 4, 2026.",
+   "verdict": "True",
+   "why": "It's true — the receipt shows a 66-cent fee on a $21.99 book, and airport rules actually allow shops to add up to 3% for worker benefits."
+  },
+  {
+   "category": "Trending on Reddit",
+   "citations": [
+    {
+     "authors": "Omar Albam et al.",
+     "key_finding": "The restrictions cover courses at two new defense and security colleges; the same subjects remain open to women at general universities. (dw.com itself is policy-blocked; cited via its republication.)",
+     "link": "https://yourdemocracy.net/drupal/node/61578",
+     "source": "Deutsche Welle (via YourDemocracy)",
+     "title": "A bad omen? Syria bans women from university courses",
+     "year": 2026
+    },
+    {
+     "authors": "Human Rights Watch",
+     "key_finding": "Oct 16, 2026: women barred from defense and security colleges; HRW calls the rules discriminatory.",
+     "link": "https://www.hrw.org/news/2026/10/16/syria-women-barred-from-defense-security-colleges",
+     "source": "Human Rights Watch",
+     "title": "Syria: Women Barred from Defense, Security Colleges",
+     "year": 2026
+    },
+    {
+     "authors": "BRISMES Committee on Academic Freedom",
+     "key_finding": "Oct 30, 2026 statement: the restrictions do not constitute a nationwide ban on women in higher education.",
+     "link": "https://www.brismes.ac.uk/news/academic-freedom-statement-on-restrictions-on-womens-access-to-higher-education-in-syria",
+     "source": "BRISMES",
+     "title": "Academic Freedom | Statement on Restrictions on Women's Access to Higher Education in Syria",
+     "year": 2026
+    }
+   ],
+   "claim": "Syria has banned women from university courses.",
+   "id": "E19",
+   "provenance": "r/worldnews post trending this week, listed on Trending Soup's Reddit tracker (opened Nov 6, 2026), sharing Deutsche Welle's report on Syria's new college admission rules.",
+   "verdict": "Mixed",
+   "why": "Women really were barred from courses at Syria's two new defense and security colleges, but they can still study the same subjects at other universities — it isn't a ban on all university courses."
+  },
+  {
+   "category": "Trending on Reddit",
+   "citations": [
+    {
+     "authors": "Donald J. Trump",
+     "key_finding": "The proclamation (signed Nov 5, 2026) itself preserves the president's authority to redecorate and Congress's authority — it does not freeze the room permanently.",
+     "link": "https://www.whitehouse.gov/presidential-actions/2026/11/establishment-of-the-oval-office-national-monument/",
+     "source": "The White House",
+     "title": "ESTABLISHMENT OF THE OVAL OFFICE NATIONAL MONUMENT",
+     "year": 2026
+    },
+    {
+     "authors": "Joey Garrison",
+     "key_finding": "Reports the Nov 5, 2026 action and notes a successor could overturn it.",
+     "link": "https://www.usatoday.com/story/news/politics/2026/11/05/trump-oval-office-cabinet-room-national-monument-miderm-election/92631574007/",
+     "source": "USA TODAY",
+     "title": "Trump takes executive action to prevent changes to Oval Office",
+     "year": 2026
+    },
+    {
+     "authors": "Steve Holland",
+     "key_finding": "Reuters wire coverage of the Nov 5, 2026 Oval Office proclamation.",
+     "link": "https://985theriver.com/2026/11/05/trump-takes-action-to-make-sure-the-oval-office-stays-oval/",
+     "source": "98.5 The River (Reuters wire)",
+     "title": "Trump takes action to make sure the Oval Office stays oval",
+     "year": 2026
+    }
+   ],
+   "claim": "Trump signed a proclamation making the Oval Office a national monument so it can never be changed.",
+   "id": "E20",
+   "provenance": "Post trending on Reddit this week, listed on Trending Soup's Reddit tracker (opened Nov 6, 2026); the proclamation was signed Nov 5, 2026 and covered the same day by USA Today and Reuters.",
+   "verdict": "Mixed",
+   "why": "He really did sign it, but the document itself says future presidents can still redecorate and Congress can still act — so it doesn't lock the room forever."
+  }
+ ]
+}

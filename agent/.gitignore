@@ -1,0 +1,6 @@
+# Secrets — the API key lives in a local .env and must never be committed.
+.env
+
+# Python / test noise
+__pycache__/
+.pytest_cache/

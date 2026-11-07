@@ -80,3 +80,15 @@ tracks fluency and plausibility, not truth; delegation safety is a property
 of the claim distribution, not of the gate alone. The final phase's key
 measurement is the Tier 2 **rescue rate**: how often evidence-checking
 overturns the glancer's confident errors.
+
+![Glancer confidence distributions on HealthFC and MEDFACT, with the 0.90 gate](fig-confidence-distribution.png)
+
+**Figure — why the settle shares differ.** The gate is a fixed line at
+confidence 0.90; what moves is where the glancer's confidence scores pile up.
+On HealthFC the median confidence is 0.60 and 49% of claims sit at that one
+value, far below the gate — only the tip of the distribution (15.9%) crosses
+it. On MEDFACT the median confidence is 0.90 itself: 64% of claims land
+exactly on the gate value, so the line cuts through the middle of the crowd
+rather than above it. The settle share is therefore a property of the
+confidence distribution, not of the gate: the gate is fixed, the
+distribution moves with the dataset — silently.
